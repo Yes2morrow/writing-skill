@@ -1,0 +1,326 @@
+[
+  {
+    "id": "en-media-facade-05",
+    "language": "en",
+    "section": "abstract",
+    "risk_type": "legitimate_contrast",
+    "source": "The failure affected not the backup paper drawings but the air-quality sensing system. It failed in 6 of 18 tasks, after which time rose by 58%; the claim is limited to one civic square.",
+    "A": "The records show that the failure affected not the backup paper drawings but the air-quality sensing system. It failed in 6 of 18 tasks, after which time rose by 58%; the claim is limited to one civic square.",
+    "B": "The records show that the failure affected not the backup paper drawings but the air-quality sensing system. It failed in 6 of 18 tasks, after which time rose by 58%; the claim is limited to one civic square."
+  },
+  {
+    "id": "en-media-facade-01",
+    "language": "en",
+    "section": "abstract",
+    "risk_type": "vague_action",
+    "source": "This paragraph concerns media façade at one civic square. The material includes 27 records; air-quality sensing system failed in 2, after which task time rose by 14%. The claim is limited to this sample.",
+    "A": "We analyzed 27 records of media façade at one civic square. The air-quality sensing system failed in 2; task time then rose by 14%. The claim is limited to this sample.",
+    "B": "The study conducted a systematic investigation of media façade and undertook an analysis of task-time changes following air-quality sensing system failure. Of 27 records, 2 contained failures, with time increasing by 14%."
+  },
+  {
+    "id": "en-ar-navigation-02",
+    "language": "en",
+    "section": "abstract",
+    "risk_type": "term_instability",
+    "source": "This paragraph concerns street-navigation trial at two historic districts. The material includes 35 records; augmented-reality guide failed in 5, after which task time rose by 25%. The claim is limited to this sample.",
+    "A": "Participants used the augmented-reality guide during street-navigation trial. This digital platform failed in 5 of 35 records; after the virtual tool stopped, task time rose by 25%.",
+    "B": "At two historic districts, participants used the augmented-reality guide during street-navigation trial. The augmented-reality guide failed in 5 of 35 records; task time then rose by 25%. The claim is limited to this sample."
+  },
+  {
+    "id": "en-parametric-studio-22",
+    "language": "en",
+    "section": "case-analysis",
+    "risk_type": "manufactured_contrast",
+    "source": "The real-time rendering interface failures were technical faults associated with longer tasks. The system failed in 9 of 31 records; task time then rose by 33%. The claim is limited to two architecture schools.",
+    "A": "The failure of the real-time rendering interface is not merely a technical fault but an operational event associated with longer tasks. It failed in 9 of 31 records, after which task time rose by 33%. The result applies only to two architecture schools.",
+    "B": "The real-time rendering interface failures were technical faults associated with longer tasks. The system failed in 9 of 31 records; task time then rose by 33%. The result applies only to two architecture schools."
+  },
+  {
+    "id": "en-media-facade-23",
+    "language": "en",
+    "section": "case-analysis",
+    "risk_type": "term_instability",
+    "source": "This paragraph concerns media façade at one civic square. The material includes 33 records; air-quality sensing system failed in 4, after which task time rose by 44%. The claim is limited to this sample.",
+    "A": "Maintenance team used the air-quality sensing system during media façade. This digital platform failed in 4 of 33 records; after the virtual tool stopped, task time rose by 44%.",
+    "B": "At one civic square, maintenance team used the air-quality sensing system during media façade. The air-quality sensing system failed in 4 of 33 records; task time then rose by 44%. The claim is limited to this sample."
+  },
+  {
+    "id": "en-parametric-studio-24",
+    "language": "en",
+    "section": "case-analysis",
+    "risk_type": "navigation",
+    "source": "This paragraph concerns parametric-design reviews at two architecture schools. The material includes 45 records; real-time rendering interface failed in 7, after which task time rose by 55%. The claim is limited to this sample.",
+    "A": "Firstly, the study collected 45 records. Secondly, the real-time rendering interface failed in 7. Moreover, task time rose by 55% after failure. Finally, the result applies only to two architecture schools.",
+    "B": "The study collected 45 records, including 7 real-time rendering interface failures. Task time rose by 55% after failure; the result applies only to two architecture schools."
+  },
+  {
+    "id": "en-media-facade-30",
+    "language": "en",
+    "section": "discussion",
+    "risk_type": "inflated_lexicon",
+    "source": "This paragraph concerns media façade at one civic square. The material includes 45 records; air-quality sensing system failed in 9, after which task time rose by 15%. The claim is limited to this sample.",
+    "A": "A comprehensive and robust examination of media façade reveals the pivotal impact of air-quality sensing system failure. The system failed in 9 of 45 records, producing a significant 15% increase in task time. This multifaceted finding is limited to the sample.",
+    "B": "At one civic square, the air-quality sensing system failed in 9 of 45 records of media façade. Task time rose by 15% after failure. This finding is limited to the sample."
+  },
+  {
+    "id": "en-ar-navigation-30",
+    "language": "en",
+    "section": "discussion",
+    "risk_type": "vague_action",
+    "source": "This paragraph concerns street-navigation trial at two historic districts. The material includes 46 records; augmented-reality guide failed in 9, after which task time rose by 15%. The claim is limited to this sample.",
+    "A": "The study conducted a systematic investigation of street-navigation trial and undertook an analysis of task-time changes following augmented-reality guide failure. Of 46 records, 9 contained failures, with time increasing by 15%.",
+    "B": "We analyzed 46 records of street-navigation trial at two historic districts. The augmented-reality guide failed in 9; task time then rose by 15%. The claim is limited to this sample."
+  },
+  {
+    "id": "en-generative-design-27",
+    "language": "en",
+    "section": "discussion",
+    "risk_type": "uniform_opening",
+    "source": "This paragraph concerns early-stage option generation at four design teams. The material includes 29 records; text-to-image model failed in 8, after which task time rose by 35%. The claim is limited to this sample.",
+    "A": "The study recorded 29 tasks. The study identified 8 text-to-image model failures. The study measured a 35% increase in task time after failure. The study limits the finding to four design teams.",
+    "B": "At four design teams, the study recorded 29 tasks and identified 8 text-to-image model failures. Task time rose by 35% after failure; the finding is limited to four design teams."
+  },
+  {
+    "id": "en-bim-coordination-06",
+    "language": "en",
+    "section": "introduction",
+    "risk_type": "inflated_lexicon",
+    "source": "This paragraph concerns BIM coordination meetings at one architecture practice. The material includes 29 records; clash report failed in 9, after which task time rose by 16%. The claim is limited to this sample.",
+    "A": "A comprehensive and robust examination of BIM coordination meetings reveals the pivotal impact of clash report failure. The system failed in 9 of 29 records, producing a significant 16% increase in task time. This multifaceted finding is limited to the sample.",
+    "B": "At one architecture practice, the clash report failed in 9 of 29 records of BIM coordination meetings. Task time rose by 16% after failure. This finding is limited to the sample."
+  },
+  {
+    "id": "en-parametric-studio-06",
+    "language": "en",
+    "section": "introduction",
+    "risk_type": "vague_action",
+    "source": "This paragraph concerns parametric-design reviews at two architecture schools. The material includes 30 records; real-time rendering interface failed in 9, after which task time rose by 16%. The claim is limited to this sample.",
+    "A": "We analyzed 30 records of parametric-design reviews at two architecture schools. The real-time rendering interface failed in 9; task time then rose by 16%. The claim is limited to this sample.",
+    "B": "The study conducted a systematic investigation of parametric-design reviews and undertook an analysis of task-time changes following real-time rendering interface failure. Of 30 records, 9 contained failures, with time increasing by 16%."
+  },
+  {
+    "id": "en-bim-coordination-09",
+    "language": "en",
+    "section": "introduction",
+    "risk_type": "term_instability",
+    "source": "This paragraph concerns BIM coordination meetings at one architecture practice. The material includes 13 records; clash report failed in 2, after which task time rose by 49%. The claim is limited to this sample.",
+    "A": "Project teams used the clash report during BIM coordination meetings. This digital platform failed in 2 of 13 records; after the virtual tool stopped, task time rose by 49%.",
+    "B": "At one architecture practice, project teams used the clash report during BIM coordination meetings. The clash report failed in 2 of 13 records; task time then rose by 49%. The claim is limited to this sample."
+  },
+  {
+    "id": "en-ar-navigation-13",
+    "language": "en",
+    "section": "literature",
+    "risk_type": "hedge_preservation",
+    "source": "The augmented-reality guide failed in 6 of 38 records, after which task time rose by 40%. This pattern may reflect an association between technical continuity and task duration; the sample comes only from two historic districts.",
+    "A": "The augmented-reality guide failed in 6 of 38 records; task time then rose by 40%. The pattern may reflect an association between technical continuity and task duration, but the sample comes only from two historic districts.",
+    "B": "The augmented-reality guide failed in 6 of 38 records, after which task time rose by 40%. This pattern may indicate an association between technical continuity and task duration, but the sample comes only from two historic districts."
+  },
+  {
+    "id": "en-museum-interface-11",
+    "language": "en",
+    "section": "literature",
+    "risk_type": "legitimate_contrast",
+    "source": "The failure affected not the backup paper drawings but the touchscreen guide. It failed in 8 of 27 tasks, after which time rose by 18%; the claim is limited to three city museums.",
+    "A": "The records show that the failure affected not the backup paper drawings but the touchscreen guide. It failed in 8 of 27 tasks, after which time rose by 18%; the claim is limited to three city museums.",
+    "B": "The records show that the failure affected not the backup paper drawings but the touchscreen guide. It failed in 8 of 27 tasks, after which time rose by 18%; the claim is limited to three city museums."
+  },
+  {
+    "id": "en-media-facade-14",
+    "language": "en",
+    "section": "literature",
+    "risk_type": "hedge_preservation",
+    "source": "The air-quality sensing system failed in 9 of 44 records, after which task time rose by 51%. This pattern may reflect an association between technical continuity and task duration; the sample comes only from one civic square.",
+    "A": "The air-quality sensing system failed in 9 of 44 records; task time then rose by 51%. The pattern may reflect an association between technical continuity and task duration, but the sample comes only from one civic square.",
+    "B": "The air-quality sensing system failed in 9 of 44 records, after which task time rose by 51%. This pattern may indicate an association between technical continuity and task duration, but the sample comes only from one civic square."
+  },
+  {
+    "id": "en-media-facade-20",
+    "language": "en",
+    "section": "methods",
+    "risk_type": "inflated_lexicon",
+    "source": "This paragraph concerns media façade at one civic square. The material includes 12 records; air-quality sensing system failed in 3, after which task time rose by 64%. The claim is limited to this sample.",
+    "A": "At one civic square, the air-quality sensing system failed in 3 of 12 records of media façade. Task time rose by 64% after failure. This finding is limited to the sample.",
+    "B": "A comprehensive and robust examination of media façade reveals the pivotal impact of air-quality sensing system failure. The system failed in 3 of 12 records, producing a significant 64% increase in task time. This multifaceted finding is limited to the sample."
+  },
+  {
+    "id": "en-museum-interface-17",
+    "language": "en",
+    "section": "methods",
+    "risk_type": "vague_action",
+    "source": "This paragraph concerns museum entrance zones at three city museums. The material includes 32 records; touchscreen guide failed in 2, after which task time rose by 31%. The claim is limited to this sample.",
+    "A": "We analyzed 32 records of museum entrance zones at three city museums. The touchscreen guide failed in 2; task time then rose by 31%. The claim is limited to this sample.",
+    "B": "The study conducted a systematic investigation of museum entrance zones and undertook an analysis of task-time changes following touchscreen guide failure. Of 32 records, 2 contained failures, with time increasing by 31%."
+  },
+  {
+    "id": "en-parametric-studio-17",
+    "language": "en",
+    "section": "methods",
+    "risk_type": "uniform_opening",
+    "source": "This paragraph concerns parametric-design reviews at two architecture schools. The material includes 33 records; real-time rendering interface failed in 2, after which task time rose by 31%. The claim is limited to this sample.",
+    "A": "The study recorded 33 tasks. The study identified 2 real-time rendering interface failures. The study measured a 31% increase in task time after failure. The study limits the finding to two architecture schools.",
+    "B": "At two architecture schools, the study recorded 33 tasks and identified 2 real-time rendering interface failures. Task time rose by 31% after failure; the finding is limited to two architecture schools."
+  },
+  {
+    "id": "zh-bim-coordination-04",
+    "language": "zh",
+    "section": "abstract",
+    "risk_type": "ceremonial_frame",
+    "source": "本段涉及一家建筑事务所的BIM协调会议。材料包含15次记录，其中3次出现碰撞报告中断；中断后的任务耗时增加47%。结论仅适用于该样本。",
+    "A": "研究记录一家建筑事务所BIM协调会议中的15次任务。碰撞报告在其中3次任务中中断；中断后的耗时增加47%。结论仅适用于该样本。",
+    "B": "随着数字媒介的不断发展，BIM协调会议中的技术中断日益值得关注。研究记录15次任务，其中3次发生碰撞报告中断；中断后的耗时增加47%。结论仅适用于该样本。"
+  },
+  {
+    "id": "zh-media-facade-01",
+    "language": "zh",
+    "section": "abstract",
+    "risk_type": "vague_action",
+    "source": "本段涉及一个城市广场的媒体立面。材料包含27次记录，其中2次出现空气质量传感系统中断；中断后的任务耗时增加14%。结论仅适用于该样本。",
+    "A": "研究分析一个城市广场媒体立面的27次记录。空气质量传感系统在其中2次中断；中断后的耗时增加14%。结论仅适用于该样本。",
+    "B": "研究对一个城市广场的媒体立面进行了系统分析，并对空气质量传感系统中断后的耗时变化进行了考察。27次记录中有2次中断，耗时增加14%。"
+  },
+  {
+    "id": "zh-media-facade-05",
+    "language": "zh",
+    "section": "abstract",
+    "risk_type": "legitimate_contrast",
+    "source": "发生故障的不是备用纸质图纸，而是空气质量传感系统。18次任务中有6次故障，故障后的耗时增加58%；结论仅适用于一个城市广场。",
+    "A": "记录显示，发生故障的不是备用纸质图纸，而是空气质量传感系统。18次任务中有6次故障，故障后的耗时增加58%；结论限于一个城市广场。",
+    "B": "记录显示，发生故障的不是备用纸质图纸，而是空气质量传感系统。18次任务中有6次故障，故障后的耗时增加58%；结论限于一个城市广场。"
+  },
+  {
+    "id": "zh-generative-design-22",
+    "language": "zh",
+    "section": "case-analysis",
+    "risk_type": "manufactured_contrast",
+    "source": "文本到图像模型中断属于技术故障，也与任务耗时延长相关。31次记录中有9次中断；中断后的耗时增加33%。结论仅适用于四个设计小组。",
+    "A": "文本到图像模型的中断不是单纯的技术故障，而是与任务耗时变化相关的操作事件。31次记录中有9次中断，中断后的任务耗时增加33%。该结果限于四个设计小组。",
+    "B": "文本到图像模型中断属于技术故障，也与任务耗时变化相关。31次记录中有9次中断；中断后的任务耗时增加33%。该结果限于四个设计小组。"
+  },
+  {
+    "id": "zh-media-facade-25",
+    "language": "zh",
+    "section": "case-analysis",
+    "risk_type": "legitimate_contrast",
+    "source": "发生故障的不是备用纸质图纸，而是空气质量传感系统。47次任务中有2次故障，故障后的耗时增加66%；结论仅适用于一个城市广场。",
+    "A": "记录显示，发生故障的不是备用纸质图纸，而是空气质量传感系统。47次任务中有2次故障，故障后的耗时增加66%；结论限于一个城市广场。",
+    "B": "记录显示，发生故障的不是备用纸质图纸，而是空气质量传感系统。47次任务中有2次故障，故障后的耗时增加66%；结论限于一个城市广场。"
+  },
+  {
+    "id": "zh-museum-interface-21",
+    "language": "zh",
+    "section": "case-analysis",
+    "risk_type": "legitimate_contrast",
+    "source": "发生故障的不是备用纸质图纸，而是触摸屏导览。23次任务中有6次故障，故障后的耗时增加22%；结论仅适用于三座城市博物馆。",
+    "A": "记录显示，发生故障的不是备用纸质图纸，而是触摸屏导览。23次任务中有6次故障，故障后的耗时增加22%；结论限于三座城市博物馆。",
+    "B": "记录显示，发生故障的不是备用纸质图纸，而是触摸屏导览。23次任务中有6次故障，故障后的耗时增加22%；结论限于三座城市博物馆。"
+  },
+  {
+    "id": "zh-bim-coordination-28",
+    "language": "zh",
+    "section": "discussion",
+    "risk_type": "uniform_opening",
+    "source": "本段涉及一家建筑事务所的BIM协调会议。材料包含35次记录，其中3次出现碰撞报告中断；中断后的任务耗时增加46%。结论仅适用于该样本。",
+    "A": "研究在一家建筑事务所记录35次任务，并识别出3次碰撞报告中断。中断后的耗时增加46%；结论范围为一家建筑事务所。",
+    "B": "研究记录了35次任务。研究识别出3次碰撞报告中断。研究测得中断后耗时增加46%。研究将结论限定于一家建筑事务所。"
+  },
+  {
+    "id": "zh-museum-interface-29",
+    "language": "zh",
+    "section": "discussion",
+    "risk_type": "term_instability",
+    "source": "本段涉及三座城市博物馆的博物馆入口区。材料包含42次记录，其中6次出现触摸屏导览中断；中断后的任务耗时增加57%。结论仅适用于该样本。",
+    "A": "参观者在博物馆入口区中使用触摸屏导览。该数字平台在42次记录中中断6次；这一虚拟工具失效后，任务耗时增加57%。",
+    "B": "参观者在三座城市博物馆的博物馆入口区中使用触摸屏导览。触摸屏导览在42次记录中中断6次；中断后，任务耗时增加57%。结论仅适用于该样本。"
+  },
+  {
+    "id": "zh-media-facade-29",
+    "language": "zh",
+    "section": "discussion",
+    "risk_type": "navigation",
+    "source": "本段涉及一个城市广场的媒体立面。材料包含38次记录，其中6次出现空气质量传感系统中断；中断后的任务耗时增加57%。结论仅适用于该样本。",
+    "A": "研究收集38次记录，其中6次出现空气质量传感系统中断。中断后的任务耗时增加57%；这一结果仅适用于一个城市广场。",
+    "B": "首先，研究收集38次记录。其次，其中6次出现空气质量传感系统中断。此外，中断后的任务耗时增加57%。最后，该结果仅适用于一个城市广场。"
+  },
+  {
+    "id": "zh-museum-interface-08",
+    "language": "zh",
+    "section": "introduction",
+    "risk_type": "uniform_opening",
+    "source": "本段涉及三座城市博物馆的博物馆入口区。材料包含43次记录，其中7次出现触摸屏导览中断；中断后的任务耗时增加38%。结论仅适用于该样本。",
+    "A": "研究记录了43次任务。研究识别出7次触摸屏导览中断。研究测得中断后耗时增加38%。研究将结论限定于三座城市博物馆。",
+    "B": "研究在三座城市博物馆记录43次任务，并识别出7次触摸屏导览中断。中断后的耗时增加38%；结论范围为三座城市博物馆。"
+  },
+  {
+    "id": "zh-ar-navigation-08",
+    "language": "zh",
+    "section": "introduction",
+    "risk_type": "navigation",
+    "source": "本段涉及两个历史街区的街道导航试验。材料包含40次记录，其中7次出现增强现实导航界面中断；中断后的任务耗时增加38%。结论仅适用于该样本。",
+    "A": "研究收集40次记录，其中7次出现增强现实导航界面中断。中断后的任务耗时增加38%；这一结果仅适用于两个历史街区。",
+    "B": "首先，研究收集40次记录。其次，其中7次出现增强现实导航界面中断。此外，中断后的任务耗时增加38%。最后，该结果仅适用于两个历史街区。"
+  },
+  {
+    "id": "zh-bim-coordination-07",
+    "language": "zh",
+    "section": "introduction",
+    "risk_type": "vague_action",
+    "source": "本段涉及一家建筑事务所的BIM协调会议。材料包含36次记录，其中4次出现碰撞报告中断；中断后的任务耗时增加27%。结论仅适用于该样本。",
+    "A": "研究分析一家建筑事务所BIM协调会议的36次记录。碰撞报告在其中4次中断；中断后的耗时增加27%。结论仅适用于该样本。",
+    "B": "研究对一家建筑事务所的BIM协调会议进行了系统分析，并对碰撞报告中断后的耗时变化进行了考察。36次记录中有4次中断，耗时增加27%。"
+  },
+  {
+    "id": "zh-parametric-studio-13",
+    "language": "zh",
+    "section": "literature",
+    "risk_type": "ceremonial_frame",
+    "source": "本段涉及两所建筑院校的参数化设计课。材料包含42次记录，其中6次出现实时渲染界面中断；中断后的任务耗时增加40%。结论仅适用于该样本。",
+    "A": "随着数字媒介的不断发展，参数化设计课中的技术中断日益值得关注。研究记录42次任务，其中6次发生实时渲染界面中断；中断后的耗时增加40%。结论仅适用于该样本。",
+    "B": "研究记录两所建筑院校参数化设计课中的42次任务。实时渲染界面在其中6次任务中中断；中断后的耗时增加40%。结论仅适用于该样本。"
+  },
+  {
+    "id": "zh-media-facade-13",
+    "language": "zh",
+    "section": "literature",
+    "risk_type": "term_instability",
+    "source": "本段涉及一个城市广场的媒体立面。材料包含37次记录，其中6次出现空气质量传感系统中断；中断后的任务耗时增加40%。结论仅适用于该样本。",
+    "A": "维护团队在一个城市广场的媒体立面中使用空气质量传感系统。空气质量传感系统在37次记录中中断6次；中断后，任务耗时增加40%。结论仅适用于该样本。",
+    "B": "维护团队在媒体立面中使用空气质量传感系统。该数字平台在37次记录中中断6次；这一虚拟工具失效后，任务耗时增加40%。"
+  },
+  {
+    "id": "zh-bim-coordination-13",
+    "language": "zh",
+    "section": "literature",
+    "risk_type": "manufactured_contrast",
+    "source": "碰撞报告中断属于技术故障，也与任务耗时延长相关。41次记录中有6次中断；中断后的耗时增加40%。结论仅适用于一家建筑事务所。",
+    "A": "碰撞报告的中断不是单纯的技术故障，而是与任务耗时变化相关的操作事件。41次记录中有6次中断，中断后的任务耗时增加40%。该结果限于一家建筑事务所。",
+    "B": "碰撞报告中断属于技术故障，也与任务耗时变化相关。41次记录中有6次中断；中断后的任务耗时增加40%。该结果限于一家建筑事务所。"
+  },
+  {
+    "id": "zh-parametric-studio-18",
+    "language": "zh",
+    "section": "methods",
+    "risk_type": "term_instability",
+    "source": "本段涉及两所建筑院校的参数化设计课。材料包含40次记录，其中5次出现实时渲染界面中断；中断后的任务耗时增加42%。结论仅适用于该样本。",
+    "A": "教师与学生在参数化设计课中使用实时渲染界面。该数字平台在40次记录中中断5次；这一虚拟工具失效后，任务耗时增加42%。",
+    "B": "教师与学生在两所建筑院校的参数化设计课中使用实时渲染界面。实时渲染界面在40次记录中中断5次；中断后，任务耗时增加42%。结论仅适用于该样本。"
+  },
+  {
+    "id": "zh-generative-design-16",
+    "language": "zh",
+    "section": "methods",
+    "risk_type": "vague_action",
+    "source": "本段涉及四个设计小组的早期方案生成。材料包含26次记录，其中7次出现文本到图像模型中断；中断后的任务耗时增加20%。结论仅适用于该样本。",
+    "A": "研究对四个设计小组的早期方案生成进行了系统分析，并对文本到图像模型中断后的耗时变化进行了考察。26次记录中有7次中断，耗时增加20%。",
+    "B": "研究分析四个设计小组早期方案生成的26次记录。文本到图像模型在其中7次中断；中断后的耗时增加20%。结论仅适用于该样本。"
+  },
+  {
+    "id": "zh-media-facade-20",
+    "language": "zh",
+    "section": "methods",
+    "risk_type": "inflated_lexicon",
+    "source": "本段涉及一个城市广场的媒体立面。材料包含12次记录，其中3次出现空气质量传感系统中断；中断后的任务耗时增加64%。结论仅适用于该样本。",
+    "A": "对一个城市广场媒体立面的考察记录到3次空气质量传感系统中断，共观察12次任务。中断后的任务耗时增加64%；该结果限于当前样本。",
+    "B": "对媒体立面的全面而系统的考察揭示了空气质量传感系统中断的关键影响。12次记录中有3次中断，并呈现出耗时增加64%的显著趋势。该复杂结果限于当前样本。"
+  }
+]

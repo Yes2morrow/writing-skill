@@ -1,0 +1,4 @@
+interface:
+  display_name: "Academic Architecture & Digital Media Writing"
+  short_description: "Evidence-led academic writing without formulaic AI voice"
+  default_prompt: "Use $academic-architecture-digital-media-writing to draft or revise rigorous architecture and digital-media scholarship with auditable evidence and low formulaic AI style."

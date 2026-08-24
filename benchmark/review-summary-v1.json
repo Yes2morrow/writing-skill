@@ -1,0 +1,43 @@
+{
+  "benchmark_version": "1.0.0",
+  "generated_at": "2026-08-24",
+  "population": {
+    "imitation_papers": 12,
+    "paired_cases": 360,
+    "paragraphs": 720,
+    "chinese_cases": 180,
+    "english_cases": 180,
+    "sections": 6,
+    "risk_types": 10
+  },
+  "automated": {
+    "wins": 204,
+    "ties": 156,
+    "losses": 0,
+    "mean_formulaic_risk_delta": -5.1,
+    "note": "Configured pattern diagnostic only; not an authorship detector. Ties include no-change and non-lexical cases."
+  },
+  "blind_review_before_targeted_scope_fix": {
+    "sample_size": 36,
+    "treatment_mean": 97.03,
+    "control_mean": 71.08,
+    "mean_improvement_points": 25.94,
+    "relative_improvement_percent": 36.5,
+    "treatment_wins": 29,
+    "ties": 7,
+    "treatment_losses": 0,
+    "treatment_semantic_drift_cases": 9
+  },
+  "targeted_reaudit_after_fix": {
+    "cases_checked": 9,
+    "remaining_semantic_drift_cases": 0,
+    "all_pass": true,
+    "note": "Independent evaluator confirmed preservation of numbers, terminology, modality, exact site/institution scope, and sample limits. The full 36-case set was not rescored, so no extrapolated post-fix mean is reported."
+  },
+  "limitations": [
+    "The benchmark is synthetic and intentionally stresses known language failure modes.",
+    "The 36-case blind review used one independent evaluator; inter-rater reliability is not available.",
+    "Results do not estimate AI authorship or performance on unobserved disciplines.",
+    "Future releases must add author-owned and pre-LLM holdout prose without replacing this frozen set."
+  ]
+}
