@@ -1,4 +1,47 @@
-# Benchmark analysis — v1.0.0
+# Benchmark analysis
+
+## v1.1.0 local-corpus and no-skill holdout
+
+### Design
+
+- Discovered 205 local scholarly PDFs and extracted a bounded first-ten-page sample with PDFium.
+- Retained 85 documents above the 1,800-character threshold: 68 Chinese and 17 English. Excluded 117 with insufficient text layers and three PDFium failures.
+- Visually checked representative English double-column journal pages, a Chinese double-column technical paper, and a Chinese image-rich architectural essay before interpreting extraction metrics.
+- Generated ten additional fictional no-skill papers: five Chinese and five English, 30 paragraphs each, for 300 held-out paragraphs across 15 language-habit categories.
+- Preserved only copyright-safe aggregate and document metrics from the local publications; no extracted full text is committed.
+
+### Local comparison
+
+Median configured formulaic-cue density per 10,000 non-space characters was 390.81 for Chinese no-skill papers versus 41.05 for local Chinese publications, and 127.51 versus 20.15 in English. The largest recurring gaps involved inflated lexicon, excessive navigation, vague-action frames, empty transitions, abstract shells, and overclaiming.
+
+Sentence-length CV was 0.446 for Chinese no-skill papers versus 0.999 locally, and 0.443 versus 0.820 in English. The direction supports content-led rhythm and syntactic variation; it does not justify random sentence-length changes or a universal target.
+
+Direct-verb frequency was not accepted as a standalone quality signal. The no-skill corpus often repeated `研究记录/发现/测得` or `the study recorded/identified/measured`, demonstrating that a high verb count can coexist with mechanical sentence frames.
+
+### Held-out automated check
+
+The 300 source contracts were used as conservative skill-reference edits against independently generated no-skill passages. Configured formulaic risk was lower in 228 cases, tied in 72, and higher in none. Mean treatment-minus-control risk was −7.0 points; median relative reduction among the reported case distribution was 100%.
+
+The frozen v1 corpus was also rerun under the expanded v1.1 diagnostics: 222 lower-risk treatments, 138 ties, no losses, and a −5.5-point mean delta. Its v1.0 score remains preserved below because the diagnostic definition changed in this minor release.
+
+This is a deterministic diagnostic check, not an independent human language score. The source contracts are deliberately concise, so the estimate is optimistic for formulaic-marker removal and cannot establish publication-quality improvement. The v1.0 blind review remains the human-scored evidence; no new blind human score is claimed for v1.1.
+
+### Changes supported by failures
+
+1. Added first-class instructions for abstract shells, stacked modifiers, echo conclusions, empty transitions, claim–disclaimer mismatch, and terminological costume changes.
+2. Added a prose-finish ladder that separates grammatical correction, specification, information contour, cadence, textural verb choice, and restraint.
+3. Rejected direct-verb counts as a proxy for mature prose; the skill now checks the specificity and recurrence of subject–action–object frames.
+4. Retained qualified use of conventional contrasts and long sentences because local publications also contain them. Zero marker density remains an invalid target.
+5. Fixed numeric-anchor detection for digits adjacent to Chinese characters and added regression tests.
+
+### v1.1 limitations
+
+- Extractable local English material is smaller than the Chinese sample.
+- PDF reading order can distort sentence metrics despite medians and visual checks.
+- Local publications vary by year, genre, and editorial convention; they are a calibration set, not a style template.
+- The holdout's facts and bad-language patterns are synthetic. Future evaluation should add author-owned drafts and at least two blind reviewers.
+
+## v1.0.0 synthetic paired benchmark
 
 ## Design
 

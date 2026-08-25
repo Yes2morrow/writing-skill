@@ -28,6 +28,8 @@ Score = sum(rating × weight). Record reviewer rationale and adjudicate disagree
 Run:
 
 ```powershell
+$env:PYTHONUTF8='1'
+$env:PYTHONNOUSERSITE='1'
 & 'G:\skills\.venv\Scripts\python.exe' scripts/style_audit.py path\to\draft.md --format markdown
 & 'G:\skills\.venv\Scripts\python.exe' scripts/evaluate_benchmark.py benchmark\cases.jsonl --format markdown
 ```

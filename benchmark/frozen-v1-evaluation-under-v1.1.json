@@ -1,0 +1,3253 @@
+{
+  "disclaimer": "Synthetic paired benchmark; measures configured language patterns, not authorship or publication quality.",
+  "case_count": 360,
+  "mean_risk_delta": -5.5,
+  "median_relative_risk_reduction_pct": 100.0,
+  "wins_ties_losses": {
+    "wins": 222,
+    "ties": 138,
+    "losses": 0
+  },
+  "cases": [
+    {
+      "id": "zh-parametric-studio-01",
+      "language": "zh",
+      "genre": "abstract",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-parametric-studio-02",
+      "language": "zh",
+      "genre": "abstract",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-parametric-studio-03",
+      "language": "zh",
+      "genre": "abstract",
+      "control_risk": 7.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -7.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-parametric-studio-04",
+      "language": "zh",
+      "genre": "abstract",
+      "control_risk": 16.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -16.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-parametric-studio-05",
+      "language": "zh",
+      "genre": "abstract",
+      "control_risk": 10.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -10.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-parametric-studio-06",
+      "language": "zh",
+      "genre": "introduction",
+      "control_risk": 8.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -8.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-parametric-studio-07",
+      "language": "zh",
+      "genre": "introduction",
+      "control_risk": 10.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -10.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-parametric-studio-08",
+      "language": "zh",
+      "genre": "introduction",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-parametric-studio-09",
+      "language": "zh",
+      "genre": "introduction",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-parametric-studio-10",
+      "language": "zh",
+      "genre": "introduction",
+      "control_risk": 6.0,
+      "treatment_risk": 6.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-parametric-studio-11",
+      "language": "zh",
+      "genre": "literature",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-parametric-studio-12",
+      "language": "zh",
+      "genre": "literature",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-parametric-studio-13",
+      "language": "zh",
+      "genre": "literature",
+      "control_risk": 7.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -7.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-parametric-studio-14",
+      "language": "zh",
+      "genre": "literature",
+      "control_risk": 16.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -16.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-parametric-studio-15",
+      "language": "zh",
+      "genre": "literature",
+      "control_risk": 10.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -10.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-parametric-studio-16",
+      "language": "zh",
+      "genre": "methods",
+      "control_risk": 8.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -8.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-parametric-studio-17",
+      "language": "zh",
+      "genre": "methods",
+      "control_risk": 10.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -10.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-parametric-studio-18",
+      "language": "zh",
+      "genre": "methods",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-parametric-studio-19",
+      "language": "zh",
+      "genre": "methods",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-parametric-studio-20",
+      "language": "zh",
+      "genre": "methods",
+      "control_risk": 6.0,
+      "treatment_risk": 6.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-parametric-studio-21",
+      "language": "zh",
+      "genre": "case-analysis",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-parametric-studio-22",
+      "language": "zh",
+      "genre": "case-analysis",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-parametric-studio-23",
+      "language": "zh",
+      "genre": "case-analysis",
+      "control_risk": 7.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -7.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-parametric-studio-24",
+      "language": "zh",
+      "genre": "case-analysis",
+      "control_risk": 16.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -16.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-parametric-studio-25",
+      "language": "zh",
+      "genre": "case-analysis",
+      "control_risk": 10.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -10.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-parametric-studio-26",
+      "language": "zh",
+      "genre": "discussion",
+      "control_risk": 8.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -8.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-parametric-studio-27",
+      "language": "zh",
+      "genre": "discussion",
+      "control_risk": 10.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -10.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-parametric-studio-28",
+      "language": "zh",
+      "genre": "discussion",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-parametric-studio-29",
+      "language": "zh",
+      "genre": "discussion",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-parametric-studio-30",
+      "language": "zh",
+      "genre": "discussion",
+      "control_risk": 6.0,
+      "treatment_risk": 6.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-museum-interface-01",
+      "language": "zh",
+      "genre": "abstract",
+      "control_risk": 6.0,
+      "treatment_risk": 6.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-museum-interface-02",
+      "language": "zh",
+      "genre": "abstract",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-museum-interface-03",
+      "language": "zh",
+      "genre": "abstract",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-museum-interface-04",
+      "language": "zh",
+      "genre": "abstract",
+      "control_risk": 7.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -7.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-museum-interface-05",
+      "language": "zh",
+      "genre": "abstract",
+      "control_risk": 16.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -16.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-museum-interface-06",
+      "language": "zh",
+      "genre": "introduction",
+      "control_risk": 10.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -10.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-museum-interface-07",
+      "language": "zh",
+      "genre": "introduction",
+      "control_risk": 8.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -8.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-museum-interface-08",
+      "language": "zh",
+      "genre": "introduction",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-museum-interface-09",
+      "language": "zh",
+      "genre": "introduction",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-museum-interface-10",
+      "language": "zh",
+      "genre": "introduction",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-museum-interface-11",
+      "language": "zh",
+      "genre": "literature",
+      "control_risk": 6.0,
+      "treatment_risk": 6.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-museum-interface-12",
+      "language": "zh",
+      "genre": "literature",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-museum-interface-13",
+      "language": "zh",
+      "genre": "literature",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-museum-interface-14",
+      "language": "zh",
+      "genre": "literature",
+      "control_risk": 7.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -7.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-museum-interface-15",
+      "language": "zh",
+      "genre": "literature",
+      "control_risk": 16.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -16.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-museum-interface-16",
+      "language": "zh",
+      "genre": "methods",
+      "control_risk": 10.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -10.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-museum-interface-17",
+      "language": "zh",
+      "genre": "methods",
+      "control_risk": 8.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -8.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-museum-interface-18",
+      "language": "zh",
+      "genre": "methods",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-museum-interface-19",
+      "language": "zh",
+      "genre": "methods",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-museum-interface-20",
+      "language": "zh",
+      "genre": "methods",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-museum-interface-21",
+      "language": "zh",
+      "genre": "case-analysis",
+      "control_risk": 6.0,
+      "treatment_risk": 6.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-museum-interface-22",
+      "language": "zh",
+      "genre": "case-analysis",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-museum-interface-23",
+      "language": "zh",
+      "genre": "case-analysis",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-museum-interface-24",
+      "language": "zh",
+      "genre": "case-analysis",
+      "control_risk": 7.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -7.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-museum-interface-25",
+      "language": "zh",
+      "genre": "case-analysis",
+      "control_risk": 16.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -16.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-museum-interface-26",
+      "language": "zh",
+      "genre": "discussion",
+      "control_risk": 10.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -10.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-museum-interface-27",
+      "language": "zh",
+      "genre": "discussion",
+      "control_risk": 8.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -8.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-museum-interface-28",
+      "language": "zh",
+      "genre": "discussion",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-museum-interface-29",
+      "language": "zh",
+      "genre": "discussion",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-museum-interface-30",
+      "language": "zh",
+      "genre": "discussion",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-media-facade-01",
+      "language": "zh",
+      "genre": "abstract",
+      "control_risk": 8.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -8.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-media-facade-02",
+      "language": "zh",
+      "genre": "abstract",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-media-facade-03",
+      "language": "zh",
+      "genre": "abstract",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-media-facade-04",
+      "language": "zh",
+      "genre": "abstract",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-media-facade-05",
+      "language": "zh",
+      "genre": "abstract",
+      "control_risk": 6.0,
+      "treatment_risk": 6.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-media-facade-06",
+      "language": "zh",
+      "genre": "introduction",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-media-facade-07",
+      "language": "zh",
+      "genre": "introduction",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-media-facade-08",
+      "language": "zh",
+      "genre": "introduction",
+      "control_risk": 7.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -7.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-media-facade-09",
+      "language": "zh",
+      "genre": "introduction",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-media-facade-10",
+      "language": "zh",
+      "genre": "introduction",
+      "control_risk": 10.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -10.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-media-facade-11",
+      "language": "zh",
+      "genre": "literature",
+      "control_risk": 8.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -8.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-media-facade-12",
+      "language": "zh",
+      "genre": "literature",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-media-facade-13",
+      "language": "zh",
+      "genre": "literature",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-media-facade-14",
+      "language": "zh",
+      "genre": "literature",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-media-facade-15",
+      "language": "zh",
+      "genre": "literature",
+      "control_risk": 6.0,
+      "treatment_risk": 6.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-media-facade-16",
+      "language": "zh",
+      "genre": "methods",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-media-facade-17",
+      "language": "zh",
+      "genre": "methods",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-media-facade-18",
+      "language": "zh",
+      "genre": "methods",
+      "control_risk": 7.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -7.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-media-facade-19",
+      "language": "zh",
+      "genre": "methods",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-media-facade-20",
+      "language": "zh",
+      "genre": "methods",
+      "control_risk": 10.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -10.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-media-facade-21",
+      "language": "zh",
+      "genre": "case-analysis",
+      "control_risk": 8.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -8.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-media-facade-22",
+      "language": "zh",
+      "genre": "case-analysis",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-media-facade-23",
+      "language": "zh",
+      "genre": "case-analysis",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-media-facade-24",
+      "language": "zh",
+      "genre": "case-analysis",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-media-facade-25",
+      "language": "zh",
+      "genre": "case-analysis",
+      "control_risk": 6.0,
+      "treatment_risk": 6.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-media-facade-26",
+      "language": "zh",
+      "genre": "discussion",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-media-facade-27",
+      "language": "zh",
+      "genre": "discussion",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-media-facade-28",
+      "language": "zh",
+      "genre": "discussion",
+      "control_risk": 7.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -7.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-media-facade-29",
+      "language": "zh",
+      "genre": "discussion",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-media-facade-30",
+      "language": "zh",
+      "genre": "discussion",
+      "control_risk": 10.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -10.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-bim-coordination-01",
+      "language": "zh",
+      "genre": "abstract",
+      "control_risk": 6.0,
+      "treatment_risk": 6.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-bim-coordination-02",
+      "language": "zh",
+      "genre": "abstract",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-bim-coordination-03",
+      "language": "zh",
+      "genre": "abstract",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-bim-coordination-04",
+      "language": "zh",
+      "genre": "abstract",
+      "control_risk": 7.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -7.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-bim-coordination-05",
+      "language": "zh",
+      "genre": "abstract",
+      "control_risk": 16.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -16.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-bim-coordination-06",
+      "language": "zh",
+      "genre": "introduction",
+      "control_risk": 10.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -10.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-bim-coordination-07",
+      "language": "zh",
+      "genre": "introduction",
+      "control_risk": 8.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -8.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-bim-coordination-08",
+      "language": "zh",
+      "genre": "introduction",
+      "control_risk": 10.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -10.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-bim-coordination-09",
+      "language": "zh",
+      "genre": "introduction",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-bim-coordination-10",
+      "language": "zh",
+      "genre": "introduction",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-bim-coordination-11",
+      "language": "zh",
+      "genre": "literature",
+      "control_risk": 6.0,
+      "treatment_risk": 6.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-bim-coordination-12",
+      "language": "zh",
+      "genre": "literature",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-bim-coordination-13",
+      "language": "zh",
+      "genre": "literature",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-bim-coordination-14",
+      "language": "zh",
+      "genre": "literature",
+      "control_risk": 7.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -7.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-bim-coordination-15",
+      "language": "zh",
+      "genre": "literature",
+      "control_risk": 16.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -16.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-bim-coordination-16",
+      "language": "zh",
+      "genre": "methods",
+      "control_risk": 10.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -10.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-bim-coordination-17",
+      "language": "zh",
+      "genre": "methods",
+      "control_risk": 8.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -8.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-bim-coordination-18",
+      "language": "zh",
+      "genre": "methods",
+      "control_risk": 10.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -10.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-bim-coordination-19",
+      "language": "zh",
+      "genre": "methods",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-bim-coordination-20",
+      "language": "zh",
+      "genre": "methods",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-bim-coordination-21",
+      "language": "zh",
+      "genre": "case-analysis",
+      "control_risk": 6.0,
+      "treatment_risk": 6.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-bim-coordination-22",
+      "language": "zh",
+      "genre": "case-analysis",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-bim-coordination-23",
+      "language": "zh",
+      "genre": "case-analysis",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-bim-coordination-24",
+      "language": "zh",
+      "genre": "case-analysis",
+      "control_risk": 7.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -7.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-bim-coordination-25",
+      "language": "zh",
+      "genre": "case-analysis",
+      "control_risk": 16.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -16.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-bim-coordination-26",
+      "language": "zh",
+      "genre": "discussion",
+      "control_risk": 10.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -10.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-bim-coordination-27",
+      "language": "zh",
+      "genre": "discussion",
+      "control_risk": 8.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -8.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-bim-coordination-28",
+      "language": "zh",
+      "genre": "discussion",
+      "control_risk": 10.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -10.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-bim-coordination-29",
+      "language": "zh",
+      "genre": "discussion",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-bim-coordination-30",
+      "language": "zh",
+      "genre": "discussion",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-ar-navigation-01",
+      "language": "zh",
+      "genre": "abstract",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-ar-navigation-02",
+      "language": "zh",
+      "genre": "abstract",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-ar-navigation-03",
+      "language": "zh",
+      "genre": "abstract",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-ar-navigation-04",
+      "language": "zh",
+      "genre": "abstract",
+      "control_risk": 6.0,
+      "treatment_risk": 6.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-ar-navigation-05",
+      "language": "zh",
+      "genre": "abstract",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-ar-navigation-06",
+      "language": "zh",
+      "genre": "introduction",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-ar-navigation-07",
+      "language": "zh",
+      "genre": "introduction",
+      "control_risk": 7.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -7.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-ar-navigation-08",
+      "language": "zh",
+      "genre": "introduction",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-ar-navigation-09",
+      "language": "zh",
+      "genre": "introduction",
+      "control_risk": 10.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -10.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-ar-navigation-10",
+      "language": "zh",
+      "genre": "introduction",
+      "control_risk": 8.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -8.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-ar-navigation-11",
+      "language": "zh",
+      "genre": "literature",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-ar-navigation-12",
+      "language": "zh",
+      "genre": "literature",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-ar-navigation-13",
+      "language": "zh",
+      "genre": "literature",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-ar-navigation-14",
+      "language": "zh",
+      "genre": "literature",
+      "control_risk": 6.0,
+      "treatment_risk": 6.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-ar-navigation-15",
+      "language": "zh",
+      "genre": "literature",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-ar-navigation-16",
+      "language": "zh",
+      "genre": "methods",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-ar-navigation-17",
+      "language": "zh",
+      "genre": "methods",
+      "control_risk": 7.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -7.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-ar-navigation-18",
+      "language": "zh",
+      "genre": "methods",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-ar-navigation-19",
+      "language": "zh",
+      "genre": "methods",
+      "control_risk": 10.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -10.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-ar-navigation-20",
+      "language": "zh",
+      "genre": "methods",
+      "control_risk": 8.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -8.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-ar-navigation-21",
+      "language": "zh",
+      "genre": "case-analysis",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-ar-navigation-22",
+      "language": "zh",
+      "genre": "case-analysis",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-ar-navigation-23",
+      "language": "zh",
+      "genre": "case-analysis",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-ar-navigation-24",
+      "language": "zh",
+      "genre": "case-analysis",
+      "control_risk": 6.0,
+      "treatment_risk": 6.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-ar-navigation-25",
+      "language": "zh",
+      "genre": "case-analysis",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-ar-navigation-26",
+      "language": "zh",
+      "genre": "discussion",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-ar-navigation-27",
+      "language": "zh",
+      "genre": "discussion",
+      "control_risk": 7.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -7.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-ar-navigation-28",
+      "language": "zh",
+      "genre": "discussion",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-ar-navigation-29",
+      "language": "zh",
+      "genre": "discussion",
+      "control_risk": 10.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -10.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-ar-navigation-30",
+      "language": "zh",
+      "genre": "discussion",
+      "control_risk": 8.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -8.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-generative-design-01",
+      "language": "zh",
+      "genre": "abstract",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-generative-design-02",
+      "language": "zh",
+      "genre": "abstract",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-generative-design-03",
+      "language": "zh",
+      "genre": "abstract",
+      "control_risk": 7.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -7.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-generative-design-04",
+      "language": "zh",
+      "genre": "abstract",
+      "control_risk": 16.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -16.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-generative-design-05",
+      "language": "zh",
+      "genre": "abstract",
+      "control_risk": 10.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -10.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-generative-design-06",
+      "language": "zh",
+      "genre": "introduction",
+      "control_risk": 8.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -8.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-generative-design-07",
+      "language": "zh",
+      "genre": "introduction",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-generative-design-08",
+      "language": "zh",
+      "genre": "introduction",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-generative-design-09",
+      "language": "zh",
+      "genre": "introduction",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-generative-design-10",
+      "language": "zh",
+      "genre": "introduction",
+      "control_risk": 6.0,
+      "treatment_risk": 6.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-generative-design-11",
+      "language": "zh",
+      "genre": "literature",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-generative-design-12",
+      "language": "zh",
+      "genre": "literature",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-generative-design-13",
+      "language": "zh",
+      "genre": "literature",
+      "control_risk": 7.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -7.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-generative-design-14",
+      "language": "zh",
+      "genre": "literature",
+      "control_risk": 16.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -16.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-generative-design-15",
+      "language": "zh",
+      "genre": "literature",
+      "control_risk": 10.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -10.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-generative-design-16",
+      "language": "zh",
+      "genre": "methods",
+      "control_risk": 8.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -8.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-generative-design-17",
+      "language": "zh",
+      "genre": "methods",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-generative-design-18",
+      "language": "zh",
+      "genre": "methods",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-generative-design-19",
+      "language": "zh",
+      "genre": "methods",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-generative-design-20",
+      "language": "zh",
+      "genre": "methods",
+      "control_risk": 6.0,
+      "treatment_risk": 6.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-generative-design-21",
+      "language": "zh",
+      "genre": "case-analysis",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-generative-design-22",
+      "language": "zh",
+      "genre": "case-analysis",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-generative-design-23",
+      "language": "zh",
+      "genre": "case-analysis",
+      "control_risk": 7.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -7.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-generative-design-24",
+      "language": "zh",
+      "genre": "case-analysis",
+      "control_risk": 16.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -16.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-generative-design-25",
+      "language": "zh",
+      "genre": "case-analysis",
+      "control_risk": 10.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -10.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-generative-design-26",
+      "language": "zh",
+      "genre": "discussion",
+      "control_risk": 8.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -8.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "zh-generative-design-27",
+      "language": "zh",
+      "genre": "discussion",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-generative-design-28",
+      "language": "zh",
+      "genre": "discussion",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-generative-design-29",
+      "language": "zh",
+      "genre": "discussion",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "zh-generative-design-30",
+      "language": "zh",
+      "genre": "discussion",
+      "control_risk": 6.0,
+      "treatment_risk": 6.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-parametric-studio-01",
+      "language": "en",
+      "genre": "abstract",
+      "control_risk": 12.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -12.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-parametric-studio-02",
+      "language": "en",
+      "genre": "abstract",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-parametric-studio-03",
+      "language": "en",
+      "genre": "abstract",
+      "control_risk": 9.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -9.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-parametric-studio-04",
+      "language": "en",
+      "genre": "abstract",
+      "control_risk": 16.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -16.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-parametric-studio-05",
+      "language": "en",
+      "genre": "abstract",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-parametric-studio-06",
+      "language": "en",
+      "genre": "introduction",
+      "control_risk": 8.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -8.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-parametric-studio-07",
+      "language": "en",
+      "genre": "introduction",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-parametric-studio-08",
+      "language": "en",
+      "genre": "introduction",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-parametric-studio-09",
+      "language": "en",
+      "genre": "introduction",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-parametric-studio-10",
+      "language": "en",
+      "genre": "introduction",
+      "control_risk": 6.0,
+      "treatment_risk": 6.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-parametric-studio-11",
+      "language": "en",
+      "genre": "literature",
+      "control_risk": 12.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -12.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-parametric-studio-12",
+      "language": "en",
+      "genre": "literature",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-parametric-studio-13",
+      "language": "en",
+      "genre": "literature",
+      "control_risk": 9.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -9.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-parametric-studio-14",
+      "language": "en",
+      "genre": "literature",
+      "control_risk": 16.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -16.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-parametric-studio-15",
+      "language": "en",
+      "genre": "literature",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-parametric-studio-16",
+      "language": "en",
+      "genre": "methods",
+      "control_risk": 8.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -8.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-parametric-studio-17",
+      "language": "en",
+      "genre": "methods",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-parametric-studio-18",
+      "language": "en",
+      "genre": "methods",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-parametric-studio-19",
+      "language": "en",
+      "genre": "methods",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-parametric-studio-20",
+      "language": "en",
+      "genre": "methods",
+      "control_risk": 6.0,
+      "treatment_risk": 6.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-parametric-studio-21",
+      "language": "en",
+      "genre": "case-analysis",
+      "control_risk": 12.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -12.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-parametric-studio-22",
+      "language": "en",
+      "genre": "case-analysis",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-parametric-studio-23",
+      "language": "en",
+      "genre": "case-analysis",
+      "control_risk": 9.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -9.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-parametric-studio-24",
+      "language": "en",
+      "genre": "case-analysis",
+      "control_risk": 16.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -16.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-parametric-studio-25",
+      "language": "en",
+      "genre": "case-analysis",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-parametric-studio-26",
+      "language": "en",
+      "genre": "discussion",
+      "control_risk": 8.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -8.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-parametric-studio-27",
+      "language": "en",
+      "genre": "discussion",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-parametric-studio-28",
+      "language": "en",
+      "genre": "discussion",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-parametric-studio-29",
+      "language": "en",
+      "genre": "discussion",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-parametric-studio-30",
+      "language": "en",
+      "genre": "discussion",
+      "control_risk": 6.0,
+      "treatment_risk": 6.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-museum-interface-01",
+      "language": "en",
+      "genre": "abstract",
+      "control_risk": 6.0,
+      "treatment_risk": 6.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-museum-interface-02",
+      "language": "en",
+      "genre": "abstract",
+      "control_risk": 12.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -12.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-museum-interface-03",
+      "language": "en",
+      "genre": "abstract",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-museum-interface-04",
+      "language": "en",
+      "genre": "abstract",
+      "control_risk": 9.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -9.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-museum-interface-05",
+      "language": "en",
+      "genre": "abstract",
+      "control_risk": 16.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -16.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-museum-interface-06",
+      "language": "en",
+      "genre": "introduction",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-museum-interface-07",
+      "language": "en",
+      "genre": "introduction",
+      "control_risk": 8.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -8.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-museum-interface-08",
+      "language": "en",
+      "genre": "introduction",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-museum-interface-09",
+      "language": "en",
+      "genre": "introduction",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-museum-interface-10",
+      "language": "en",
+      "genre": "introduction",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-museum-interface-11",
+      "language": "en",
+      "genre": "literature",
+      "control_risk": 6.0,
+      "treatment_risk": 6.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-museum-interface-12",
+      "language": "en",
+      "genre": "literature",
+      "control_risk": 12.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -12.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-museum-interface-13",
+      "language": "en",
+      "genre": "literature",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-museum-interface-14",
+      "language": "en",
+      "genre": "literature",
+      "control_risk": 9.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -9.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-museum-interface-15",
+      "language": "en",
+      "genre": "literature",
+      "control_risk": 16.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -16.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-museum-interface-16",
+      "language": "en",
+      "genre": "methods",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-museum-interface-17",
+      "language": "en",
+      "genre": "methods",
+      "control_risk": 8.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -8.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-museum-interface-18",
+      "language": "en",
+      "genre": "methods",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-museum-interface-19",
+      "language": "en",
+      "genre": "methods",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-museum-interface-20",
+      "language": "en",
+      "genre": "methods",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-museum-interface-21",
+      "language": "en",
+      "genre": "case-analysis",
+      "control_risk": 6.0,
+      "treatment_risk": 6.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-museum-interface-22",
+      "language": "en",
+      "genre": "case-analysis",
+      "control_risk": 12.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -12.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-museum-interface-23",
+      "language": "en",
+      "genre": "case-analysis",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-museum-interface-24",
+      "language": "en",
+      "genre": "case-analysis",
+      "control_risk": 9.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -9.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-museum-interface-25",
+      "language": "en",
+      "genre": "case-analysis",
+      "control_risk": 16.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -16.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-museum-interface-26",
+      "language": "en",
+      "genre": "discussion",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-museum-interface-27",
+      "language": "en",
+      "genre": "discussion",
+      "control_risk": 8.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -8.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-museum-interface-28",
+      "language": "en",
+      "genre": "discussion",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-museum-interface-29",
+      "language": "en",
+      "genre": "discussion",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-museum-interface-30",
+      "language": "en",
+      "genre": "discussion",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-media-facade-01",
+      "language": "en",
+      "genre": "abstract",
+      "control_risk": 8.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -8.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-media-facade-02",
+      "language": "en",
+      "genre": "abstract",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-media-facade-03",
+      "language": "en",
+      "genre": "abstract",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-media-facade-04",
+      "language": "en",
+      "genre": "abstract",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-media-facade-05",
+      "language": "en",
+      "genre": "abstract",
+      "control_risk": 6.0,
+      "treatment_risk": 6.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-media-facade-06",
+      "language": "en",
+      "genre": "introduction",
+      "control_risk": 12.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -12.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-media-facade-07",
+      "language": "en",
+      "genre": "introduction",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-media-facade-08",
+      "language": "en",
+      "genre": "introduction",
+      "control_risk": 9.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -9.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-media-facade-09",
+      "language": "en",
+      "genre": "introduction",
+      "control_risk": 16.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -16.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-media-facade-10",
+      "language": "en",
+      "genre": "introduction",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-media-facade-11",
+      "language": "en",
+      "genre": "literature",
+      "control_risk": 8.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -8.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-media-facade-12",
+      "language": "en",
+      "genre": "literature",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-media-facade-13",
+      "language": "en",
+      "genre": "literature",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-media-facade-14",
+      "language": "en",
+      "genre": "literature",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-media-facade-15",
+      "language": "en",
+      "genre": "literature",
+      "control_risk": 6.0,
+      "treatment_risk": 6.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-media-facade-16",
+      "language": "en",
+      "genre": "methods",
+      "control_risk": 12.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -12.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-media-facade-17",
+      "language": "en",
+      "genre": "methods",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-media-facade-18",
+      "language": "en",
+      "genre": "methods",
+      "control_risk": 9.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -9.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-media-facade-19",
+      "language": "en",
+      "genre": "methods",
+      "control_risk": 16.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -16.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-media-facade-20",
+      "language": "en",
+      "genre": "methods",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-media-facade-21",
+      "language": "en",
+      "genre": "case-analysis",
+      "control_risk": 8.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -8.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-media-facade-22",
+      "language": "en",
+      "genre": "case-analysis",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-media-facade-23",
+      "language": "en",
+      "genre": "case-analysis",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-media-facade-24",
+      "language": "en",
+      "genre": "case-analysis",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-media-facade-25",
+      "language": "en",
+      "genre": "case-analysis",
+      "control_risk": 6.0,
+      "treatment_risk": 6.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-media-facade-26",
+      "language": "en",
+      "genre": "discussion",
+      "control_risk": 12.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -12.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-media-facade-27",
+      "language": "en",
+      "genre": "discussion",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-media-facade-28",
+      "language": "en",
+      "genre": "discussion",
+      "control_risk": 9.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -9.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-media-facade-29",
+      "language": "en",
+      "genre": "discussion",
+      "control_risk": 16.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -16.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-media-facade-30",
+      "language": "en",
+      "genre": "discussion",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-bim-coordination-01",
+      "language": "en",
+      "genre": "abstract",
+      "control_risk": 6.0,
+      "treatment_risk": 6.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-bim-coordination-02",
+      "language": "en",
+      "genre": "abstract",
+      "control_risk": 12.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -12.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-bim-coordination-03",
+      "language": "en",
+      "genre": "abstract",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-bim-coordination-04",
+      "language": "en",
+      "genre": "abstract",
+      "control_risk": 9.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -9.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-bim-coordination-05",
+      "language": "en",
+      "genre": "abstract",
+      "control_risk": 16.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -16.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-bim-coordination-06",
+      "language": "en",
+      "genre": "introduction",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-bim-coordination-07",
+      "language": "en",
+      "genre": "introduction",
+      "control_risk": 8.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -8.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-bim-coordination-08",
+      "language": "en",
+      "genre": "introduction",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-bim-coordination-09",
+      "language": "en",
+      "genre": "introduction",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-bim-coordination-10",
+      "language": "en",
+      "genre": "introduction",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-bim-coordination-11",
+      "language": "en",
+      "genre": "literature",
+      "control_risk": 6.0,
+      "treatment_risk": 6.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-bim-coordination-12",
+      "language": "en",
+      "genre": "literature",
+      "control_risk": 12.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -12.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-bim-coordination-13",
+      "language": "en",
+      "genre": "literature",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-bim-coordination-14",
+      "language": "en",
+      "genre": "literature",
+      "control_risk": 9.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -9.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-bim-coordination-15",
+      "language": "en",
+      "genre": "literature",
+      "control_risk": 16.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -16.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-bim-coordination-16",
+      "language": "en",
+      "genre": "methods",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-bim-coordination-17",
+      "language": "en",
+      "genre": "methods",
+      "control_risk": 8.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -8.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-bim-coordination-18",
+      "language": "en",
+      "genre": "methods",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-bim-coordination-19",
+      "language": "en",
+      "genre": "methods",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-bim-coordination-20",
+      "language": "en",
+      "genre": "methods",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-bim-coordination-21",
+      "language": "en",
+      "genre": "case-analysis",
+      "control_risk": 6.0,
+      "treatment_risk": 6.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-bim-coordination-22",
+      "language": "en",
+      "genre": "case-analysis",
+      "control_risk": 12.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -12.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-bim-coordination-23",
+      "language": "en",
+      "genre": "case-analysis",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-bim-coordination-24",
+      "language": "en",
+      "genre": "case-analysis",
+      "control_risk": 9.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -9.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-bim-coordination-25",
+      "language": "en",
+      "genre": "case-analysis",
+      "control_risk": 16.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -16.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-bim-coordination-26",
+      "language": "en",
+      "genre": "discussion",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-bim-coordination-27",
+      "language": "en",
+      "genre": "discussion",
+      "control_risk": 8.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -8.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-bim-coordination-28",
+      "language": "en",
+      "genre": "discussion",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-bim-coordination-29",
+      "language": "en",
+      "genre": "discussion",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-bim-coordination-30",
+      "language": "en",
+      "genre": "discussion",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-ar-navigation-01",
+      "language": "en",
+      "genre": "abstract",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-ar-navigation-02",
+      "language": "en",
+      "genre": "abstract",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-ar-navigation-03",
+      "language": "en",
+      "genre": "abstract",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-ar-navigation-04",
+      "language": "en",
+      "genre": "abstract",
+      "control_risk": 6.0,
+      "treatment_risk": 6.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-ar-navigation-05",
+      "language": "en",
+      "genre": "abstract",
+      "control_risk": 12.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -12.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-ar-navigation-06",
+      "language": "en",
+      "genre": "introduction",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-ar-navigation-07",
+      "language": "en",
+      "genre": "introduction",
+      "control_risk": 9.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -9.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-ar-navigation-08",
+      "language": "en",
+      "genre": "introduction",
+      "control_risk": 16.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -16.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-ar-navigation-09",
+      "language": "en",
+      "genre": "introduction",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-ar-navigation-10",
+      "language": "en",
+      "genre": "introduction",
+      "control_risk": 8.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -8.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-ar-navigation-11",
+      "language": "en",
+      "genre": "literature",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-ar-navigation-12",
+      "language": "en",
+      "genre": "literature",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-ar-navigation-13",
+      "language": "en",
+      "genre": "literature",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-ar-navigation-14",
+      "language": "en",
+      "genre": "literature",
+      "control_risk": 6.0,
+      "treatment_risk": 6.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-ar-navigation-15",
+      "language": "en",
+      "genre": "literature",
+      "control_risk": 12.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -12.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-ar-navigation-16",
+      "language": "en",
+      "genre": "methods",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-ar-navigation-17",
+      "language": "en",
+      "genre": "methods",
+      "control_risk": 9.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -9.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-ar-navigation-18",
+      "language": "en",
+      "genre": "methods",
+      "control_risk": 16.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -16.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-ar-navigation-19",
+      "language": "en",
+      "genre": "methods",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-ar-navigation-20",
+      "language": "en",
+      "genre": "methods",
+      "control_risk": 8.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -8.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-ar-navigation-21",
+      "language": "en",
+      "genre": "case-analysis",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-ar-navigation-22",
+      "language": "en",
+      "genre": "case-analysis",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-ar-navigation-23",
+      "language": "en",
+      "genre": "case-analysis",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-ar-navigation-24",
+      "language": "en",
+      "genre": "case-analysis",
+      "control_risk": 6.0,
+      "treatment_risk": 6.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-ar-navigation-25",
+      "language": "en",
+      "genre": "case-analysis",
+      "control_risk": 12.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -12.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-ar-navigation-26",
+      "language": "en",
+      "genre": "discussion",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-ar-navigation-27",
+      "language": "en",
+      "genre": "discussion",
+      "control_risk": 9.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -9.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-ar-navigation-28",
+      "language": "en",
+      "genre": "discussion",
+      "control_risk": 16.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -16.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-ar-navigation-29",
+      "language": "en",
+      "genre": "discussion",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-ar-navigation-30",
+      "language": "en",
+      "genre": "discussion",
+      "control_risk": 8.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -8.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-generative-design-01",
+      "language": "en",
+      "genre": "abstract",
+      "control_risk": 12.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -12.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-generative-design-02",
+      "language": "en",
+      "genre": "abstract",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-generative-design-03",
+      "language": "en",
+      "genre": "abstract",
+      "control_risk": 9.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -9.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-generative-design-04",
+      "language": "en",
+      "genre": "abstract",
+      "control_risk": 16.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -16.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-generative-design-05",
+      "language": "en",
+      "genre": "abstract",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-generative-design-06",
+      "language": "en",
+      "genre": "introduction",
+      "control_risk": 8.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -8.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-generative-design-07",
+      "language": "en",
+      "genre": "introduction",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-generative-design-08",
+      "language": "en",
+      "genre": "introduction",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-generative-design-09",
+      "language": "en",
+      "genre": "introduction",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-generative-design-10",
+      "language": "en",
+      "genre": "introduction",
+      "control_risk": 6.0,
+      "treatment_risk": 6.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-generative-design-11",
+      "language": "en",
+      "genre": "literature",
+      "control_risk": 12.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -12.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-generative-design-12",
+      "language": "en",
+      "genre": "literature",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-generative-design-13",
+      "language": "en",
+      "genre": "literature",
+      "control_risk": 9.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -9.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-generative-design-14",
+      "language": "en",
+      "genre": "literature",
+      "control_risk": 16.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -16.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-generative-design-15",
+      "language": "en",
+      "genre": "literature",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-generative-design-16",
+      "language": "en",
+      "genre": "methods",
+      "control_risk": 8.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -8.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-generative-design-17",
+      "language": "en",
+      "genre": "methods",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-generative-design-18",
+      "language": "en",
+      "genre": "methods",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-generative-design-19",
+      "language": "en",
+      "genre": "methods",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-generative-design-20",
+      "language": "en",
+      "genre": "methods",
+      "control_risk": 6.0,
+      "treatment_risk": 6.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-generative-design-21",
+      "language": "en",
+      "genre": "case-analysis",
+      "control_risk": 12.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -12.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-generative-design-22",
+      "language": "en",
+      "genre": "case-analysis",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-generative-design-23",
+      "language": "en",
+      "genre": "case-analysis",
+      "control_risk": 9.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -9.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-generative-design-24",
+      "language": "en",
+      "genre": "case-analysis",
+      "control_risk": 16.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -16.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-generative-design-25",
+      "language": "en",
+      "genre": "case-analysis",
+      "control_risk": 6.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -6.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-generative-design-26",
+      "language": "en",
+      "genre": "discussion",
+      "control_risk": 8.0,
+      "treatment_risk": 0.0,
+      "risk_delta": -8.0,
+      "relative_risk_reduction_pct": 100.0
+    },
+    {
+      "id": "en-generative-design-27",
+      "language": "en",
+      "genre": "discussion",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-generative-design-28",
+      "language": "en",
+      "genre": "discussion",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-generative-design-29",
+      "language": "en",
+      "genre": "discussion",
+      "control_risk": 0.0,
+      "treatment_risk": 0.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    },
+    {
+      "id": "en-generative-design-30",
+      "language": "en",
+      "genre": "discussion",
+      "control_risk": 6.0,
+      "treatment_risk": 6.0,
+      "risk_delta": 0.0,
+      "relative_risk_reduction_pct": 0.0
+    }
+  ]
+}

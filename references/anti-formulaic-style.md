@@ -40,13 +40,29 @@ Watch for identical paragraph lengths, obligatory three-part lists, repeated con
 
 Interrogate `实现了……的提升`, `促进了……的发展`, `进行了……的探索`, `赋能`, `建构`, `呈现出`, and long English nominalizations. Name who did what, to which object, by what operation, and with what observed result.
 
+### Abstract shells and modifier queues
+
+Watch for nested `……的……性/化/度` phrases, four or more pre-nominal modifiers, and English noun strings whose internal relation is unclear. Promote the decisive relation to a finite verb, then retain only modifiers that distinguish this object from a plausible alternative. Do not split a long sentence merely because it is long; preserve it when hierarchy and emphasis remain legible.
+
+### Echo conclusions and ornamental balance
+
+Delete a final sentence that only labels what the preceding sentence already showed (`因此，本段表明……`; `Therefore, the paragraph shows…`). Treat three-part lists, mirrored clauses, and paired adjectives as claims requiring three real categories, not as default rhythm devices.
+
+### Overclaim followed by ritual retreat
+
+Flag combinations such as `充分证明/从根本上重塑` followed by `样本仍有限`, or `conclusively proves/fundamentally reshapes` followed by a generic limitation. Calibrate the main verb itself; a disclaimer cannot repair an unsupported claim.
+
+### Terminological costume changes
+
+Do not rotate among `界面/平台/媒介/装置` or analogous English labels simply to avoid repetition. Stable repetition is preferable when the referent is one analytical object. Vary a term only when the category actually changes.
+
 ## Revision operations
 
 1. Identify the sentence's factual or argumentative payload.
 2. Remove unsupported evaluation and duplicated framing.
 3. Restore the agent, operation, object, evidence, and boundary.
 4. Choose the relation actually present: cause, condition, concession, sequence, comparison, or coexistence.
-5. Rebuild sentence rhythm around information priority.
+5. Rebuild sentence rhythm around information priority: known material near the opening, the sentence's new or consequential material near the close.
 6. Re-read the paragraph for voice and continuity.
 
 Do not perform synonym roulette, inject anecdotes, add fake imperfections, or make prose colloquial merely to look human.

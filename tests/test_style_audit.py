@@ -26,6 +26,17 @@ class StyleAuditTests(unittest.TestCase):
         self.assertEqual(result["pattern_hits"]["manufactured_contrast"], 1)
         self.assertLessEqual(result["formulaic_risk_0_100"], 10)
 
+    def test_new_language_detail_patterns_are_visible(self):
+        text = "在此基础上，从另一个层面来看，数据连续性的稳定性下降带来了效率变化的发生。因此，本段表明这一关系十分关键。"
+        result = audit_text(text)
+        self.assertGreater(result["pattern_hits"]["empty_transition"], 0)
+        self.assertGreater(result["pattern_hits"]["abstract_shell"], 0)
+        self.assertGreater(result["pattern_hits"]["conclusion_echo"], 0)
+
+    def test_chinese_numeric_anchors_adjacent_to_characters(self):
+        result = audit_text("共记录42次任务，其中7次中断，耗时增加18%。")
+        self.assertEqual(result["numeric_anchors"], 3)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -52,6 +52,29 @@ PATTERNS = {
         r"促进了?[^。！？!?\n]{0,16}(?:发展|提升|融合)",
         r"呈现出[^。！？!?\n]{0,18}(?:趋势|特征|态势)",
         r"\b(?:facilitate|foster|leverage|utilize)(?:s|d|ing)?\b",
+        r"\bconduct(?:ed|s|ing)? (?:a |an )?(?:systematic |in-depth )?(?:investigation|analysis|examination)\b",
+        r"\bundertook (?:a |an )?(?:systematic |in-depth )?(?:investigation|analysis|examination)\b",
+    ],
+    "abstract_shell": [
+        r"[^。！？!?\n]{0,16}的[^。！？!?\n]{0,12}性[^。！？!?\n]{0,18}的(?:发生|实现|提升|变化)",
+        r"\b(?:the (?:occurrence|realization|achievement) of (?:a |the )?|a reduction in the stability of the continuity of)\b",
+    ],
+    "modifier_stack": [
+        r"(?:[\u4e00-\u9fff]{2,10}的[、，,]?){3,}[\u4e00-\u9fff]{2,12}",
+        r"\b(?:[a-z-]+,\s+){3,}(?:and\s+)?[a-z-]+\s+[a-z-]+\b",
+    ],
+    "empty_transition": [
+        r"在此基础上[^。！？!?\n]{0,24}(?:从另一个层面|进一步而言)",
+        r"从另一个层面来看|进一步而言",
+        r"\bon this basis,?[^.!?\n]{0,50}\b(?:from another perspective|furthermore)\b",
+    ],
+    "overclaim": [
+        r"(?:充分|有力地?)(?:证明|证实)|从根本上(?:改变|重塑|决定)|决定了?[^。！？!?\n]{0,20}(?:效率|行为|结果)",
+        r"\b(?:conclusively proves?|fundamentally reshapes?|determines?)[^.!?\n]{0,60}\b",
+    ],
+    "conclusion_echo": [
+        r"因此[，,]?[^。！？!?\n]{0,20}(?:本段|上述结果|研究结果)(?:表明|说明)",
+        r"\btherefore,? (?:this paragraph|the paragraph|the results?|these findings?) (?:shows?|demonstrates?|indicates?)\b",
     ],
 }
 
@@ -99,7 +122,7 @@ def audit_text(text: str) -> dict:
     para_lengths = [len(tokens(p)) for p in paras if tokens(p)]
     unique_ratio = len(set(toks)) / len(toks) if toks else 0.0
     citations = len(re.findall(r"\([^)]*\b(?:19|20)\d{2}[a-z]?[^)]*\)|\[[0-9,;\-– ]+\]", text))
-    numeric_anchors = len(re.findall(r"\b\d+(?:\.\d+)?%?\b", text))
+    numeric_anchors = len(re.findall(r"(?<!\d)\d+(?:\.\d+)?%?(?!\d)", text))
     total_hits = sum(pattern_hits.values()) + repeated_openings
     density = total_hits * 1000 / max(chars, 1)
 
@@ -113,6 +136,11 @@ def audit_text(text: str) -> dict:
         "navigation_marker": 2.0,
         "inflated_lexicon": 2.0,
         "vague_action": 4.0,
+        "abstract_shell": 5.0,
+        "modifier_stack": 3.0,
+        "empty_transition": 4.0,
+        "overclaim": 7.0,
+        "conclusion_echo": 3.0,
     }
     lexical_component = sum(
         category_weights[key] * min(count, 3) for key, count in pattern_hits.items()

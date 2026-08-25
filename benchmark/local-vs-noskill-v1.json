@@ -1,0 +1,774 @@
+{
+  "cautions": [
+    "Local publication is a calibration corpus, not an authorship ground truth.",
+    "PDF text-order noise is controlled by document medians and visual spot checks.",
+    "Differences describe this corpus and should not be universalized."
+  ],
+  "records": {
+    "local_profiled": 85,
+    "no_skill_paragraphs": 300,
+    "no_skill_papers": 10
+  },
+  "comparison": {
+    "zh": {
+      "local_documents": 68,
+      "no_skill_papers": 5,
+      "median_metric_comparison": {
+        "formulaic_hits_per_10k": {
+          "no_skill": 390.805,
+          "local_literature": 41.048,
+          "difference": 349.757,
+          "percent_vs_local": 852.1
+        },
+        "manufactured_contrast_per_10k": {
+          "no_skill": 6.59,
+          "local_literature": 0.0,
+          "difference": 6.59,
+          "percent_vs_local": null
+        },
+        "paired_escalation_per_10k": {
+          "no_skill": 6.59,
+          "local_literature": 0.514,
+          "difference": 6.076,
+          "percent_vs_local": 1182.1
+        },
+        "ceremonial_frame_per_10k": {
+          "no_skill": 19.769,
+          "local_literature": 0.832,
+          "difference": 18.937,
+          "percent_vs_local": 2276.1
+        },
+        "inflated_lexicon_per_10k": {
+          "no_skill": 46.129,
+          "local_literature": 8.875,
+          "difference": 37.254,
+          "percent_vs_local": 419.8
+        },
+        "navigation_marker_per_10k": {
+          "no_skill": 26.359,
+          "local_literature": 4.21,
+          "difference": 22.149,
+          "percent_vs_local": 526.1
+        },
+        "vague_action_per_10k": {
+          "no_skill": 19.769,
+          "local_literature": 0.971,
+          "difference": 18.798,
+          "percent_vs_local": 1935.9
+        },
+        "abstract_shell_per_10k": {
+          "no_skill": 6.568,
+          "local_literature": 0.0,
+          "difference": 6.568,
+          "percent_vs_local": null
+        },
+        "modifier_stack_per_10k": {
+          "no_skill": 6.59,
+          "local_literature": 0.0,
+          "difference": 6.59,
+          "percent_vs_local": null
+        },
+        "empty_transition_per_10k": {
+          "no_skill": 19.769,
+          "local_literature": 0.0,
+          "difference": 19.769,
+          "percent_vs_local": null
+        },
+        "overclaim_per_10k": {
+          "no_skill": 19.769,
+          "local_literature": 0.0,
+          "difference": 19.769,
+          "percent_vs_local": null
+        },
+        "conclusion_echo_per_10k": {
+          "no_skill": 6.59,
+          "local_literature": 0.0,
+          "difference": 6.59,
+          "percent_vs_local": null
+        },
+        "direct_verbs_per_10k": {
+          "no_skill": 59.308,
+          "local_literature": 10.564,
+          "difference": 48.744,
+          "percent_vs_local": 461.4
+        },
+        "hedges_per_10k": {
+          "no_skill": 6.59,
+          "local_literature": 2.665,
+          "difference": 3.925,
+          "percent_vs_local": 147.3
+        },
+        "numeric_anchors_per_10k": {
+          "no_skill": 296.54,
+          "local_literature": 225.553,
+          "difference": 70.987,
+          "percent_vs_local": 31.5
+        },
+        "citation_markers_per_10k": {
+          "no_skill": 0.0,
+          "local_literature": 19.647,
+          "difference": -19.647,
+          "percent_vs_local": -100.0
+        },
+        "parenthesis_per_10k": {
+          "no_skill": 0.0,
+          "local_literature": 44.3,
+          "difference": -44.3,
+          "percent_vs_local": -100.0
+        },
+        "sentence_length_cv": {
+          "no_skill": 0.446,
+          "local_literature": 0.999,
+          "difference": -0.553,
+          "percent_vs_local": -55.4
+        }
+      }
+    },
+    "en": {
+      "local_documents": 17,
+      "no_skill_papers": 5,
+      "median_metric_comparison": {
+        "formulaic_hits_per_10k": {
+          "no_skill": 127.511,
+          "local_literature": 20.147,
+          "difference": 107.364,
+          "percent_vs_local": 532.9
+        },
+        "manufactured_contrast_per_10k": {
+          "no_skill": 4.812,
+          "local_literature": 0.241,
+          "difference": 4.571,
+          "percent_vs_local": 1896.7
+        },
+        "paired_escalation_per_10k": {
+          "no_skill": 2.406,
+          "local_literature": 0.0,
+          "difference": 2.406,
+          "percent_vs_local": null
+        },
+        "ceremonial_frame_per_10k": {
+          "no_skill": 2.406,
+          "local_literature": 0.0,
+          "difference": 2.406,
+          "percent_vs_local": null
+        },
+        "inflated_lexicon_per_10k": {
+          "no_skill": 14.435,
+          "local_literature": 0.221,
+          "difference": 14.214,
+          "percent_vs_local": 6431.7
+        },
+        "navigation_marker_per_10k": {
+          "no_skill": 9.623,
+          "local_literature": 0.477,
+          "difference": 9.146,
+          "percent_vs_local": 1917.4
+        },
+        "vague_action_per_10k": {
+          "no_skill": 4.812,
+          "local_literature": 0.442,
+          "difference": 4.37,
+          "percent_vs_local": 988.7
+        },
+        "abstract_shell_per_10k": {
+          "no_skill": 4.812,
+          "local_literature": 0.0,
+          "difference": 4.812,
+          "percent_vs_local": null
+        },
+        "modifier_stack_per_10k": {
+          "no_skill": 2.406,
+          "local_literature": 0.505,
+          "difference": 1.901,
+          "percent_vs_local": 376.4
+        },
+        "empty_transition_per_10k": {
+          "no_skill": 2.406,
+          "local_literature": 0.0,
+          "difference": 2.406,
+          "percent_vs_local": null
+        },
+        "overclaim_per_10k": {
+          "no_skill": 4.812,
+          "local_literature": 0.482,
+          "difference": 4.33,
+          "percent_vs_local": 898.3
+        },
+        "conclusion_echo_per_10k": {
+          "no_skill": 2.406,
+          "local_literature": 0.0,
+          "difference": 2.406,
+          "percent_vs_local": null
+        },
+        "direct_verbs_per_10k": {
+          "no_skill": 16.841,
+          "local_literature": 6.904,
+          "difference": 9.937,
+          "percent_vs_local": 143.9
+        },
+        "hedges_per_10k": {
+          "no_skill": 0.0,
+          "local_literature": 1.385,
+          "difference": -1.385,
+          "percent_vs_local": -100.0
+        },
+        "numeric_anchors_per_10k": {
+          "no_skill": 108.264,
+          "local_literature": 91.726,
+          "difference": 16.538,
+          "percent_vs_local": 18.0
+        },
+        "citation_markers_per_10k": {
+          "no_skill": 0.0,
+          "local_literature": 12.56,
+          "difference": -12.56,
+          "percent_vs_local": -100.0
+        },
+        "parenthesis_per_10k": {
+          "no_skill": 0.0,
+          "local_literature": 35.326,
+          "difference": -35.326,
+          "percent_vs_local": -100.0
+        },
+        "sentence_length_cv": {
+          "no_skill": 0.443,
+          "local_literature": 0.82,
+          "difference": -0.377,
+          "percent_vs_local": -46.0
+        }
+      }
+    }
+  },
+  "no_skill_paper_metrics": [
+    {
+      "paper_id": "zh-soundscape",
+      "paper_title": "交通站厅声景与停留行为",
+      "language": "zh",
+      "characters": 2947,
+      "sentences": 94,
+      "sentence_length_mean": 27.06,
+      "sentence_length_median": 28.0,
+      "sentence_length_cv": 0.445,
+      "formulaic_hits_per_10k": 403.8,
+      "manufactured_contrast_per_10k": 6.787,
+      "paired_escalation_per_10k": 6.787,
+      "ceremonial_frame_per_10k": 20.36,
+      "inflated_lexicon_per_10k": 47.506,
+      "navigation_marker_per_10k": 27.146,
+      "vague_action_per_10k": 20.36,
+      "abstract_shell_per_10k": 6.787,
+      "modifier_stack_per_10k": 6.787,
+      "empty_transition_per_10k": 20.36,
+      "overclaim_per_10k": 20.36,
+      "conclusion_echo_per_10k": 6.787,
+      "hedges_per_10k": 6.787,
+      "direct_verbs_per_10k": 61.079,
+      "explicit_meta_per_10k": 6.787,
+      "semicolon_per_10k": 13.573,
+      "colon_per_10k": 0.0,
+      "parenthesis_per_10k": 0.0,
+      "numeric_anchors_per_10k": 305.395,
+      "citation_markers_per_10k": 0.0,
+      "token_variety_ratio": 0.104,
+      "common_openings": [
+        [
+          "研究共采",
+          20
+        ],
+        [
+          "声压传感",
+          6
+        ],
+        [
+          "这一结果",
+          4
+        ],
+        [
+          "尽管如此",
+          2
+        ],
+        [
+          "候车者通",
+          2
+        ]
+      ]
+    },
+    {
+      "paper_id": "zh-digital-twin",
+      "paper_title": "校园数字孪生中的维护记录",
+      "language": "zh",
+      "characters": 3045,
+      "sentences": 94,
+      "sentence_length_mean": 28.11,
+      "sentence_length_median": 28.0,
+      "sentence_length_cv": 0.447,
+      "formulaic_hits_per_10k": 390.805,
+      "manufactured_contrast_per_10k": 6.568,
+      "paired_escalation_per_10k": 6.568,
+      "ceremonial_frame_per_10k": 19.704,
+      "inflated_lexicon_per_10k": 45.977,
+      "navigation_marker_per_10k": 26.273,
+      "vague_action_per_10k": 19.704,
+      "abstract_shell_per_10k": 6.568,
+      "modifier_stack_per_10k": 6.568,
+      "empty_transition_per_10k": 19.704,
+      "overclaim_per_10k": 19.704,
+      "conclusion_echo_per_10k": 6.568,
+      "hedges_per_10k": 6.568,
+      "direct_verbs_per_10k": 59.113,
+      "explicit_meta_per_10k": 6.568,
+      "semicolon_per_10k": 13.136,
+      "colon_per_10k": 0.0,
+      "parenthesis_per_10k": 0.0,
+      "numeric_anchors_per_10k": 295.567,
+      "citation_markers_per_10k": 0.0,
+      "token_variety_ratio": 0.1,
+      "common_openings": [
+        [
+          "研究共采",
+          20
+        ],
+        [
+          "数字孪生",
+          6
+        ],
+        [
+          "维护人员",
+          4
+        ],
+        [
+          "这一结果",
+          4
+        ],
+        [
+          "这一关联",
+          2
+        ]
+      ]
+    },
+    {
+      "paper_id": "zh-lighting",
+      "paper_title": "展厅照度反馈与观看节奏",
+      "language": "zh",
+      "characters": 3059,
+      "sentences": 94,
+      "sentence_length_mean": 28.26,
+      "sentence_length_median": 28.0,
+      "sentence_length_cv": 0.449,
+      "formulaic_hits_per_10k": 389.016,
+      "manufactured_contrast_per_10k": 6.538,
+      "paired_escalation_per_10k": 6.538,
+      "ceremonial_frame_per_10k": 19.614,
+      "inflated_lexicon_per_10k": 45.767,
+      "navigation_marker_per_10k": 26.152,
+      "vague_action_per_10k": 19.614,
+      "abstract_shell_per_10k": 6.538,
+      "modifier_stack_per_10k": 6.538,
+      "empty_transition_per_10k": 19.614,
+      "overclaim_per_10k": 19.614,
+      "conclusion_echo_per_10k": 6.538,
+      "hedges_per_10k": 6.538,
+      "direct_verbs_per_10k": 58.843,
+      "explicit_meta_per_10k": 6.538,
+      "semicolon_per_10k": 13.076,
+      "colon_per_10k": 0.0,
+      "parenthesis_per_10k": 0.0,
+      "numeric_anchors_per_10k": 294.214,
+      "citation_markers_per_10k": 0.0,
+      "token_variety_ratio": 0.096,
+      "common_openings": [
+        [
+          "研究共采",
+          20
+        ],
+        [
+          "自适应照",
+          6
+        ],
+        [
+          "这一结果",
+          4
+        ],
+        [
+          "这些变化",
+          2
+        ],
+        [
+          "在此基础",
+          2
+        ]
+      ]
+    },
+    {
+      "paper_id": "zh-robotic-fabrication",
+      "paper_title": "机器人砌筑中的误差回传",
+      "language": "zh",
+      "characters": 3035,
+      "sentences": 94,
+      "sentence_length_mean": 28,
+      "sentence_length_median": 28.0,
+      "sentence_length_cv": 0.446,
+      "formulaic_hits_per_10k": 392.092,
+      "manufactured_contrast_per_10k": 6.59,
+      "paired_escalation_per_10k": 6.59,
+      "ceremonial_frame_per_10k": 19.769,
+      "inflated_lexicon_per_10k": 46.129,
+      "navigation_marker_per_10k": 26.359,
+      "vague_action_per_10k": 19.769,
+      "abstract_shell_per_10k": 6.59,
+      "modifier_stack_per_10k": 6.59,
+      "empty_transition_per_10k": 19.769,
+      "overclaim_per_10k": 19.769,
+      "conclusion_echo_per_10k": 6.59,
+      "hedges_per_10k": 6.59,
+      "direct_verbs_per_10k": 59.308,
+      "explicit_meta_per_10k": 6.59,
+      "semicolon_per_10k": 13.18,
+      "colon_per_10k": 0.0,
+      "parenthesis_per_10k": 0.0,
+      "numeric_anchors_per_10k": 296.54,
+      "citation_markers_per_10k": 0.0,
+      "token_variety_ratio": 0.101,
+      "common_openings": [
+        [
+          "研究共采",
+          20
+        ],
+        [
+          "视觉校准",
+          6
+        ],
+        [
+          "这一结果",
+          4
+        ],
+        [
+          "操作员在",
+          2
+        ],
+        [
+          "该数字平",
+          2
+        ]
+      ]
+    },
+    {
+      "paper_id": "zh-community-screen",
+      "paper_title": "社区屏幕与公共议题参与",
+      "language": "zh",
+      "characters": 2981,
+      "sentences": 94,
+      "sentence_length_mean": 27.43,
+      "sentence_length_median": 28.0,
+      "sentence_length_cv": 0.442,
+      "formulaic_hits_per_10k": 389.131,
+      "manufactured_contrast_per_10k": 6.709,
+      "paired_escalation_per_10k": 6.709,
+      "ceremonial_frame_per_10k": 20.127,
+      "inflated_lexicon_per_10k": 46.964,
+      "navigation_marker_per_10k": 26.837,
+      "vague_action_per_10k": 20.127,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 6.709,
+      "empty_transition_per_10k": 20.127,
+      "overclaim_per_10k": 20.127,
+      "conclusion_echo_per_10k": 6.709,
+      "hedges_per_10k": 6.709,
+      "direct_verbs_per_10k": 60.382,
+      "explicit_meta_per_10k": 6.709,
+      "semicolon_per_10k": 13.418,
+      "colon_per_10k": 0.0,
+      "parenthesis_per_10k": 0.0,
+      "numeric_anchors_per_10k": 301.912,
+      "citation_markers_per_10k": 0.0,
+      "token_variety_ratio": 0.102,
+      "common_openings": [
+        [
+          "研究共采",
+          20
+        ],
+        [
+          "公共信息",
+          6
+        ],
+        [
+          "这一结果",
+          4
+        ],
+        [
+          "通过全面",
+          2
+        ],
+        [
+          "这一重要",
+          2
+        ]
+      ]
+    },
+    {
+      "paper_id": "en-soundscape",
+      "paper_title": "Station soundscapes and dwell behavior",
+      "language": "en",
+      "characters": 8259,
+      "sentences": 94,
+      "sentence_length_mean": 14.57,
+      "sentence_length_median": 14.0,
+      "sentence_length_cv": 0.443,
+      "formulaic_hits_per_10k": 128.345,
+      "manufactured_contrast_per_10k": 4.843,
+      "paired_escalation_per_10k": 2.422,
+      "ceremonial_frame_per_10k": 2.422,
+      "inflated_lexicon_per_10k": 14.53,
+      "navigation_marker_per_10k": 9.686,
+      "vague_action_per_10k": 4.843,
+      "abstract_shell_per_10k": 4.843,
+      "modifier_stack_per_10k": 2.422,
+      "empty_transition_per_10k": 2.422,
+      "overclaim_per_10k": 4.843,
+      "conclusion_echo_per_10k": 2.422,
+      "hedges_per_10k": 0.0,
+      "direct_verbs_per_10k": 16.951,
+      "explicit_meta_per_10k": 2.422,
+      "semicolon_per_10k": 31.481,
+      "colon_per_10k": 0.0,
+      "parenthesis_per_10k": 0.0,
+      "numeric_anchors_per_10k": 108.972,
+      "citation_markers_per_10k": 0.0,
+      "token_variety_ratio": 0.145,
+      "common_openings": [
+        [
+          "thestudycollectedepisodes",
+          20
+        ],
+        [
+          "passengersusedthesound",
+          4
+        ],
+        [
+          "theresultislimited",
+          4
+        ],
+        [
+          "thisresultconclusivelyproves",
+          2
+        ],
+        [
+          "neverthelessthesampleis",
+          2
+        ]
+      ]
+    },
+    {
+      "paper_id": "en-digital-twin",
+      "paper_title": "Maintenance records in campus digital twins",
+      "language": "en",
+      "characters": 8451,
+      "sentences": 94,
+      "sentence_length_mean": 14.85,
+      "sentence_length_median": 14.0,
+      "sentence_length_cv": 0.448,
+      "formulaic_hits_per_10k": 125.429,
+      "manufactured_contrast_per_10k": 4.733,
+      "paired_escalation_per_10k": 2.367,
+      "ceremonial_frame_per_10k": 2.367,
+      "inflated_lexicon_per_10k": 14.2,
+      "navigation_marker_per_10k": 9.466,
+      "vague_action_per_10k": 4.733,
+      "abstract_shell_per_10k": 4.733,
+      "modifier_stack_per_10k": 2.367,
+      "empty_transition_per_10k": 2.367,
+      "overclaim_per_10k": 4.733,
+      "conclusion_echo_per_10k": 2.367,
+      "hedges_per_10k": 0.0,
+      "direct_verbs_per_10k": 16.566,
+      "explicit_meta_per_10k": 2.367,
+      "semicolon_per_10k": 30.766,
+      "colon_per_10k": 0.0,
+      "parenthesis_per_10k": 0.0,
+      "numeric_anchors_per_10k": 106.496,
+      "citation_markers_per_10k": 0.0,
+      "token_variety_ratio": 0.141,
+      "common_openings": [
+        [
+          "thestudycollectedepisodes",
+          20
+        ],
+        [
+          "theresultislimited",
+          4
+        ],
+        [
+          "maintenancestaffusedthe",
+          4
+        ],
+        [
+          "thedatagapwas",
+          2
+        ],
+        [
+          "theassociationdoesnot",
+          2
+        ]
+      ]
+    },
+    {
+      "paper_id": "en-lighting",
+      "paper_title": "Illuminance feedback and viewing pace",
+      "language": "en",
+      "characters": 8247,
+      "sentences": 94,
+      "sentence_length_mean": 14.57,
+      "sentence_length_median": 14.0,
+      "sentence_length_cv": 0.443,
+      "formulaic_hits_per_10k": 128.532,
+      "manufactured_contrast_per_10k": 4.85,
+      "paired_escalation_per_10k": 2.425,
+      "ceremonial_frame_per_10k": 2.425,
+      "inflated_lexicon_per_10k": 14.551,
+      "navigation_marker_per_10k": 9.7,
+      "vague_action_per_10k": 4.85,
+      "abstract_shell_per_10k": 4.85,
+      "modifier_stack_per_10k": 2.425,
+      "empty_transition_per_10k": 2.425,
+      "overclaim_per_10k": 4.85,
+      "conclusion_echo_per_10k": 2.425,
+      "hedges_per_10k": 0.0,
+      "direct_verbs_per_10k": 16.976,
+      "explicit_meta_per_10k": 2.425,
+      "semicolon_per_10k": 31.527,
+      "colon_per_10k": 0.0,
+      "parenthesis_per_10k": 0.0,
+      "numeric_anchors_per_10k": 109.131,
+      "citation_markers_per_10k": 0.0,
+      "token_variety_ratio": 0.145,
+      "common_openings": [
+        [
+          "thestudycollectedepisodes",
+          20
+        ],
+        [
+          "visitorsusedtheadaptive",
+          4
+        ],
+        [
+          "theresultislimited",
+          4
+        ],
+        [
+          "theadaptivelightingsystem",
+          2
+        ],
+        [
+          "thesemultidimensionalandmultiscalar",
+          2
+        ]
+      ]
+    },
+    {
+      "paper_id": "en-robotic-fabrication",
+      "paper_title": "Error feedback in robotic masonry",
+      "language": "en",
+      "characters": 8313,
+      "sentences": 94,
+      "sentence_length_mean": 14.57,
+      "sentence_length_median": 14.0,
+      "sentence_length_cv": 0.443,
+      "formulaic_hits_per_10k": 127.511,
+      "manufactured_contrast_per_10k": 4.812,
+      "paired_escalation_per_10k": 2.406,
+      "ceremonial_frame_per_10k": 2.406,
+      "inflated_lexicon_per_10k": 14.435,
+      "navigation_marker_per_10k": 9.623,
+      "vague_action_per_10k": 4.812,
+      "abstract_shell_per_10k": 4.812,
+      "modifier_stack_per_10k": 2.406,
+      "empty_transition_per_10k": 2.406,
+      "overclaim_per_10k": 4.812,
+      "conclusion_echo_per_10k": 2.406,
+      "hedges_per_10k": 0.0,
+      "direct_verbs_per_10k": 16.841,
+      "explicit_meta_per_10k": 2.406,
+      "semicolon_per_10k": 31.276,
+      "colon_per_10k": 0.0,
+      "parenthesis_per_10k": 0.0,
+      "numeric_anchors_per_10k": 108.264,
+      "citation_markers_per_10k": 0.0,
+      "token_variety_ratio": 0.145,
+      "common_openings": [
+        [
+          "thestudycollectedepisodes",
+          20
+        ],
+        [
+          "operatorsusedthevision",
+          4
+        ],
+        [
+          "theresultislimited",
+          4
+        ],
+        [
+          "thisdigitalplatformhad",
+          2
+        ],
+        [
+          "areductioninthe",
+          2
+        ]
+      ]
+    },
+    {
+      "paper_id": "en-community-screen",
+      "paper_title": "Community screens and civic participation",
+      "language": "en",
+      "characters": 8387,
+      "sentences": 94,
+      "sentence_length_mean": 14.57,
+      "sentence_length_median": 14.0,
+      "sentence_length_cv": 0.443,
+      "formulaic_hits_per_10k": 126.386,
+      "manufactured_contrast_per_10k": 4.769,
+      "paired_escalation_per_10k": 2.385,
+      "ceremonial_frame_per_10k": 2.385,
+      "inflated_lexicon_per_10k": 14.308,
+      "navigation_marker_per_10k": 9.539,
+      "vague_action_per_10k": 4.769,
+      "abstract_shell_per_10k": 4.769,
+      "modifier_stack_per_10k": 2.385,
+      "empty_transition_per_10k": 2.385,
+      "overclaim_per_10k": 4.769,
+      "conclusion_echo_per_10k": 2.385,
+      "hedges_per_10k": 0.0,
+      "direct_verbs_per_10k": 16.693,
+      "explicit_meta_per_10k": 2.385,
+      "semicolon_per_10k": 31.0,
+      "colon_per_10k": 0.0,
+      "parenthesis_per_10k": 0.0,
+      "numeric_anchors_per_10k": 107.309,
+      "citation_markers_per_10k": 0.0,
+      "token_variety_ratio": 0.144,
+      "common_openings": [
+        [
+          "thestudycollectedepisodes",
+          20
+        ],
+        [
+          "residentsusedthepublic",
+          4
+        ],
+        [
+          "theresultislimited",
+          4
+        ],
+        [
+          "acomprehensiverobustand",
+          2
+        ],
+        [
+          "thistransformativefindingoffers",
+          2
+        ]
+      ]
+    }
+  ]
+}

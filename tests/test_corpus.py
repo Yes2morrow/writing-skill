@@ -28,6 +28,15 @@ class CorpusTests(unittest.TestCase):
     def test_treatments_keep_scope_anchor(self):
         self.assertTrue(all(c["scope_anchor"] in c["treatment"] for c in self.cases))
 
+    def test_heldout_noskill_scale_and_balance(self):
+        path = ROOT / "benchmark" / "no-skill-300.jsonl"
+        cases = [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
+        self.assertEqual(len(cases), 300)
+        self.assertEqual(sum(c["language"] == "zh" for c in cases), 150)
+        self.assertEqual(sum(c["language"] == "en" for c in cases), 150)
+        self.assertEqual(len({c["paper_id"] for c in cases}), 10)
+        self.assertEqual(len({c["habit"] for c in cases}), 15)
+
 
 if __name__ == "__main__":
     unittest.main()

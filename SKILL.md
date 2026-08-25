@@ -19,9 +19,9 @@ Polish academic language without silently rewriting the paper's argument.
 ## Working sequence
 
 1. Establish the language, intended register, target venue if known, citation style to preserve, and whether the user wants tracked explanations or clean copy.
-2. Read [references/anti-formulaic-style.md](references/anti-formulaic-style.md). For bilingual or discipline-sensitive wording, also read [references/language-calibration.md](references/language-calibration.md).
+2. Read [references/anti-formulaic-style.md](references/anti-formulaic-style.md). For bilingual or discipline-sensitive wording, also read [references/language-calibration.md](references/language-calibration.md). When the request includes polishing, elegance, or `文辞美化`, read [references/prose-finish.md](references/prose-finish.md).
 3. Freeze the semantic payload: propositions, evidence strength, technical terms, citations, numbers, scope, and paragraph order. Make only language-level changes unless the user separately authorizes substantive editing.
-4. Revise in passes: formulaic constructions → vague or inflated wording → agency and verb choice → transitions → sentence rhythm → terminology consistency.
+4. Revise in passes: formulaic clusters → abstract shells and modifier stacks → agency and verb choice → evidential calibration → transitions → information contour and sentence rhythm → terminology consistency.
 5. Compare source and edit for semantic drift. Restore any qualification, ambiguity, or authorial emphasis lost during polishing.
 6. For substantial work, run `scripts/style_audit.py`; treat its output as prompts for inspection, not verdicts.
 7. For comparison, benchmarking, or self-improvement, follow [references/evaluation-protocol.md](references/evaluation-protocol.md). Do not tune to a single detector or phrase list.
@@ -47,4 +47,5 @@ Return the requested clean text or tracked changes. For substantial edits, add a
 
 - Research basis and limitations: [references/evidence-base.md](references/evidence-base.md)
 - Benchmark findings: [references/benchmark-analysis.md](references/benchmark-analysis.md)
+- Local-corpus calibration: [references/local-corpus-calibration.md](references/local-corpus-calibration.md)
 - Release and optimization policy: [references/versioning.md](references/versioning.md)

@@ -87,9 +87,15 @@ def main() -> None:
     parser.add_argument("path", type=Path)
     parser.add_argument("--format", choices=("json", "markdown"), default="json")
     parser.add_argument("--details", action="store_true", help="include every case in Markdown output")
+    parser.add_argument("--output", type=Path, help="write the report to a UTF-8 file")
     args = parser.parse_args()
     result = evaluate(load_cases(args.path))
-    print(markdown(result, args.details) if args.format == "markdown" else json.dumps(result, ensure_ascii=False, indent=2))
+    rendered = markdown(result, args.details) if args.format == "markdown" else json.dumps(result, ensure_ascii=False, indent=2)
+    if args.output:
+        args.output.parent.mkdir(parents=True, exist_ok=True)
+        args.output.write_text(rendered + "\n", encoding="utf-8")
+    else:
+        print(rendered)
 
 
 if __name__ == "__main__":

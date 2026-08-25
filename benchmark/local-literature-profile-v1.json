@@ -1,0 +1,5868 @@
+{
+  "method": {
+    "pdfs_discovered": 205,
+    "documents_profiled": 85,
+    "documents_excluded": 120,
+    "max_pages_per_pdf": 10,
+    "min_extractable_characters": 1800,
+    "copyright": "Metrics only; extracted full text is not stored."
+  },
+  "aggregate_by_language": {
+    "zh": {
+      "documents": 68,
+      "characters": 987378,
+      "sentences": 14184,
+      "median_document_metrics": {
+        "pages_total": 7.0,
+        "pages_profiled": 7.0,
+        "sentence_length_mean": 45.535,
+        "sentence_length_median": 38.0,
+        "sentence_length_cv": 0.999,
+        "formulaic_hits_per_10k": 41.048,
+        "manufactured_contrast_per_10k": 0.0,
+        "paired_escalation_per_10k": 0.514,
+        "ceremonial_frame_per_10k": 0.832,
+        "inflated_lexicon_per_10k": 8.875,
+        "navigation_marker_per_10k": 4.21,
+        "vague_action_per_10k": 0.971,
+        "abstract_shell_per_10k": 0.0,
+        "modifier_stack_per_10k": 0.0,
+        "empty_transition_per_10k": 0.0,
+        "overclaim_per_10k": 0.0,
+        "conclusion_echo_per_10k": 0.0,
+        "hedges_per_10k": 2.665,
+        "direct_verbs_per_10k": 10.564,
+        "explicit_meta_per_10k": 0.0,
+        "semicolon_per_10k": 16.24,
+        "colon_per_10k": 39.303,
+        "parenthesis_per_10k": 44.3,
+        "numeric_anchors_per_10k": 250.092,
+        "citation_markers_per_10k": 19.647,
+        "token_variety_ratio": 0.12
+      },
+      "mean_document_metrics": {
+        "pages_total": 7.397,
+        "pages_profiled": 7.162,
+        "sentence_length_mean": 451.215,
+        "sentence_length_median": 376.934,
+        "sentence_length_cv": 1.093,
+        "formulaic_hits_per_10k": 41.502,
+        "manufactured_contrast_per_10k": 0.359,
+        "paired_escalation_per_10k": 0.648,
+        "ceremonial_frame_per_10k": 1.159,
+        "inflated_lexicon_per_10k": 11.343,
+        "navigation_marker_per_10k": 4.922,
+        "vague_action_per_10k": 1.986,
+        "abstract_shell_per_10k": 0.011,
+        "modifier_stack_per_10k": 0.216,
+        "empty_transition_per_10k": 0.0,
+        "overclaim_per_10k": 0.057,
+        "conclusion_echo_per_10k": 0.0,
+        "hedges_per_10k": 3.646,
+        "direct_verbs_per_10k": 11.283,
+        "explicit_meta_per_10k": 0.21,
+        "semicolon_per_10k": 18.637,
+        "colon_per_10k": 40.123,
+        "parenthesis_per_10k": 48.312,
+        "numeric_anchors_per_10k": 271.313,
+        "citation_markers_per_10k": 24.283,
+        "token_variety_ratio": 0.125
+      }
+    },
+    "en": {
+      "documents": 17,
+      "characters": 525494,
+      "sentences": 8539,
+      "median_document_metrics": {
+        "pages_total": 14,
+        "pages_profiled": 10,
+        "sentence_length_mean": 15.28,
+        "sentence_length_median": 14.0,
+        "sentence_length_cv": 0.82,
+        "formulaic_hits_per_10k": 20.147,
+        "manufactured_contrast_per_10k": 0.241,
+        "paired_escalation_per_10k": 0.0,
+        "ceremonial_frame_per_10k": 0.0,
+        "inflated_lexicon_per_10k": 0.221,
+        "navigation_marker_per_10k": 0.477,
+        "vague_action_per_10k": 0.442,
+        "abstract_shell_per_10k": 0.0,
+        "modifier_stack_per_10k": 0.505,
+        "empty_transition_per_10k": 0.0,
+        "overclaim_per_10k": 0.482,
+        "conclusion_echo_per_10k": 0.0,
+        "hedges_per_10k": 1.385,
+        "direct_verbs_per_10k": 6.904,
+        "explicit_meta_per_10k": 0.477,
+        "semicolon_per_10k": 6.712,
+        "colon_per_10k": 13.736,
+        "parenthesis_per_10k": 35.326,
+        "numeric_anchors_per_10k": 95.082,
+        "citation_markers_per_10k": 12.56,
+        "token_variety_ratio": 0.24
+      },
+      "mean_document_metrics": {
+        "pages_total": 15.588,
+        "pages_profiled": 9.941,
+        "sentence_length_mean": 14.942,
+        "sentence_length_median": 13.176,
+        "sentence_length_cv": 0.837,
+        "formulaic_hits_per_10k": 28.344,
+        "manufactured_contrast_per_10k": 0.435,
+        "paired_escalation_per_10k": 0.257,
+        "ceremonial_frame_per_10k": 0.131,
+        "inflated_lexicon_per_10k": 0.378,
+        "navigation_marker_per_10k": 1.008,
+        "vague_action_per_10k": 0.669,
+        "abstract_shell_per_10k": 0.014,
+        "modifier_stack_per_10k": 0.705,
+        "empty_transition_per_10k": 0.0,
+        "overclaim_per_10k": 0.705,
+        "conclusion_echo_per_10k": 0.0,
+        "hedges_per_10k": 2.118,
+        "direct_verbs_per_10k": 6.762,
+        "explicit_meta_per_10k": 0.437,
+        "semicolon_per_10k": 11.803,
+        "colon_per_10k": 15.126,
+        "parenthesis_per_10k": 46.741,
+        "numeric_anchors_per_10k": 173.115,
+        "citation_markers_per_10k": 14.556,
+        "token_variety_ratio": 0.233
+      }
+    }
+  },
+  "aggregate_by_group": {
+    "architectural-journal-china": {
+      "documents": 16,
+      "characters": 163784,
+      "sentences": 3041,
+      "median_document_metrics": {
+        "pages_total": 6.0,
+        "pages_profiled": 6.0,
+        "sentence_length_mean": 44.035,
+        "sentence_length_median": 35.25,
+        "sentence_length_cv": 0.914,
+        "formulaic_hits_per_10k": 35.1,
+        "manufactured_contrast_per_10k": 0.0,
+        "paired_escalation_per_10k": 0.0,
+        "ceremonial_frame_per_10k": 0.832,
+        "inflated_lexicon_per_10k": 8.524,
+        "navigation_marker_per_10k": 4.456,
+        "vague_action_per_10k": 0.428,
+        "abstract_shell_per_10k": 0.0,
+        "modifier_stack_per_10k": 0.0,
+        "empty_transition_per_10k": 0.0,
+        "overclaim_per_10k": 0.0,
+        "conclusion_echo_per_10k": 0.0,
+        "hedges_per_10k": 2.724,
+        "direct_verbs_per_10k": 9.294,
+        "explicit_meta_per_10k": 0.0,
+        "semicolon_per_10k": 17.623,
+        "colon_per_10k": 30.982,
+        "parenthesis_per_10k": 44.3,
+        "numeric_anchors_per_10k": 219.341,
+        "citation_markers_per_10k": 16.934,
+        "token_variety_ratio": 0.125
+      },
+      "mean_document_metrics": {
+        "pages_total": 5.5,
+        "pages_profiled": 5.5,
+        "sentence_length_mean": 47.317,
+        "sentence_length_median": 36.906,
+        "sentence_length_cv": 1.021,
+        "formulaic_hits_per_10k": 41.489,
+        "manufactured_contrast_per_10k": 0.462,
+        "paired_escalation_per_10k": 0.494,
+        "ceremonial_frame_per_10k": 0.895,
+        "inflated_lexicon_per_10k": 9.287,
+        "navigation_marker_per_10k": 3.69,
+        "vague_action_per_10k": 0.943,
+        "abstract_shell_per_10k": 0.0,
+        "modifier_stack_per_10k": 0.191,
+        "empty_transition_per_10k": 0.0,
+        "overclaim_per_10k": 0.0,
+        "conclusion_echo_per_10k": 0.0,
+        "hedges_per_10k": 3.795,
+        "direct_verbs_per_10k": 9.921,
+        "explicit_meta_per_10k": 0.255,
+        "semicolon_per_10k": 19.895,
+        "colon_per_10k": 43.513,
+        "parenthesis_per_10k": 55.716,
+        "numeric_anchors_per_10k": 309.166,
+        "citation_markers_per_10k": 23.164,
+        "token_variety_ratio": 0.138
+      }
+    },
+    "building-science-china": {
+      "documents": 9,
+      "characters": 143844,
+      "sentences": 1515,
+      "median_document_metrics": {
+        "pages_total": 8,
+        "pages_profiled": 8,
+        "sentence_length_mean": 59.76,
+        "sentence_length_median": 48,
+        "sentence_length_cv": 1.256,
+        "formulaic_hits_per_10k": 35.121,
+        "manufactured_contrast_per_10k": 0.0,
+        "paired_escalation_per_10k": 0.503,
+        "ceremonial_frame_per_10k": 1.149,
+        "inflated_lexicon_per_10k": 6.843,
+        "navigation_marker_per_10k": 3.445,
+        "vague_action_per_10k": 6.04,
+        "abstract_shell_per_10k": 0.0,
+        "modifier_stack_per_10k": 0.0,
+        "empty_transition_per_10k": 0.0,
+        "overclaim_per_10k": 0.0,
+        "conclusion_echo_per_10k": 0.0,
+        "hedges_per_10k": 1.955,
+        "direct_verbs_per_10k": 14.36,
+        "explicit_meta_per_10k": 0.0,
+        "semicolon_per_10k": 14.374,
+        "colon_per_10k": 43.265,
+        "parenthesis_per_10k": 34.445,
+        "numeric_anchors_per_10k": 319.766,
+        "citation_markers_per_10k": 2.517,
+        "token_variety_ratio": 0.114
+      },
+      "mean_document_metrics": {
+        "pages_total": 8,
+        "pages_profiled": 8,
+        "sentence_length_mean": 62.209,
+        "sentence_length_median": 47.222,
+        "sentence_length_cv": 1.384,
+        "formulaic_hits_per_10k": 36.997,
+        "manufactured_contrast_per_10k": 0.136,
+        "paired_escalation_per_10k": 0.621,
+        "ceremonial_frame_per_10k": 1.443,
+        "inflated_lexicon_per_10k": 9.469,
+        "navigation_marker_per_10k": 3.159,
+        "vague_action_per_10k": 6.241,
+        "abstract_shell_per_10k": 0.0,
+        "modifier_stack_per_10k": 0.115,
+        "empty_transition_per_10k": 0.0,
+        "overclaim_per_10k": 0.073,
+        "conclusion_echo_per_10k": 0.0,
+        "hedges_per_10k": 3.185,
+        "direct_verbs_per_10k": 15.28,
+        "explicit_meta_per_10k": 0.356,
+        "semicolon_per_10k": 13.438,
+        "colon_per_10k": 39.751,
+        "parenthesis_per_10k": 36.386,
+        "numeric_anchors_per_10k": 309.504,
+        "citation_markers_per_10k": 4.093,
+        "token_variety_ratio": 0.122
+      }
+    },
+    "journal-of-cad-and-computer-graphics": {
+      "documents": 10,
+      "characters": 193493,
+      "sentences": 2525,
+      "median_document_metrics": {
+        "pages_total": 10.0,
+        "pages_profiled": 10.0,
+        "sentence_length_mean": 53.125,
+        "sentence_length_median": 50.0,
+        "sentence_length_cv": 0.832,
+        "formulaic_hits_per_10k": 35.508,
+        "manufactured_contrast_per_10k": 0.0,
+        "paired_escalation_per_10k": 0.508,
+        "ceremonial_frame_per_10k": 0.225,
+        "inflated_lexicon_per_10k": 8.921,
+        "navigation_marker_per_10k": 5.174,
+        "vague_action_per_10k": 1.272,
+        "abstract_shell_per_10k": 0.0,
+        "modifier_stack_per_10k": 0.0,
+        "empty_transition_per_10k": 0.0,
+        "overclaim_per_10k": 0.0,
+        "conclusion_echo_per_10k": 0.0,
+        "hedges_per_10k": 2.876,
+        "direct_verbs_per_10k": 12.506,
+        "explicit_meta_per_10k": 0.0,
+        "semicolon_per_10k": 17.941,
+        "colon_per_10k": 44.102,
+        "parenthesis_per_10k": 35.478,
+        "numeric_anchors_per_10k": 262.799,
+        "citation_markers_per_10k": 41.019,
+        "token_variety_ratio": 0.126
+      },
+      "mean_document_metrics": {
+        "pages_total": 10,
+        "pages_profiled": 9.3,
+        "sentence_length_mean": 1854.587,
+        "sentence_length_median": 1767.05,
+        "sentence_length_cv": 0.947,
+        "formulaic_hits_per_10k": 39.855,
+        "manufactured_contrast_per_10k": 0.045,
+        "paired_escalation_per_10k": 0.459,
+        "ceremonial_frame_per_10k": 0.414,
+        "inflated_lexicon_per_10k": 12.264,
+        "navigation_marker_per_10k": 4.64,
+        "vague_action_per_10k": 1.994,
+        "abstract_shell_per_10k": 0.046,
+        "modifier_stack_per_10k": 0.267,
+        "empty_transition_per_10k": 0.0,
+        "overclaim_per_10k": 0.0,
+        "conclusion_echo_per_10k": 0.0,
+        "hedges_per_10k": 3.294,
+        "direct_verbs_per_10k": 12.262,
+        "explicit_meta_per_10k": 0.109,
+        "semicolon_per_10k": 20.52,
+        "colon_per_10k": 42.543,
+        "parenthesis_per_10k": 58.402,
+        "numeric_anchors_per_10k": 317.973,
+        "citation_markers_per_10k": 37.491,
+        "token_variety_ratio": 0.121
+      }
+    },
+    "new-architecture": {
+      "documents": 5,
+      "characters": 34484,
+      "sentences": 574,
+      "median_document_metrics": {
+        "pages_total": 3,
+        "pages_profiled": 3,
+        "sentence_length_mean": 45.9,
+        "sentence_length_median": 38,
+        "sentence_length_cv": 0.709,
+        "formulaic_hits_per_10k": 45.574,
+        "manufactured_contrast_per_10k": 0.0,
+        "paired_escalation_per_10k": 0.761,
+        "ceremonial_frame_per_10k": 4.876,
+        "inflated_lexicon_per_10k": 8.764,
+        "navigation_marker_per_10k": 10.517,
+        "vague_action_per_10k": 0.0,
+        "abstract_shell_per_10k": 0.0,
+        "modifier_stack_per_10k": 0.0,
+        "empty_transition_per_10k": 0.0,
+        "overclaim_per_10k": 0.0,
+        "conclusion_echo_per_10k": 0.0,
+        "hedges_per_10k": 2.282,
+        "direct_verbs_per_10k": 1.826,
+        "explicit_meta_per_10k": 0.0,
+        "semicolon_per_10k": 15.973,
+        "colon_per_10k": 10.517,
+        "parenthesis_per_10k": 31.551,
+        "numeric_anchors_per_10k": 191.776,
+        "citation_markers_per_10k": 0.0,
+        "token_variety_ratio": 0.146
+      },
+      "mean_document_metrics": {
+        "pages_total": 3.6,
+        "pages_profiled": 3.6,
+        "sentence_length_mean": 49.356,
+        "sentence_length_median": 41.9,
+        "sentence_length_cv": 0.708,
+        "formulaic_hits_per_10k": 48.53,
+        "manufactured_contrast_per_10k": 0.0,
+        "paired_escalation_per_10k": 1.233,
+        "ceremonial_frame_per_10k": 3.824,
+        "inflated_lexicon_per_10k": 10.865,
+        "navigation_marker_per_10k": 11.43,
+        "vague_action_per_10k": 1.786,
+        "abstract_shell_per_10k": 0.0,
+        "modifier_stack_per_10k": 0.0,
+        "empty_transition_per_10k": 0.0,
+        "overclaim_per_10k": 0.0,
+        "conclusion_echo_per_10k": 0.0,
+        "hedges_per_10k": 3.305,
+        "direct_verbs_per_10k": 4.124,
+        "explicit_meta_per_10k": 0.0,
+        "semicolon_per_10k": 15.842,
+        "colon_per_10k": 19.401,
+        "parenthesis_per_10k": 43.953,
+        "numeric_anchors_per_10k": 236.293,
+        "citation_markers_per_10k": 0.0,
+        "token_variety_ratio": 0.149
+      }
+    },
+    "wenxian-ai": {
+      "documents": 26,
+      "characters": 592427,
+      "sentences": 9640,
+      "median_document_metrics": {
+        "pages_total": 9.5,
+        "pages_profiled": 9.5,
+        "sentence_length_mean": 27.58,
+        "sentence_length_median": 17.5,
+        "sentence_length_cv": 1.026,
+        "formulaic_hits_per_10k": 37.284,
+        "manufactured_contrast_per_10k": 0.111,
+        "paired_escalation_per_10k": 0.0,
+        "ceremonial_frame_per_10k": 0.461,
+        "inflated_lexicon_per_10k": 8.392,
+        "navigation_marker_per_10k": 2.333,
+        "vague_action_per_10k": 0.947,
+        "abstract_shell_per_10k": 0.0,
+        "modifier_stack_per_10k": 0.0,
+        "empty_transition_per_10k": 0.0,
+        "overclaim_per_10k": 0.0,
+        "conclusion_echo_per_10k": 0.0,
+        "hedges_per_10k": 1.895,
+        "direct_verbs_per_10k": 7.275,
+        "explicit_meta_per_10k": 0.0,
+        "semicolon_per_10k": 12.163,
+        "colon_per_10k": 26.73,
+        "parenthesis_per_10k": 42.434,
+        "numeric_anchors_per_10k": 191.629,
+        "citation_markers_per_10k": 30.427,
+        "token_variety_ratio": 0.141
+      },
+      "mean_document_metrics": {
+        "pages_total": 10.769,
+        "pages_profiled": 8.346,
+        "sentence_length_mean": 133.638,
+        "sentence_length_median": 20.635,
+        "sentence_length_cv": 1.137,
+        "formulaic_hits_per_10k": 36.799,
+        "manufactured_contrast_per_10k": 0.33,
+        "paired_escalation_per_10k": 0.436,
+        "ceremonial_frame_per_10k": 0.695,
+        "inflated_lexicon_per_10k": 7.963,
+        "navigation_marker_per_10k": 2.744,
+        "vague_action_per_10k": 1.238,
+        "abstract_shell_per_10k": 0.021,
+        "modifier_stack_per_10k": 0.392,
+        "empty_transition_per_10k": 0.0,
+        "overclaim_per_10k": 0.323,
+        "conclusion_echo_per_10k": 0.0,
+        "hedges_per_10k": 2.962,
+        "direct_verbs_per_10k": 9.564,
+        "explicit_meta_per_10k": 0.298,
+        "semicolon_per_10k": 14.648,
+        "colon_per_10k": 33.239,
+        "parenthesis_per_10k": 42.721,
+        "numeric_anchors_per_10k": 213.001,
+        "citation_markers_per_10k": 29.197,
+        "token_variety_ratio": 0.168
+      }
+    },
+    "wenxian-aix规则": {
+      "documents": 7,
+      "characters": 137652,
+      "sentences": 2124,
+      "median_document_metrics": {
+        "pages_total": 11,
+        "pages_profiled": 10,
+        "sentence_length_mean": 33.54,
+        "sentence_length_median": 22,
+        "sentence_length_cv": 0.952,
+        "formulaic_hits_per_10k": 41.399,
+        "manufactured_contrast_per_10k": 0.0,
+        "paired_escalation_per_10k": 0.568,
+        "ceremonial_frame_per_10k": 0.679,
+        "inflated_lexicon_per_10k": 3.416,
+        "navigation_marker_per_10k": 5.535,
+        "vague_action_per_10k": 0.568,
+        "abstract_shell_per_10k": 0.0,
+        "modifier_stack_per_10k": 0.0,
+        "empty_transition_per_10k": 0.0,
+        "overclaim_per_10k": 0.373,
+        "conclusion_echo_per_10k": 0.0,
+        "hedges_per_10k": 2.232,
+        "direct_verbs_per_10k": 8.881,
+        "explicit_meta_per_10k": 0.0,
+        "semicolon_per_10k": 16.605,
+        "colon_per_10k": 38.623,
+        "parenthesis_per_10k": 46.454,
+        "numeric_anchors_per_10k": 268.38,
+        "citation_markers_per_10k": 32.791,
+        "token_variety_ratio": 0.114
+      },
+      "mean_document_metrics": {
+        "pages_total": 12.857,
+        "pages_profiled": 9.571,
+        "sentence_length_mean": 33.26,
+        "sentence_length_median": 25.214,
+        "sentence_length_cv": 0.948,
+        "formulaic_hits_per_10k": 43.295,
+        "manufactured_contrast_per_10k": 0.379,
+        "paired_escalation_per_10k": 0.461,
+        "ceremonial_frame_per_10k": 0.722,
+        "inflated_lexicon_per_10k": 9.173,
+        "navigation_marker_per_10k": 6.452,
+        "vague_action_per_10k": 0.479,
+        "abstract_shell_per_10k": 0.0,
+        "modifier_stack_per_10k": 0.482,
+        "empty_transition_per_10k": 0.0,
+        "overclaim_per_10k": 0.382,
+        "conclusion_echo_per_10k": 0.0,
+        "hedges_per_10k": 3.048,
+        "direct_verbs_per_10k": 10.18,
+        "explicit_meta_per_10k": 0.455,
+        "semicolon_per_10k": 18.94,
+        "colon_per_10k": 30.004,
+        "parenthesis_per_10k": 47.546,
+        "numeric_anchors_per_10k": 241.938,
+        "citation_markers_per_10k": 32.457,
+        "token_variety_ratio": 0.153
+      }
+    },
+    "wenxian-规则生成": {
+      "documents": 12,
+      "characters": 247188,
+      "sentences": 3304,
+      "median_document_metrics": {
+        "pages_total": 10.0,
+        "pages_profiled": 10.0,
+        "sentence_length_mean": 42.15,
+        "sentence_length_median": 37.0,
+        "sentence_length_cv": 0.803,
+        "formulaic_hits_per_10k": 31.916,
+        "manufactured_contrast_per_10k": 0.369,
+        "paired_escalation_per_10k": 0.456,
+        "ceremonial_frame_per_10k": 0.0,
+        "inflated_lexicon_per_10k": 5.133,
+        "navigation_marker_per_10k": 1.898,
+        "vague_action_per_10k": 0.241,
+        "abstract_shell_per_10k": 0.0,
+        "modifier_stack_per_10k": 0.0,
+        "empty_transition_per_10k": 0.0,
+        "overclaim_per_10k": 0.0,
+        "conclusion_echo_per_10k": 0.0,
+        "hedges_per_10k": 3.308,
+        "direct_verbs_per_10k": 8.682,
+        "explicit_meta_per_10k": 0.0,
+        "semicolon_per_10k": 11.087,
+        "colon_per_10k": 27.401,
+        "parenthesis_per_10k": 49.025,
+        "numeric_anchors_per_10k": 165.873,
+        "citation_markers_per_10k": 7.911,
+        "token_variety_ratio": 0.115
+      },
+      "mean_document_metrics": {
+        "pages_total": 10,
+        "pages_profiled": 8.417,
+        "sentence_length_mean": 593.302,
+        "sentence_length_median": 520.583,
+        "sentence_length_cv": 0.878,
+        "formulaic_hits_per_10k": 33.845,
+        "manufactured_contrast_per_10k": 0.961,
+        "paired_escalation_per_10k": 0.805,
+        "ceremonial_frame_per_10k": 0.614,
+        "inflated_lexicon_per_10k": 7.977,
+        "navigation_marker_per_10k": 3.69,
+        "vague_action_per_10k": 0.896,
+        "abstract_shell_per_10k": 0.0,
+        "modifier_stack_per_10k": 0.529,
+        "empty_transition_per_10k": 0.0,
+        "overclaim_per_10k": 0.346,
+        "conclusion_echo_per_10k": 0.0,
+        "hedges_per_10k": 3.895,
+        "direct_verbs_per_10k": 10.23,
+        "explicit_meta_per_10k": 0.203,
+        "semicolon_per_10k": 19.243,
+        "colon_per_10k": 27.906,
+        "parenthesis_per_10k": 51.128,
+        "numeric_anchors_per_10k": 172.269,
+        "citation_markers_per_10k": 10.836,
+        "token_variety_ratio": 0.149
+      }
+    }
+  },
+  "documents": [
+    {
+      "source_id": "ec3dd68fa7bf",
+      "file": "乡村保护与活化的动力学研究——基于3个福建村落保护与活化模式的探讨_王琼 (1).pdf",
+      "group": "architectural-journal-china",
+      "pages_total": 5,
+      "pages_profiled": 5,
+      "language": "zh",
+      "characters": 9255,
+      "sentences": 121,
+      "sentence_length_mean": 61.45,
+      "sentence_length_median": 49,
+      "sentence_length_cv": 0.914,
+      "formulaic_hits_per_10k": 35.656,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 0.0,
+      "inflated_lexicon_per_10k": 8.644,
+      "navigation_marker_per_10k": 7.563,
+      "vague_action_per_10k": 0.0,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 4.322,
+      "direct_verbs_per_10k": 4.322,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 20.529,
+      "colon_per_10k": 24.851,
+      "parenthesis_per_10k": 44.3,
+      "numeric_anchors_per_10k": 219.341,
+      "citation_markers_per_10k": 20.529,
+      "token_variety_ratio": 0.131,
+      "common_openings": [
+        [
+          "遗产动力",
+          2
+        ],
+        [
+          "福建乡村",
+          2
+        ],
+        [
+          "外碧村乡",
+          2
+        ],
+        [
+          "外婆的澎",
+          2
+        ],
+        [
+          "建筑学报",
+          2
+        ]
+      ]
+    },
+    {
+      "source_id": "7303e3651824",
+      "file": "乡村保护与活化的动力学研究——基于3个福建村落保护与活化模式的探讨_王琼.pdf",
+      "group": "architectural-journal-china",
+      "pages_total": 5,
+      "pages_profiled": 5,
+      "language": "zh",
+      "characters": 9255,
+      "sentences": 121,
+      "sentence_length_mean": 61.45,
+      "sentence_length_median": 49,
+      "sentence_length_cv": 0.914,
+      "formulaic_hits_per_10k": 35.656,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 0.0,
+      "inflated_lexicon_per_10k": 8.644,
+      "navigation_marker_per_10k": 7.563,
+      "vague_action_per_10k": 0.0,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 4.322,
+      "direct_verbs_per_10k": 4.322,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 20.529,
+      "colon_per_10k": 24.851,
+      "parenthesis_per_10k": 44.3,
+      "numeric_anchors_per_10k": 219.341,
+      "citation_markers_per_10k": 20.529,
+      "token_variety_ratio": 0.131,
+      "common_openings": [
+        [
+          "遗产动力",
+          2
+        ],
+        [
+          "福建乡村",
+          2
+        ],
+        [
+          "外碧村乡",
+          2
+        ],
+        [
+          "外婆的澎",
+          2
+        ],
+        [
+          "建筑学报",
+          2
+        ]
+      ]
+    },
+    {
+      "source_id": "51069399b43e",
+      "file": "城市公共文化设施集中建设的空间绩效分析——以广州、天津、太原为例_吕斌.pdf",
+      "group": "architectural-journal-china",
+      "pages_total": 7,
+      "pages_profiled": 7,
+      "language": "zh",
+      "characters": 11463,
+      "sentences": 197,
+      "sentence_length_mean": 45.56,
+      "sentence_length_median": 38,
+      "sentence_length_cv": 1.173,
+      "formulaic_hits_per_10k": 41.874,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 1.745,
+      "inflated_lexicon_per_10k": 6.979,
+      "navigation_marker_per_10k": 5.234,
+      "vague_action_per_10k": 4.362,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.872,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 6.979,
+      "direct_verbs_per_10k": 19.192,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 16.575,
+      "colon_per_10k": 31.405,
+      "parenthesis_per_10k": 35.767,
+      "numeric_anchors_per_10k": 289.627,
+      "citation_markers_per_10k": 15.703,
+      "token_variety_ratio": 0.115,
+      "common_openings": [
+        [
+          "公共文化",
+          6
+        ],
+        [
+          "建筑学报",
+          4
+        ],
+        [
+          "太原长风",
+          4
+        ],
+        [
+          "architecturaljournal城市",
+          3
+        ],
+        [
+          "planningsydneyscultural",
+          3
+        ]
+      ]
+    },
+    {
+      "source_id": "d7db7d06a2b0",
+      "file": "城市形态与城市微气候的关联性研究_丁沃沃.pdf",
+      "group": "architectural-journal-china",
+      "pages_total": 6,
+      "pages_profiled": 6,
+      "language": "zh",
+      "characters": 13604,
+      "sentences": 325,
+      "sentence_length_mean": 29.2,
+      "sentence_length_median": 16.0,
+      "sentence_length_cv": 1.125,
+      "formulaic_hits_per_10k": 70.567,
+      "manufactured_contrast_per_10k": 2.205,
+      "paired_escalation_per_10k": 0.735,
+      "ceremonial_frame_per_10k": 2.205,
+      "inflated_lexicon_per_10k": 20.582,
+      "navigation_marker_per_10k": 7.351,
+      "vague_action_per_10k": 1.47,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 1.47,
+      "direct_verbs_per_10k": 11.761,
+      "explicit_meta_per_10k": 0.735,
+      "semicolon_per_10k": 14.702,
+      "colon_per_10k": 43.37,
+      "parenthesis_per_10k": 44.105,
+      "numeric_anchors_per_10k": 201.411,
+      "citation_markers_per_10k": 44.84,
+      "token_variety_ratio": 0.124,
+      "common_openings": [
+        [
+          "s",
+          6
+        ],
+        [
+          "建筑学报",
+          4
+        ],
+        [
+          "energyandbuildings",
+          4
+        ],
+        [
+          "architecturaljournal城市",
+          3
+        ],
+        [
+          "城市形态",
+          3
+        ]
+      ]
+    },
+    {
+      "source_id": "060992ec619b",
+      "file": "基于宗族结构的传统村落院落单元研究——以宁波市走马塘历史文化名村保护规划为例_何依.pdf",
+      "group": "architectural-journal-china",
+      "pages_total": 6,
+      "pages_profiled": 6,
+      "language": "zh",
+      "characters": 10711,
+      "sentences": 140,
+      "sentence_length_mean": 65.75,
+      "sentence_length_median": 57,
+      "sentence_length_cv": 1.049,
+      "formulaic_hits_per_10k": 27.075,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 0.934,
+      "inflated_lexicon_per_10k": 8.403,
+      "navigation_marker_per_10k": 5.602,
+      "vague_action_per_10k": 0.934,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.934,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 0.0,
+      "direct_verbs_per_10k": 13.071,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 18.672,
+      "colon_per_10k": 23.34,
+      "parenthesis_per_10k": 42.947,
+      "numeric_anchors_per_10k": 144.711,
+      "citation_markers_per_10k": 15.872,
+      "token_variety_ratio": 0.113,
+      "common_openings": [
+        [
+          "因此宗族",
+          2
+        ],
+        [
+          "走马塘陈",
+          2
+        ],
+        [
+          "房族院落",
+          2
+        ],
+        [
+          "院落空间",
+          2
+        ],
+        [
+          "虽然房族",
+          2
+        ]
+      ]
+    },
+    {
+      "source_id": "b558ebb287ad",
+      "file": "居住区户外环境的适老化设计_周燕珉.pdf",
+      "group": "architectural-journal-china",
+      "pages_total": 5,
+      "pages_profiled": 5,
+      "language": "zh",
+      "characters": 8032,
+      "sentences": 150,
+      "sentence_length_mean": 46.32,
+      "sentence_length_median": 38,
+      "sentence_length_cv": 0.706,
+      "formulaic_hits_per_10k": 54.781,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 2.49,
+      "ceremonial_frame_per_10k": 1.245,
+      "inflated_lexicon_per_10k": 16.185,
+      "navigation_marker_per_10k": 0.0,
+      "vague_action_per_10k": 0.0,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 1.245,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 3.735,
+      "direct_verbs_per_10k": 8.715,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 8.715,
+      "colon_per_10k": 24.9,
+      "parenthesis_per_10k": 29.88,
+      "numeric_anchors_per_10k": 195.468,
+      "citation_markers_per_10k": 19.92,
+      "token_variety_ratio": 0.14,
+      "common_openings": [
+        [
+          "儿童游乐",
+          4
+        ],
+        [
+          "居住区户",
+          3
+        ],
+        [
+          "小型交流",
+          3
+        ],
+        [
+          "安静休息",
+          3
+        ],
+        [
+          "休息座椅",
+          3
+        ]
+      ]
+    },
+    {
+      "source_id": "223534a8fb30",
+      "file": "建筑与水涝共生——哈尔滨群力雨洪公园_俞孔坚.pdf",
+      "group": "architectural-journal-china",
+      "pages_total": 2,
+      "pages_profiled": 2,
+      "language": "zh",
+      "characters": 2227,
+      "sentences": 44,
+      "sentence_length_mean": 42.07,
+      "sentence_length_median": 33.0,
+      "sentence_length_cv": 0.777,
+      "formulaic_hits_per_10k": 8.981,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 0.0,
+      "inflated_lexicon_per_10k": 0.0,
+      "navigation_marker_per_10k": 0.0,
+      "vague_action_per_10k": 0.0,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 0.0,
+      "direct_verbs_per_10k": 0.0,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 13.471,
+      "colon_per_10k": 40.413,
+      "parenthesis_per_10k": 22.452,
+      "numeric_anchors_per_10k": 224.517,
+      "citation_markers_per_10k": 0.0,
+      "token_variety_ratio": 0.278,
+      "common_openings": [
+        [
+          "建筑学报",
+          2
+        ],
+        [
+          "architecturaljournal设计",
+          1
+        ],
+        [
+          "在中国由",
+          1
+        ],
+        [
+          "在一些极",
+          1
+        ],
+        [
+          "以北京为",
+          1
+        ]
+      ]
+    },
+    {
+      "source_id": "2ae91adb2e45",
+      "file": "数字人文时代的乡村预制产业化实践_袁烽.pdf",
+      "group": "architectural-journal-china",
+      "pages_total": 3,
+      "pages_profiled": 3,
+      "language": "zh",
+      "characters": 4254,
+      "sentences": 88,
+      "sentence_length_mean": 39.75,
+      "sentence_length_median": 35.5,
+      "sentence_length_cv": 0.851,
+      "formulaic_hits_per_10k": 11.754,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 0.0,
+      "inflated_lexicon_per_10k": 4.701,
+      "navigation_marker_per_10k": 0.0,
+      "vague_action_per_10k": 0.0,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 16.455,
+      "direct_verbs_per_10k": 4.701,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 2.351,
+      "colon_per_10k": 30.559,
+      "parenthesis_per_10k": 51.716,
+      "numeric_anchors_per_10k": 190.409,
+      "citation_markers_per_10k": 32.91,
+      "token_variety_ratio": 0.222,
+      "common_openings": [
+        [
+          "建筑学报",
+          2
+        ],
+        [
+          "竹里是年",
+          1
+        ],
+        [
+          "作为一个",
+          1
+        ],
+        [
+          "设计构思",
+          1
+        ],
+        [
+          "这个在乡",
+          1
+        ]
+      ]
+    },
+    {
+      "source_id": "f7a037902418",
+      "file": "易建性_作为环境调控与建造模式之间的必要张力——一个关于中国霍夫曼窑之建筑学价值的案例研究_李海清.pdf",
+      "group": "architectural-journal-china",
+      "pages_total": 6,
+      "pages_profiled": 6,
+      "language": "zh",
+      "characters": 13027,
+      "sentences": 273,
+      "sentence_length_mean": 37.47,
+      "sentence_length_median": 21,
+      "sentence_length_cv": 1.161,
+      "formulaic_hits_per_10k": 34.544,
+      "manufactured_contrast_per_10k": 1.535,
+      "paired_escalation_per_10k": 0.768,
+      "ceremonial_frame_per_10k": 0.768,
+      "inflated_lexicon_per_10k": 12.282,
+      "navigation_marker_per_10k": 6.141,
+      "vague_action_per_10k": 1.535,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 4.606,
+      "direct_verbs_per_10k": 17.656,
+      "explicit_meta_per_10k": 0.768,
+      "semicolon_per_10k": 33.776,
+      "colon_per_10k": 54.502,
+      "parenthesis_per_10k": 69.087,
+      "numeric_anchors_per_10k": 271.743,
+      "citation_markers_per_10k": 51.432,
+      "token_variety_ratio": 0.14,
+      "common_openings": [
+        [
+          "建筑学报",
+          4
+        ],
+        [
+          "霍夫曼窑",
+          3
+        ],
+        [
+          "环境调控",
+          3
+        ],
+        [
+          "全国有个",
+          3
+        ],
+        [
+          "就此而言",
+          2
+        ]
+      ]
+    },
+    {
+      "source_id": "f6b980be5ac4",
+      "file": "老旧住宅改造成社区养老设施的方法探索_徐知秋.pdf",
+      "group": "architectural-journal-china",
+      "pages_total": 7,
+      "pages_profiled": 7,
+      "language": "zh",
+      "characters": 11669,
+      "sentences": 200,
+      "sentence_length_mean": 49.09,
+      "sentence_length_median": 34.0,
+      "sentence_length_cv": 1.41,
+      "formulaic_hits_per_10k": 33.422,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 0.857,
+      "inflated_lexicon_per_10k": 4.285,
+      "navigation_marker_per_10k": 2.571,
+      "vague_action_per_10k": 0.857,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 1.714,
+      "direct_verbs_per_10k": 4.285,
+      "explicit_meta_per_10k": 0.857,
+      "semicolon_per_10k": 20.567,
+      "colon_per_10k": 38.564,
+      "parenthesis_per_10k": 35.136,
+      "numeric_anchors_per_10k": 423.344,
+      "citation_markers_per_10k": 17.996,
+      "token_variety_ratio": 0.093,
+      "common_openings": [
+        [
+          "住宅改造",
+          5
+        ],
+        [
+          "老旧社区",
+          3
+        ],
+        [
+          "另一方面",
+          3
+        ],
+        [
+          "老旧住宅",
+          3
+        ],
+        [
+          "照料型养",
+          3
+        ]
+      ]
+    },
+    {
+      "source_id": "10d146dad493",
+      "file": "街道空间品质的测度、变化评价与影响因素识别——基于大规模多时相街景图片的分析_唐婧娴.pdf",
+      "group": "architectural-journal-china",
+      "pages_total": 6,
+      "pages_profiled": 6,
+      "language": "zh",
+      "characters": 12393,
+      "sentences": 201,
+      "sentence_length_mean": 42.51,
+      "sentence_length_median": 32,
+      "sentence_length_cv": 0.875,
+      "formulaic_hits_per_10k": 12.911,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 0.807,
+      "inflated_lexicon_per_10k": 2.421,
+      "navigation_marker_per_10k": 0.807,
+      "vague_action_per_10k": 0.0,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 4.841,
+      "direct_verbs_per_10k": 6.455,
+      "explicit_meta_per_10k": 0.807,
+      "semicolon_per_10k": 42.766,
+      "colon_per_10k": 104.898,
+      "parenthesis_per_10k": 79.884,
+      "numeric_anchors_per_10k": 917.453,
+      "citation_markers_per_10k": 0.0,
+      "token_variety_ratio": 0.125,
+      "common_openings": [
+        [
+          "街道空间",
+          3
+        ],
+        [
+          "研究发现",
+          2
+        ],
+        [
+          "无变化则",
+          2
+        ],
+        [
+          "底商部分",
+          2
+        ],
+        [
+          "围墙部分",
+          2
+        ]
+      ]
+    },
+    {
+      "source_id": "9b9810f7a3bb",
+      "file": "中国住宅工业化发展及其技术演进_刘东卫.pdf",
+      "group": "architectural-journal-china",
+      "pages_total": 9,
+      "pages_profiled": 9,
+      "language": "zh",
+      "characters": 17081,
+      "sentences": 174,
+      "sentence_length_mean": 87.76,
+      "sentence_length_median": 68.0,
+      "sentence_length_cv": 1.87,
+      "formulaic_hits_per_10k": 30.443,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 1.171,
+      "inflated_lexicon_per_10k": 11.709,
+      "navigation_marker_per_10k": 0.0,
+      "vague_action_per_10k": 1.756,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 0.585,
+      "direct_verbs_per_10k": 9.953,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 5.854,
+      "colon_per_10k": 19.905,
+      "parenthesis_per_10k": 120.016,
+      "numeric_anchors_per_10k": 327.85,
+      "citation_markers_per_10k": 110.064,
+      "token_variety_ratio": 0.071,
+      "common_openings": [
+        [
+          "建筑学报",
+          5
+        ],
+        [
+          "architecturaljournal特集",
+          5
+        ],
+        [
+          "年建设部",
+          4
+        ],
+        [
+          "本阶段住",
+          3
+        ],
+        [
+          "住宅产业",
+          3
+        ]
+      ]
+    },
+    {
+      "source_id": "82e6ee8555a8",
+      "file": "工业建筑遗产保护发展综述_刘伯英.pdf",
+      "group": "architectural-journal-china",
+      "pages_total": 6,
+      "pages_profiled": 6,
+      "language": "zh",
+      "characters": 12574,
+      "sentences": 190,
+      "sentence_length_mean": 55.67,
+      "sentence_length_median": 50,
+      "sentence_length_cv": 0.653,
+      "formulaic_hits_per_10k": 41.355,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 1.591,
+      "ceremonial_frame_per_10k": 0.795,
+      "inflated_lexicon_per_10k": 6.362,
+      "navigation_marker_per_10k": 3.976,
+      "vague_action_per_10k": 3.181,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 1.591,
+      "direct_verbs_per_10k": 18.292,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 26.245,
+      "colon_per_10k": 8.748,
+      "parenthesis_per_10k": 60.442,
+      "numeric_anchors_per_10k": 189.279,
+      "citation_markers_per_10k": 7.158,
+      "token_variety_ratio": 0.125,
+      "common_openings": [
+        [
+          "中国工业",
+          6
+        ],
+        [
+          "工业遗产",
+          5
+        ],
+        [
+          "建筑学报",
+          4
+        ],
+        [
+          "architecturaljournal工业",
+          3
+        ],
+        [
+          "工业建筑",
+          3
+        ]
+      ]
+    },
+    {
+      "source_id": "35eb5ac40a51",
+      "file": "空间句法的发展现状与未来_比尔·希列尔.pdf",
+      "group": "architectural-journal-china",
+      "pages_total": 6,
+      "pages_profiled": 6,
+      "language": "zh",
+      "characters": 10975,
+      "sentences": 220,
+      "sentence_length_mean": 38.91,
+      "sentence_length_median": 35,
+      "sentence_length_cv": 0.741,
+      "formulaic_hits_per_10k": 50.114,
+      "manufactured_contrast_per_10k": 3.645,
+      "paired_escalation_per_10k": 0.911,
+      "ceremonial_frame_per_10k": 1.822,
+      "inflated_lexicon_per_10k": 18.223,
+      "navigation_marker_per_10k": 7.289,
+      "vague_action_per_10k": 0.0,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 9.112,
+      "direct_verbs_per_10k": 19.134,
+      "explicit_meta_per_10k": 0.911,
+      "semicolon_per_10k": 10.023,
+      "colon_per_10k": 39.18,
+      "parenthesis_per_10k": 41.002,
+      "numeric_anchors_per_10k": 145.786,
+      "citation_markers_per_10k": 13.667,
+      "token_variety_ratio": 0.111,
+      "common_openings": [
+        [
+          "空间句法",
+          6
+        ],
+        [
+          "从这个角",
+          2
+        ],
+        [
+          "这些中心",
+          2
+        ],
+        [
+          "而正是这",
+          2
+        ],
+        [
+          "本文认为",
+          2
+        ]
+      ]
+    },
+    {
+      "source_id": "7602af02ce4d",
+      "file": "美国养老社区及老年公寓设计新趋势_全心.pdf",
+      "group": "architectural-journal-china",
+      "pages_total": 5,
+      "pages_profiled": 5,
+      "language": "zh",
+      "characters": 7135,
+      "sentences": 138,
+      "sentence_length_mean": 38.1,
+      "sentence_length_median": 31.0,
+      "sentence_length_cv": 0.671,
+      "formulaic_hits_per_10k": 9.811,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 1.402,
+      "ceremonial_frame_per_10k": 0.0,
+      "inflated_lexicon_per_10k": 1.402,
+      "navigation_marker_per_10k": 0.0,
+      "vague_action_per_10k": 0.0,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 0.0,
+      "direct_verbs_per_10k": 7.008,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 11.212,
+      "colon_per_10k": 23.826,
+      "parenthesis_per_10k": 58.865,
+      "numeric_anchors_per_10k": 207.428,
+      "citation_markers_per_10k": 0.0,
+      "token_variety_ratio": 0.168,
+      "common_openings": [
+        [
+          "养老社区",
+          2
+        ],
+        [
+          "助理型居",
+          2
+        ],
+        [
+          "老年公寓",
+          2
+        ],
+        [
+          "km",
+          2
+        ],
+        [
+          "美国养老",
+          1
+        ]
+      ]
+    },
+    {
+      "source_id": "f6f7db61d59e",
+      "file": "英国建筑研究所环境评估法BREEAM引介_徐子苹.pdf",
+      "group": "architectural-journal-china",
+      "pages_total": 4,
+      "pages_profiled": 4,
+      "language": "zh",
+      "characters": 10129,
+      "sentences": 459,
+      "sentence_length_mean": 16.01,
+      "sentence_length_median": 4,
+      "sentence_length_cv": 1.441,
+      "formulaic_hits_per_10k": 164.873,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 1.975,
+      "inflated_lexicon_per_10k": 17.771,
+      "navigation_marker_per_10k": 4.936,
+      "vague_action_per_10k": 0.987,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 0.987,
+      "direct_verbs_per_10k": 9.873,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 52.325,
+      "colon_per_10k": 162.899,
+      "parenthesis_per_10k": 111.561,
+      "numeric_anchors_per_10k": 778.952,
+      "citation_markers_per_10k": 0.0,
+      "token_variety_ratio": 0.121,
+      "common_openings": [
+        [
+          "he",
+          18
+        ],
+        [
+          "da",
+          14
+        ],
+        [
+          "de",
+          14
+        ],
+        [
+          "d",
+          11
+        ],
+        [
+          "a",
+          10
+        ]
+      ]
+    },
+    {
+      "source_id": "18e300d5ace6",
+      "file": "BIM与人工智能融合应用研究进展_盖彤彤.pdf",
+      "group": "building-science-china",
+      "pages_total": 8,
+      "pages_profiled": 8,
+      "language": "zh",
+      "characters": 17409,
+      "sentences": 133,
+      "sentence_length_mean": 84.28,
+      "sentence_length_median": 59,
+      "sentence_length_cv": 1.433,
+      "formulaic_hits_per_10k": 31.593,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.574,
+      "ceremonial_frame_per_10k": 1.149,
+      "inflated_lexicon_per_10k": 6.319,
+      "navigation_marker_per_10k": 4.021,
+      "vague_action_per_10k": 9.191,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.574,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 2.298,
+      "direct_verbs_per_10k": 14.36,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 16.084,
+      "colon_per_10k": 39.635,
+      "parenthesis_per_10k": 25.274,
+      "numeric_anchors_per_10k": 267.678,
+      "citation_markers_per_10k": 2.872,
+      "token_variety_ratio": 0.114,
+      "common_openings": [
+        [
+          "bim与人工",
+          4
+        ],
+        [
+          "但是传统",
+          2
+        ],
+        [
+          "人工智能",
+          2
+        ],
+        [
+          "目前将bim",
+          2
+        ],
+        [
+          "bim在工程",
+          2
+        ]
+      ]
+    },
+    {
+      "source_id": "0b888d481619",
+      "file": "中国大陆绿色建筑发展现状及前景_田慧峰.pdf",
+      "group": "building-science-china",
+      "pages_total": 8,
+      "pages_profiled": 8,
+      "language": "zh",
+      "characters": 12528,
+      "sentences": 172,
+      "sentence_length_mean": 54.04,
+      "sentence_length_median": 41,
+      "sentence_length_cv": 0.939,
+      "formulaic_hits_per_10k": 35.121,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 0.0,
+      "inflated_lexicon_per_10k": 3.991,
+      "navigation_marker_per_10k": 4.789,
+      "vague_action_per_10k": 6.386,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 3.193,
+      "direct_verbs_per_10k": 11.175,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 26.341,
+      "colon_per_10k": 19.955,
+      "parenthesis_per_10k": 25.543,
+      "numeric_anchors_per_10k": 361.59,
+      "citation_markers_per_10k": 4.789,
+      "token_variety_ratio": 0.11,
+      "common_openings": [
+        [
+          "认证项目",
+          4
+        ],
+        [
+          "截至年月",
+          4
+        ],
+        [
+          "中国绿色",
+          3
+        ],
+        [
+          "绿色建筑",
+          3
+        ],
+        [
+          "由图可知",
+          3
+        ]
+      ]
+    },
+    {
+      "source_id": "94089bc212d1",
+      "file": "住宅建筑生命周期碳排放研究综述_于萍.pdf",
+      "group": "building-science-china",
+      "pages_total": 5,
+      "pages_profiled": 5,
+      "language": "zh",
+      "characters": 10230,
+      "sentences": 189,
+      "sentence_length_mean": 31.21,
+      "sentence_length_median": 15,
+      "sentence_length_cv": 1.256,
+      "formulaic_hits_per_10k": 45.943,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 0.978,
+      "inflated_lexicon_per_10k": 6.843,
+      "navigation_marker_per_10k": 5.865,
+      "vague_action_per_10k": 6.843,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 1.955,
+      "direct_verbs_per_10k": 4.888,
+      "explicit_meta_per_10k": 0.978,
+      "semicolon_per_10k": 19.55,
+      "colon_per_10k": 60.606,
+      "parenthesis_per_10k": 32.258,
+      "numeric_anchors_per_10k": 342.131,
+      "citation_markers_per_10k": 1.955,
+      "token_variety_ratio": 0.16,
+      "common_openings": [
+        [
+          "buildingandenvironment",
+          7
+        ],
+        [
+          "j",
+          3
+        ],
+        [
+          "住宅建筑",
+          3
+        ],
+        [
+          "太阳能空",
+          3
+        ],
+        [
+          "生命周期",
+          2
+        ]
+      ]
+    },
+    {
+      "source_id": "8c2e0b709763",
+      "file": "城市人为热及其影响城市热环境的研究综述_王频.pdf",
+      "group": "building-science-china",
+      "pages_total": 8,
+      "pages_profiled": 8,
+      "language": "zh",
+      "characters": 19868,
+      "sentences": 150,
+      "sentence_length_mean": 69.83,
+      "sentence_length_median": 55.5,
+      "sentence_length_cv": 2.045,
+      "formulaic_hits_per_10k": 22.146,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.503,
+      "ceremonial_frame_per_10k": 0.0,
+      "inflated_lexicon_per_10k": 5.537,
+      "navigation_marker_per_10k": 0.503,
+      "vague_action_per_10k": 6.04,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 0.0,
+      "direct_verbs_per_10k": 19.63,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 12.08,
+      "colon_per_10k": 44.292,
+      "parenthesis_per_10k": 66.438,
+      "numeric_anchors_per_10k": 408.697,
+      "citation_markers_per_10k": 2.517,
+      "token_variety_ratio": 0.129,
+      "common_openings": [
+        [
+          "其中交通",
+          3
+        ],
+        [
+          "人为排热",
+          3
+        ],
+        [
+          "结果表明",
+          3
+        ],
+        [
+          "近年来针",
+          2
+        ],
+        [
+          "本文从城",
+          2
+        ]
+      ]
+    },
+    {
+      "source_id": "a6477397e322",
+      "file": "城市微气候及热舒适性评价研究综述_金虹.pdf",
+      "group": "building-science-china",
+      "pages_total": 8,
+      "pages_profiled": 8,
+      "language": "zh",
+      "characters": 17419,
+      "sentences": 173,
+      "sentence_length_mean": 54.49,
+      "sentence_length_median": 40.5,
+      "sentence_length_cv": 1.622,
+      "formulaic_hits_per_10k": 28.704,
+      "manufactured_contrast_per_10k": 0.574,
+      "paired_escalation_per_10k": 0.574,
+      "ceremonial_frame_per_10k": 2.296,
+      "inflated_lexicon_per_10k": 13.778,
+      "navigation_marker_per_10k": 3.445,
+      "vague_action_per_10k": 1.148,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 1.722,
+      "direct_verbs_per_10k": 8.611,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 8.611,
+      "colon_per_10k": 47.075,
+      "parenthesis_per_10k": 34.445,
+      "numeric_anchors_per_10k": 319.766,
+      "citation_markers_per_10k": 1.722,
+      "token_variety_ratio": 0.159,
+      "common_openings": [
+        [
+          "t",
+          5
+        ],
+        [
+          "具有代表",
+          2
+        ],
+        [
+          "第期金虹",
+          2
+        ],
+        [
+          "人为热排",
+          2
+        ],
+        [
+          "城市热舒",
+          2
+        ]
+      ]
+    },
+    {
+      "source_id": "76083024c66f",
+      "file": "建筑热桥研究现状与展望_孙大明.pdf",
+      "group": "building-science-china",
+      "pages_total": 7,
+      "pages_profiled": 7,
+      "language": "zh",
+      "characters": 14099,
+      "sentences": 139,
+      "sentence_length_mean": 59.76,
+      "sentence_length_median": 48,
+      "sentence_length_cv": 1.169,
+      "formulaic_hits_per_10k": 45.393,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.709,
+      "ceremonial_frame_per_10k": 1.419,
+      "inflated_lexicon_per_10k": 14.185,
+      "navigation_marker_per_10k": 0.0,
+      "vague_action_per_10k": 19.15,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 0.0,
+      "direct_verbs_per_10k": 19.15,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 4.965,
+      "colon_per_10k": 43.265,
+      "parenthesis_per_10k": 37.591,
+      "numeric_anchors_per_10k": 362.437,
+      "citation_markers_per_10k": 0.0,
+      "token_variety_ratio": 0.095,
+      "common_openings": [
+        [
+          "建筑热桥",
+          2
+        ],
+        [
+          "年郁文红",
+          2
+        ],
+        [
+          "年樊洪明",
+          2
+        ],
+        [
+          "图解法分",
+          2
+        ],
+        [
+          "有限差分",
+          2
+        ]
+      ]
+    },
+    {
+      "source_id": "7fef50d6b200",
+      "file": "建筑节能检测与评估技术发展现状_宋波.pdf",
+      "group": "building-science-china",
+      "pages_total": 8,
+      "pages_profiled": 8,
+      "language": "zh",
+      "characters": 15278,
+      "sentences": 174,
+      "sentence_length_mean": 74.1,
+      "sentence_length_median": 64,
+      "sentence_length_cv": 0.79,
+      "formulaic_hits_per_10k": 41.236,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 0.655,
+      "inflated_lexicon_per_10k": 15.709,
+      "navigation_marker_per_10k": 3.273,
+      "vague_action_per_10k": 1.309,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.655,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 4.582,
+      "direct_verbs_per_10k": 17.672,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 15.709,
+      "colon_per_10k": 33.381,
+      "parenthesis_per_10k": 39.927,
+      "numeric_anchors_per_10k": 229.088,
+      "citation_markers_per_10k": 18.982,
+      "token_variety_ratio": 0.096,
+      "common_openings": [
+        [
+          "建筑节能",
+          8
+        ],
+        [
+          "节能检测",
+          4
+        ],
+        [
+          "目前我国",
+          3
+        ],
+        [
+          "因此必须",
+          3
+        ],
+        [
+          "整体账单",
+          3
+        ]
+      ]
+    },
+    {
+      "source_id": "d8a1839cc609",
+      "file": "建筑防火安全的新思维——我国建筑防火性能化设计的发展历程_李引擎.pdf",
+      "group": "building-science-china",
+      "pages_total": 10,
+      "pages_profiled": 10,
+      "language": "zh",
+      "characters": 15305,
+      "sentences": 251,
+      "sentence_length_mean": 53.01,
+      "sentence_length_median": 44,
+      "sentence_length_cv": 1.006,
+      "formulaic_hits_per_10k": 57.498,
+      "manufactured_contrast_per_10k": 0.653,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 3.267,
+      "inflated_lexicon_per_10k": 12.414,
+      "navigation_marker_per_10k": 6.534,
+      "vague_action_per_10k": 1.96,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 13.068,
+      "direct_verbs_per_10k": 30.056,
+      "explicit_meta_per_10k": 1.307,
+      "semicolon_per_10k": 14.374,
+      "colon_per_10k": 20.255,
+      "parenthesis_per_10k": 37.896,
+      "numeric_anchors_per_10k": 174.453,
+      "citation_markers_per_10k": 2.614,
+      "token_variety_ratio": 0.093,
+      "common_openings": [
+        [
+          "建筑防火",
+          6
+        ],
+        [
+          "高大空间",
+          5
+        ],
+        [
+          "m",
+          5
+        ],
+        [
+          "性能化防",
+          4
+        ],
+        [
+          "性能化的",
+          3
+        ]
+      ]
+    },
+    {
+      "source_id": "9e5cd50a5d0d",
+      "file": "建筑风环境研究进展_杨丽.pdf",
+      "group": "building-science-china",
+      "pages_total": 10,
+      "pages_profiled": 10,
+      "language": "zh",
+      "characters": 21708,
+      "sentences": 134,
+      "sentence_length_mean": 79.16,
+      "sentence_length_median": 58.0,
+      "sentence_length_cv": 2.193,
+      "formulaic_hits_per_10k": 25.336,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 3.225,
+      "ceremonial_frame_per_10k": 3.225,
+      "inflated_lexicon_per_10k": 6.449,
+      "navigation_marker_per_10k": 0.0,
+      "vague_action_per_10k": 4.146,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.461,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 1.843,
+      "direct_verbs_per_10k": 11.977,
+      "explicit_meta_per_10k": 0.921,
+      "semicolon_per_10k": 3.225,
+      "colon_per_10k": 49.291,
+      "parenthesis_per_10k": 28.1,
+      "numeric_anchors_per_10k": 319.698,
+      "citation_markers_per_10k": 1.382,
+      "token_variety_ratio": 0.138,
+      "common_openings": [
+        [
+          "除此之外",
+          4
+        ],
+        [
+          "微型风力",
+          3
+        ],
+        [
+          "近些年来",
+          2
+        ],
+        [
+          "与此同时",
+          2
+        ],
+        [
+          "建筑科学",
+          2
+        ]
+      ]
+    },
+    {
+      "source_id": "548f7c583c73",
+      "file": "A+Survey+of+Simplification+and+Multiresolution+Techniques+for+Massive+Meshes.pdf",
+      "group": "journal-of-cad-and-computer-graphics",
+      "pages_total": 10,
+      "pages_profiled": 10,
+      "language": "zh",
+      "characters": 19023,
+      "sentences": 30,
+      "sentence_length_mean": 370.59,
+      "sentence_length_median": 76,
+      "sentence_length_cv": 2.295,
+      "formulaic_hits_per_10k": 21.027,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.526,
+      "ceremonial_frame_per_10k": 0.526,
+      "inflated_lexicon_per_10k": 10.514,
+      "navigation_marker_per_10k": 8.411,
+      "vague_action_per_10k": 1.051,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 3.154,
+      "direct_verbs_per_10k": 21.027,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 19.45,
+      "colon_per_10k": 39.426,
+      "parenthesis_per_10k": 33.118,
+      "numeric_anchors_per_10k": 260.737,
+      "citation_markers_per_10k": 40.477,
+      "token_variety_ratio": 0.108,
+      "common_openings": [
+        [
+          "第卷第期",
+          1
+        ],
+        [
+          "这种技术",
+          1
+        ],
+        [
+          "博士研究",
+          1
+        ],
+        [
+          "博士主受",
+          1
+        ],
+        [
+          "副教授主",
+          1
+        ]
+      ]
+    },
+    {
+      "source_id": "cf6ae83de394",
+      "file": "A+Survey+on+Brain+Fiber+Visualization.pdf",
+      "group": "journal-of-cad-and-computer-graphics",
+      "pages_total": 11,
+      "pages_profiled": 10,
+      "language": "zh",
+      "characters": 21936,
+      "sentences": 310,
+      "sentence_length_mean": 37.25,
+      "sentence_length_median": 25,
+      "sentence_length_cv": 0.881,
+      "formulaic_hits_per_10k": 41.028,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 0.0,
+      "inflated_lexicon_per_10k": 10.029,
+      "navigation_marker_per_10k": 1.823,
+      "vague_action_per_10k": 3.647,
+      "abstract_shell_per_10k": 0.456,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 2.279,
+      "direct_verbs_per_10k": 12.764,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 15.956,
+      "colon_per_10k": 48.778,
+      "parenthesis_per_10k": 37.837,
+      "numeric_anchors_per_10k": 264.861,
+      "citation_markers_per_10k": 70.204,
+      "token_variety_ratio": 0.125,
+      "common_openings": [
+        [
+          "ieeetransactionsonvisualization",
+          16
+        ],
+        [
+          "losalamitosieeecomputer",
+          5
+        ],
+        [
+          "脑纤维可",
+          4
+        ],
+        [
+          "计算机辅",
+          3
+        ],
+        [
+          "文中通过",
+          2
+        ]
+      ]
+    },
+    {
+      "source_id": "7b81b2fdb4a7",
+      "file": "A+Survey+on+Content-Based+Medical+Image+Retrieval.pdf",
+      "group": "journal-of-cad-and-computer-graphics",
+      "pages_total": 10,
+      "pages_profiled": 10,
+      "language": "zh",
+      "characters": 22217,
+      "sentences": 21,
+      "sentence_length_mean": 665.7,
+      "sentence_length_median": 123.5,
+      "sentence_length_cv": 2.34,
+      "formulaic_hits_per_10k": 16.654,
+      "manufactured_contrast_per_10k": 0.45,
+      "paired_escalation_per_10k": 0.9,
+      "ceremonial_frame_per_10k": 0.45,
+      "inflated_lexicon_per_10k": 8.552,
+      "navigation_marker_per_10k": 4.501,
+      "vague_action_per_10k": 0.9,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.45,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 3.601,
+      "direct_verbs_per_10k": 18.454,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 20.255,
+      "colon_per_10k": 33.758,
+      "parenthesis_per_10k": 27.456,
+      "numeric_anchors_per_10k": 211.55,
+      "citation_markers_per_10k": 36.909,
+      "token_variety_ratio": 0.1,
+      "common_openings": [
+        [
+          "第卷第期",
+          1
+        ],
+        [
+          "孙d缸ng",
+          1
+        ],
+        [
+          "男博士研",
+          1
+        ],
+        [
+          "讲师主要",
+          1
+        ],
+        [
+          "基于机器",
+          1
+        ]
+      ]
+    },
+    {
+      "source_id": "d7a0c1b3cdba",
+      "file": "A+Survey+on+Mobile+Augmented+Reality+Visualization.pdf",
+      "group": "journal-of-cad-and-computer-graphics",
+      "pages_total": 8,
+      "pages_profiled": 8,
+      "language": "zh",
+      "characters": 20082,
+      "sentences": 333,
+      "sentence_length_mean": 32.21,
+      "sentence_length_median": 27.0,
+      "sentence_length_cv": 0.726,
+      "formulaic_hits_per_10k": 40.335,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.996,
+      "ceremonial_frame_per_10k": 1.494,
+      "inflated_lexicon_per_10k": 7.967,
+      "navigation_marker_per_10k": 9.959,
+      "vague_action_per_10k": 1.494,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 1.992,
+      "direct_verbs_per_10k": 15.935,
+      "explicit_meta_per_10k": 0.498,
+      "semicolon_per_10k": 16.433,
+      "colon_per_10k": 58.261,
+      "parenthesis_per_10k": 31.869,
+      "numeric_anchors_per_10k": 243.004,
+      "citation_markers_per_10k": 66.726,
+      "token_variety_ratio": 0.141,
+      "common_openings": [
+        [
+          "losalamitosieeecomputer",
+          10
+        ],
+        [
+          "newyorkacmpress",
+          5
+        ],
+        [
+          "移动ar可",
+          3
+        ],
+        [
+          "ar可视化",
+          3
+        ],
+        [
+          "而视频透",
+          2
+        ]
+      ]
+    },
+    {
+      "source_id": "2cebc32de92f",
+      "file": "Stereoscopic+Visual+Comfort+and+Its+Measurement++a+Review.pdf",
+      "group": "journal-of-cad-and-computer-graphics",
+      "pages_total": 9,
+      "pages_profiled": 9,
+      "language": "zh",
+      "characters": 22861,
+      "sentences": 339,
+      "sentence_length_mean": 30.76,
+      "sentence_length_median": 17,
+      "sentence_length_cv": 0.992,
+      "formulaic_hits_per_10k": 27.12,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.437,
+      "ceremonial_frame_per_10k": 0.0,
+      "inflated_lexicon_per_10k": 7.874,
+      "navigation_marker_per_10k": 3.499,
+      "vague_action_per_10k": 0.437,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 8.311,
+      "direct_verbs_per_10k": 12.248,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 14.872,
+      "colon_per_10k": 52.054,
+      "parenthesis_per_10k": 45.93,
+      "numeric_anchors_per_10k": 288.701,
+      "citation_markers_per_10k": 68.676,
+      "token_variety_ratio": 0.135,
+      "common_openings": [
+        [
+          "losalamitosieeecomputer",
+          5
+        ],
+        [
+          "调节辐辏",
+          4
+        ],
+        [
+          "ophthalmicandphysiologicaloptics",
+          3
+        ],
+        [
+          "ieeetransactionsonimage",
+          3
+        ],
+        [
+          "舒适度是",
+          2
+        ]
+      ]
+    },
+    {
+      "source_id": "8abfc61ae1c5",
+      "file": "Survey+of+Asynchronous+Networks-on-Chip.pdf",
+      "group": "journal-of-cad-and-computer-graphics",
+      "pages_total": 11,
+      "pages_profiled": 10,
+      "language": "en",
+      "characters": 19178,
+      "sentences": 961,
+      "sentence_length_mean": 4.11,
+      "sentence_length_median": 3.0,
+      "sentence_length_cv": 0.877,
+      "formulaic_hits_per_10k": 97.508,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 0.0,
+      "inflated_lexicon_per_10k": 0.0,
+      "navigation_marker_per_10k": 0.0,
+      "vague_action_per_10k": 0.0,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 0.0,
+      "direct_verbs_per_10k": 0.0,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 38.586,
+      "colon_per_10k": 30.764,
+      "parenthesis_per_10k": 234.122,
+      "numeric_anchors_per_10k": 951.09,
+      "citation_markers_per_10k": 0.0,
+      "token_variety_ratio": 0.171,
+      "common_openings": [
+        [
+          "k",
+          17
+        ],
+        [
+          "g",
+          14
+        ],
+        [
+          "l",
+          13
+        ],
+        [
+          "ybbb",
+          13
+        ],
+        [
+          "edc",
+          13
+        ]
+      ]
+    },
+    {
+      "source_id": "5a1f20fb60fa",
+      "file": "Survey+of+Modeling+and+Representation+of+Tolerance+Information+in+CAD+System.pdf",
+      "group": "journal-of-cad-and-computer-graphics",
+      "pages_total": 8,
+      "pages_profiled": 8,
+      "language": "zh",
+      "characters": 15394,
+      "sentences": 1,
+      "sentence_length_mean": 8228,
+      "sentence_length_median": 8228,
+      "sentence_length_cv": 0.0,
+      "formulaic_hits_per_10k": 15.59,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.65,
+      "ceremonial_frame_per_10k": 0.0,
+      "inflated_lexicon_per_10k": 6.496,
+      "navigation_marker_per_10k": 5.846,
+      "vague_action_per_10k": 1.949,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.65,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 4.547,
+      "direct_verbs_per_10k": 5.846,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 13.642,
+      "colon_per_10k": 50.669,
+      "parenthesis_per_10k": 68.858,
+      "numeric_anchors_per_10k": 275.432,
+      "citation_markers_per_10k": 0.0,
+      "token_variety_ratio": 0.129,
+      "common_openings": [
+        [
+          "第卷第期",
+          1
+        ]
+      ]
+    },
+    {
+      "source_id": "f2adc24fb225",
+      "file": "Survey+on+Perception+Enhanced+Flow+Visualization.pdf",
+      "group": "journal-of-cad-and-computer-graphics",
+      "pages_total": 14,
+      "pages_profiled": 10,
+      "language": "zh",
+      "characters": 15399,
+      "sentences": 212,
+      "sentence_length_mean": 58.88,
+      "sentence_length_median": 56.0,
+      "sentence_length_cv": 0.574,
+      "formulaic_hits_per_10k": 67.537,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 0.0,
+      "inflated_lexicon_per_10k": 44.808,
+      "navigation_marker_per_10k": 0.0,
+      "vague_action_per_10k": 5.845,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 2.598,
+      "direct_verbs_per_10k": 17.534,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 21.43,
+      "colon_per_10k": 16.235,
+      "parenthesis_per_10k": 24.028,
+      "numeric_anchors_per_10k": 148.711,
+      "citation_markers_per_10k": 41.561,
+      "token_variety_ratio": 0.087,
+      "common_openings": [
+        [
+          "流场可视",
+          4
+        ],
+        [
+          "a",
+          3
+        ],
+        [
+          "关联性交",
+          3
+        ],
+        [
+          "感知增强",
+          2
+        ],
+        [
+          "以vcih模型",
+          2
+        ]
+      ]
+    },
+    {
+      "source_id": "68a9422f798e",
+      "file": "Survey+on+Supervised+Learning+Based+Depth+Estimation+from+a+Single+Image.pdf",
+      "group": "journal-of-cad-and-computer-graphics",
+      "pages_total": 11,
+      "pages_profiled": 10,
+      "language": "zh",
+      "characters": 20454,
+      "sentences": 317,
+      "sentence_length_mean": 47.37,
+      "sentence_length_median": 44,
+      "sentence_length_cv": 0.786,
+      "formulaic_hits_per_10k": 41.068,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.489,
+      "ceremonial_frame_per_10k": 0.489,
+      "inflated_lexicon_per_10k": 9.289,
+      "navigation_marker_per_10k": 5.867,
+      "vague_action_per_10k": 0.489,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.978,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 5.867,
+      "direct_verbs_per_10k": 11.734,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 29.823,
+      "colon_per_10k": 34.712,
+      "parenthesis_per_10k": 22.978,
+      "numeric_anchors_per_10k": 257.162,
+      "citation_markers_per_10k": 50.357,
+      "token_variety_ratio": 0.089,
+      "common_openings": [
+        [
+          "losalamitosieeecomputer",
+          7
+        ],
+        [
+          "深度学习",
+          6
+        ],
+        [
+          "在深度估",
+          4
+        ],
+        [
+          "非参数学",
+          4
+        ],
+        [
+          "internationaljournalofcomputer",
+          4
+        ]
+      ]
+    },
+    {
+      "source_id": "72ed4bf6ae0e",
+      "file": "计算机辅助机械产品概念设计研究综述.pdf",
+      "group": "journal-of-cad-and-computer-graphics",
+      "pages_total": 8,
+      "pages_profiled": 8,
+      "language": "zh",
+      "characters": 16949,
+      "sentences": 1,
+      "sentence_length_mean": 9071,
+      "sentence_length_median": 9071,
+      "sentence_length_cv": 0.0,
+      "formulaic_hits_per_10k": 30.68,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.59,
+      "ceremonial_frame_per_10k": 1.18,
+      "inflated_lexicon_per_10k": 17.11,
+      "navigation_marker_per_10k": 6.49,
+      "vague_action_per_10k": 4.13,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.59,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 0.59,
+      "direct_verbs_per_10k": 7.08,
+      "explicit_meta_per_10k": 0.59,
+      "semicolon_per_10k": 14.75,
+      "colon_per_10k": 60.771,
+      "parenthesis_per_10k": 57.821,
+      "numeric_anchors_per_10k": 278.483,
+      "citation_markers_per_10k": 0.0,
+      "token_variety_ratio": 0.127,
+      "common_openings": [
+        [
+          "第卷第期",
+          1
+        ]
+      ]
+    },
+    {
+      "source_id": "d97b769e05ac",
+      "file": "伦敦城市开放空间规划中的绿色通道网络思想_韩西丽.pdf",
+      "group": "new-architecture",
+      "pages_total": 3,
+      "pages_profiled": 3,
+      "language": "zh",
+      "characters": 4004,
+      "sentences": 81,
+      "sentence_length_mean": 45.9,
+      "sentence_length_median": 38.0,
+      "sentence_length_cv": 0.622,
+      "formulaic_hits_per_10k": 52.448,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 0.0,
+      "inflated_lexicon_per_10k": 9.99,
+      "navigation_marker_per_10k": 9.99,
+      "vague_action_per_10k": 0.0,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 0.0,
+      "direct_verbs_per_10k": 0.0,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 0.0,
+      "colon_per_10k": 0.0,
+      "parenthesis_per_10k": 0.0,
+      "numeric_anchors_per_10k": 0.0,
+      "citation_markers_per_10k": 0.0,
+      "token_variety_ratio": 0.167,
+      "common_openings": [
+        [
+          "绿色通道",
+          7
+        ],
+        [
+          "开放空间",
+          4
+        ],
+        [
+          "年伦教开",
+          3
+        ],
+        [
+          "线性空间",
+          2
+        ],
+        [
+          "伦敦城市",
+          1
+        ]
+      ]
+    },
+    {
+      "source_id": "7443c3e48626",
+      "file": "当前高校规划建设的几个发展趋向_何镜堂.pdf",
+      "group": "new-architecture",
+      "pages_total": 3,
+      "pages_profiled": 3,
+      "language": "zh",
+      "characters": 5705,
+      "sentences": 130,
+      "sentence_length_mean": 39.85,
+      "sentence_length_median": 38,
+      "sentence_length_cv": 0.709,
+      "formulaic_hits_per_10k": 45.574,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 1.753,
+      "ceremonial_frame_per_10k": 8.764,
+      "inflated_lexicon_per_10k": 8.764,
+      "navigation_marker_per_10k": 10.517,
+      "vague_action_per_10k": 0.0,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 8.764,
+      "direct_verbs_per_10k": 14.023,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 17.528,
+      "colon_per_10k": 10.517,
+      "parenthesis_per_10k": 31.551,
+      "numeric_anchors_per_10k": 192.813,
+      "citation_markers_per_10k": 0.0,
+      "token_variety_ratio": 0.146,
+      "common_openings": [
+        [
+          "根据自身",
+          2
+        ],
+        [
+          "在单体建",
+          2
+        ],
+        [
+          "在教学中",
+          2
+        ],
+        [
+          "新建筑",
+          1
+        ],
+        [
+          "高校校园",
+          1
+        ]
+      ]
+    },
+    {
+      "source_id": "53d4743af07e",
+      "file": "景观规划设计三元论——寻求中国景观规划设计发展创新的基点_刘滨谊.pdf",
+      "group": "new-architecture",
+      "pages_total": 3,
+      "pages_profiled": 3,
+      "language": "zh",
+      "characters": 6153,
+      "sentences": 126,
+      "sentence_length_mean": 52.51,
+      "sentence_length_median": 40.5,
+      "sentence_length_cv": 0.822,
+      "formulaic_hits_per_10k": 39.005,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 4.876,
+      "inflated_lexicon_per_10k": 6.501,
+      "navigation_marker_per_10k": 11.377,
+      "vague_action_per_10k": 1.625,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 0.0,
+      "direct_verbs_per_10k": 3.25,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 43.881,
+      "colon_per_10k": 17.877,
+      "parenthesis_per_10k": 81.261,
+      "numeric_anchors_per_10k": 191.776,
+      "citation_markers_per_10k": 0.0,
+      "token_variety_ratio": 0.14,
+      "common_openings": [
+        [
+          "景观环境",
+          4
+        ],
+        [
+          "历经百年",
+          2
+        ],
+        [
+          "现代景观",
+          2
+        ],
+        [
+          "景观建筑",
+          2
+        ],
+        [
+          "主要是从",
+          2
+        ]
+      ]
+    },
+    {
+      "source_id": "5c73c5ef9ae7",
+      "file": "街道活力的量化评价及影响因素分析——以成都为例_龙瀛.pdf",
+      "group": "new-architecture",
+      "pages_total": 6,
+      "pages_profiled": 6,
+      "language": "zh",
+      "characters": 13147,
+      "sentences": 163,
+      "sentence_length_mean": 45.51,
+      "sentence_length_median": 35.0,
+      "sentence_length_cv": 0.844,
+      "formulaic_hits_per_10k": 19.776,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.761,
+      "ceremonial_frame_per_10k": 0.0,
+      "inflated_lexicon_per_10k": 5.324,
+      "navigation_marker_per_10k": 1.521,
+      "vague_action_per_10k": 0.0,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 2.282,
+      "direct_verbs_per_10k": 1.521,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 15.973,
+      "colon_per_10k": 63.132,
+      "parenthesis_per_10k": 90.515,
+      "numeric_anchors_per_10k": 725.641,
+      "citation_markers_per_10k": 0.0,
+      "token_variety_ratio": 0.118,
+      "common_openings": [
+        [
+          "公共空城",
+          3
+        ],
+        [
+          "活力新建",
+          3
+        ],
+        [
+          "周边地块",
+          3
+        ],
+        [
+          "雅各布斯",
+          2
+        ],
+        [
+          "街道城市",
+          2
+        ]
+      ]
+    },
+    {
+      "source_id": "d61bdd6e25dc",
+      "file": "论城市滨水区的可持续性城市设计_翁奕城.pdf",
+      "group": "new-architecture",
+      "pages_total": 3,
+      "pages_profiled": 3,
+      "language": "zh",
+      "characters": 5475,
+      "sentences": 74,
+      "sentence_length_mean": 63.01,
+      "sentence_length_median": 58.0,
+      "sentence_length_cv": 0.543,
+      "formulaic_hits_per_10k": 85.845,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 3.653,
+      "ceremonial_frame_per_10k": 5.479,
+      "inflated_lexicon_per_10k": 23.744,
+      "navigation_marker_per_10k": 23.744,
+      "vague_action_per_10k": 7.306,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 5.479,
+      "direct_verbs_per_10k": 1.826,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 1.826,
+      "colon_per_10k": 5.479,
+      "parenthesis_per_10k": 16.438,
+      "numeric_anchors_per_10k": 71.233,
+      "citation_markers_per_10k": 0.0,
+      "token_variety_ratio": 0.176,
+      "common_openings": [
+        [
+          "城市滨水",
+          2
+        ],
+        [
+          "因此在滨",
+          2
+        ],
+        [
+          "另一方面",
+          2
+        ],
+        [
+          "因此滨水",
+          2
+        ],
+        [
+          "现在许多",
+          2
+        ]
+      ]
+    },
+    {
+      "source_id": "089f087b26a9",
+      "file": "ChatHouseDiffusion_提示词引导的建筑平面图生成与编辑方法_覃思中.pdf",
+      "group": "wenxian-ai",
+      "pages_total": 9,
+      "pages_profiled": 9,
+      "language": "zh",
+      "characters": 17419,
+      "sentences": 381,
+      "sentence_length_mean": 25.53,
+      "sentence_length_median": 20,
+      "sentence_length_cv": 0.957,
+      "formulaic_hits_per_10k": 57.409,
+      "manufactured_contrast_per_10k": 0.574,
+      "paired_escalation_per_10k": 2.296,
+      "ceremonial_frame_per_10k": 0.0,
+      "inflated_lexicon_per_10k": 8.611,
+      "navigation_marker_per_10k": 9.185,
+      "vague_action_per_10k": 2.296,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 2.87,
+      "direct_verbs_per_10k": 13.204,
+      "explicit_meta_per_10k": 0.574,
+      "semicolon_per_10k": 16.074,
+      "colon_per_10k": 67.168,
+      "parenthesis_per_10k": 38.464,
+      "numeric_anchors_per_10k": 306.562,
+      "citation_markers_per_10k": 34.445,
+      "token_variety_ratio": 0.141,
+      "common_openings": [
+        [
+          "doi",
+          20
+        ],
+        [
+          "建筑平面",
+          5
+        ],
+        [
+          "j",
+          5
+        ],
+        [
+          "arxiv",
+          5
+        ],
+        [
+          "cvpr",
+          4
+        ]
+      ]
+    },
+    {
+      "source_id": "e1c776d1456d",
+      "file": "Cons2Plan Vector Floorplan Generation from Various Conditions via a Learning Framework based on Conditional Diffusion Models.pdf",
+      "group": "wenxian-ai",
+      "pages_total": 9,
+      "pages_profiled": 9,
+      "language": "en",
+      "characters": 43296,
+      "sentences": 842,
+      "sentence_length_mean": 11.63,
+      "sentence_length_median": 11.0,
+      "sentence_length_cv": 0.82,
+      "formulaic_hits_per_10k": 37.648,
+      "manufactured_contrast_per_10k": 0.462,
+      "paired_escalation_per_10k": 0.462,
+      "ceremonial_frame_per_10k": 0.462,
+      "inflated_lexicon_per_10k": 0.0,
+      "navigation_marker_per_10k": 1.848,
+      "vague_action_per_10k": 1.155,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.693,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 0.0,
+      "direct_verbs_per_10k": 10.394,
+      "explicit_meta_per_10k": 0.693,
+      "semicolon_per_10k": 1.617,
+      "colon_per_10k": 25.407,
+      "parenthesis_per_10k": 26.099,
+      "numeric_anchors_per_10k": 183.389,
+      "citation_markers_per_10k": 21.249,
+      "token_variety_ratio": 0.24,
+      "common_openings": [
+        [
+          "org",
+          26
+        ],
+        [
+          "httpsdoi",
+          24
+        ],
+        [
+          "arxiv",
+          7
+        ],
+        [
+          "cvpr",
+          6
+        ],
+        [
+          "consplanvectorfloorplan",
+          5
+        ]
+      ]
+    },
+    {
+      "source_id": "7bbaa38b752f",
+      "file": "CubiCasa5K A Dataset and an Improved Multi-task Model for Floorplan Image Analysis.pdf",
+      "group": "wenxian-ai",
+      "pages_total": 13,
+      "pages_profiled": 10,
+      "language": "en",
+      "characters": 21662,
+      "sentences": 335,
+      "sentence_length_mean": 15.57,
+      "sentence_length_median": 14.0,
+      "sentence_length_cv": 0.728,
+      "formulaic_hits_per_10k": 14.311,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 0.0,
+      "inflated_lexicon_per_10k": 0.0,
+      "navigation_marker_per_10k": 0.462,
+      "vague_action_per_10k": 2.308,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.923,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 1.385,
+      "direct_verbs_per_10k": 6.925,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 0.462,
+      "colon_per_10k": 7.848,
+      "parenthesis_per_10k": 23.544,
+      "numeric_anchors_per_10k": 153.725,
+      "citation_markers_per_10k": 32.776,
+      "token_variety_ratio": 0.272,
+      "common_openings": [
+        [
+          "g",
+          4
+        ],
+        [
+          "kalervoetal",
+          4
+        ],
+        [
+          "e",
+          4
+        ],
+        [
+          "cubicasakadataset",
+          3
+        ],
+        [
+          "fig",
+          3
+        ]
+      ]
+    },
+    {
+      "source_id": "c32987dbf084",
+      "file": "Data-driven Interior Plan Generation for Residential Buildings.pdf",
+      "group": "wenxian-ai",
+      "pages_total": 12,
+      "pages_profiled": 10,
+      "language": "en",
+      "characters": 41969,
+      "sentences": 726,
+      "sentence_length_mean": 12.03,
+      "sentence_length_median": 10.0,
+      "sentence_length_cv": 1.002,
+      "formulaic_hits_per_10k": 44.557,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 0.0,
+      "inflated_lexicon_per_10k": 0.238,
+      "navigation_marker_per_10k": 0.477,
+      "vague_action_per_10k": 0.0,
+      "abstract_shell_per_10k": 0.238,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 1.43,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 1.906,
+      "direct_verbs_per_10k": 7.148,
+      "explicit_meta_per_10k": 0.477,
+      "semicolon_per_10k": 7.863,
+      "colon_per_10k": 12.39,
+      "parenthesis_per_10k": 52.896,
+      "numeric_anchors_per_10k": 132.002,
+      "citation_markers_per_10k": 2.144,
+      "token_variety_ratio": 0.161,
+      "common_openings": [
+        [
+          "e",
+          12
+        ],
+        [
+          "graph",
+          11
+        ],
+        [
+          "vol",
+          10
+        ],
+        [
+          "no",
+          10
+        ],
+        [
+          "article",
+          10
+        ]
+      ]
+    },
+    {
+      "source_id": "4d610c695d3c",
+      "file": "End-to-End Graph-Constrained Vectorized Floorplan Generation with Panoptic Refinement.pdf",
+      "group": "wenxian-ai",
+      "pages_total": 16,
+      "pages_profiled": 10,
+      "language": "en",
+      "characters": 23175,
+      "sentences": 245,
+      "sentence_length_mean": 18.38,
+      "sentence_length_median": 18.0,
+      "sentence_length_cv": 0.604,
+      "formulaic_hits_per_10k": 11.219,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 0.0,
+      "inflated_lexicon_per_10k": 0.0,
+      "navigation_marker_per_10k": 0.431,
+      "vague_action_per_10k": 2.589,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 1.294,
+      "direct_verbs_per_10k": 6.904,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 0.431,
+      "colon_per_10k": 7.335,
+      "parenthesis_per_10k": 18.554,
+      "numeric_anchors_per_10k": 87.594,
+      "citation_markers_per_10k": 22.869,
+      "token_variety_ratio": 0.237,
+      "common_openings": [
+        [
+          "liuetal",
+          5
+        ],
+        [
+          "fig",
+          3
+        ],
+        [
+          "e",
+          3
+        ],
+        [
+          "inthedraftstage",
+          3
+        ],
+        [
+          "intherefiningstage",
+          3
+        ]
+      ]
+    },
+    {
+      "source_id": "43dba54bc8d2",
+      "file": "FloorNet A Unified Framework for Floorplan Reconstruction from 3D Scans.pdf",
+      "group": "wenxian-ai",
+      "pages_total": 17,
+      "pages_profiled": 10,
+      "language": "en",
+      "characters": 21840,
+      "sentences": 282,
+      "sentence_length_mean": 15.28,
+      "sentence_length_median": 15,
+      "sentence_length_cv": 0.677,
+      "formulaic_hits_per_10k": 20.147,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 0.0,
+      "inflated_lexicon_per_10k": 0.916,
+      "navigation_marker_per_10k": 0.0,
+      "vague_action_per_10k": 1.374,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.458,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 1.374,
+      "direct_verbs_per_10k": 2.747,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 1.832,
+      "colon_per_10k": 13.736,
+      "parenthesis_per_10k": 23.81,
+      "numeric_anchors_per_10k": 148.352,
+      "citation_markers_per_10k": 28.388,
+      "token_variety_ratio": 0.275,
+      "common_openings": [
+        [
+          "e",
+          8
+        ],
+        [
+          "floornetaunifiedframework",
+          5
+        ],
+        [
+          "liuetal",
+          5
+        ],
+        [
+          "c",
+          4
+        ],
+        [
+          "fig",
+          4
+        ]
+      ]
+    },
+    {
+      "source_id": "8d3b4a481d18",
+      "file": "Graph+Neural+Network+for+Generative+Furniture+Arrangement.pdf",
+      "group": "wenxian-ai",
+      "pages_total": 8,
+      "pages_profiled": 8,
+      "language": "zh",
+      "characters": 14638,
+      "sentences": 251,
+      "sentence_length_mean": 30.79,
+      "sentence_length_median": 22,
+      "sentence_length_cv": 0.91,
+      "formulaic_hits_per_10k": 47.821,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 0.0,
+      "inflated_lexicon_per_10k": 4.782,
+      "navigation_marker_per_10k": 0.0,
+      "vague_action_per_10k": 2.733,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 1.366,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 2.733,
+      "direct_verbs_per_10k": 7.515,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 12.297,
+      "colon_per_10k": 45.088,
+      "parenthesis_per_10k": 79.246,
+      "numeric_anchors_per_10k": 263.014,
+      "citation_markers_per_10k": 47.138,
+      "token_variety_ratio": 0.134,
+      "common_openings": [
+        [
+          "acmtransactionsongraphics",
+          11
+        ],
+        [
+          "losalamitosieeecomputer",
+          9
+        ],
+        [
+          "生成结果",
+          6
+        ],
+        [
+          "家具摆放",
+          5
+        ],
+        [
+          "图神经网",
+          3
+        ]
+      ]
+    },
+    {
+      "source_id": "c98fce0c5591",
+      "file": "Graph2Plan Learning Floorplan Generation from Layout Graphs.pdf",
+      "group": "wenxian-ai",
+      "pages_total": 14,
+      "pages_profiled": 10,
+      "language": "en",
+      "characters": 45293,
+      "sentences": 599,
+      "sentence_length_mean": 16.27,
+      "sentence_length_median": 15.0,
+      "sentence_length_cv": 0.766,
+      "formulaic_hits_per_10k": 31.793,
+      "manufactured_contrast_per_10k": 0.221,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 0.0,
+      "inflated_lexicon_per_10k": 0.221,
+      "navigation_marker_per_10k": 1.325,
+      "vague_action_per_10k": 0.442,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.442,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 1.766,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 4.195,
+      "direct_verbs_per_10k": 5.961,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 4.636,
+      "colon_per_10k": 11.922,
+      "parenthesis_per_10k": 35.326,
+      "numeric_anchors_per_10k": 82.353,
+      "citation_markers_per_10k": 5.299,
+      "token_variety_ratio": 0.156,
+      "common_openings": [
+        [
+          "graph",
+          11
+        ],
+        [
+          "vol",
+          10
+        ],
+        [
+          "no",
+          10
+        ],
+        [
+          "article",
+          10
+        ],
+        [
+          "publicationdatejuly",
+          10
+        ]
+      ]
+    },
+    {
+      "source_id": "259c5015ccd6",
+      "file": "GSDiff Synthesizing Vector Floorplans via Geometry-enhanced Structural Graph Generation.pdf",
+      "group": "wenxian-ai",
+      "pages_total": 10,
+      "pages_profiled": 10,
+      "language": "en",
+      "characters": 39587,
+      "sentences": 753,
+      "sentence_length_mean": 11.12,
+      "sentence_length_median": 7,
+      "sentence_length_cv": 1.059,
+      "formulaic_hits_per_10k": 24.25,
+      "manufactured_contrast_per_10k": 0.253,
+      "paired_escalation_per_10k": 0.253,
+      "ceremonial_frame_per_10k": 0.253,
+      "inflated_lexicon_per_10k": 0.758,
+      "navigation_marker_per_10k": 1.263,
+      "vague_action_per_10k": 0.0,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.505,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 1.01,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 1.01,
+      "direct_verbs_per_10k": 9.599,
+      "explicit_meta_per_10k": 0.758,
+      "semicolon_per_10k": 39.407,
+      "colon_per_10k": 18.188,
+      "parenthesis_per_10k": 36.628,
+      "numeric_anchors_per_10k": 125.294,
+      "citation_markers_per_10k": 9.094,
+      "token_variety_ratio": 0.239,
+      "common_openings": [
+        [
+          "arxivpreprintarxiv",
+          6
+        ],
+        [
+          "j",
+          5
+        ],
+        [
+          "edu",
+          4
+        ],
+        [
+          "y",
+          4
+        ],
+        [
+          "wuw",
+          4
+        ]
+      ]
+    },
+    {
+      "source_id": "dc0a6a4ed239",
+      "file": "House-GAN Graph-Constrained House Layout Generation.pdf",
+      "group": "wenxian-ai",
+      "pages_total": 16,
+      "pages_profiled": 10,
+      "language": "en",
+      "characters": 19948,
+      "sentences": 480,
+      "sentence_length_mean": 13.87,
+      "sentence_length_median": 13.0,
+      "sentence_length_cv": 0.884,
+      "formulaic_hits_per_10k": 13.535,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 0.0,
+      "inflated_lexicon_per_10k": 0.501,
+      "navigation_marker_per_10k": 0.0,
+      "vague_action_per_10k": 1.003,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 0.501,
+      "direct_verbs_per_10k": 6.517,
+      "explicit_meta_per_10k": 0.501,
+      "semicolon_per_10k": 6.016,
+      "colon_per_10k": 17.044,
+      "parenthesis_per_10k": 52.136,
+      "numeric_anchors_per_10k": 361.941,
+      "citation_markers_per_10k": 22.559,
+      "token_variety_ratio": 0.253,
+      "common_openings": [
+        [
+          "e",
+          4
+        ],
+        [
+          "housegangraphconstrained",
+          4
+        ],
+        [
+          "nauataetal",
+          4
+        ],
+        [
+          "n",
+          3
+        ],
+        [
+          "thispaperproposesa",
+          2
+        ]
+      ]
+    },
+    {
+      "source_id": "57bae5e6633e",
+      "file": "Self-Organizing Floor Plans.pdf",
+      "group": "wenxian-ai",
+      "pages_total": 35,
+      "pages_profiled": 10,
+      "language": "en",
+      "characters": 18583,
+      "sentences": 179,
+      "sentence_length_mean": 19.28,
+      "sentence_length_median": 17,
+      "sentence_length_cv": 0.7,
+      "formulaic_hits_per_10k": 17.758,
+      "manufactured_contrast_per_10k": 0.538,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 0.0,
+      "inflated_lexicon_per_10k": 0.538,
+      "navigation_marker_per_10k": 2.691,
+      "vague_action_per_10k": 0.0,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 1.076,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.538,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 5.381,
+      "direct_verbs_per_10k": 8.61,
+      "explicit_meta_per_10k": 0.538,
+      "semicolon_per_10k": 14.529,
+      "colon_per_10k": 3.767,
+      "parenthesis_per_10k": 44.126,
+      "numeric_anchors_per_10k": 61.885,
+      "citation_markers_per_10k": 16.682,
+      "token_variety_ratio": 0.289,
+      "common_openings": [
+        [
+          "summerselforganizingfloor",
+          10
+        ],
+        [
+          "harvarddatasciencereview",
+          6
+        ],
+        [
+          "g",
+          5
+        ],
+        [
+          "thisisarelatively",
+          2
+        ],
+        [
+          "inthecontextof",
+          2
+        ]
+      ]
+    },
+    {
+      "source_id": "279b18721966",
+      "file": "WallPlan Synthesizing Floorplans by Learning to Generate Wall Graphs.pdf",
+      "group": "wenxian-ai",
+      "pages_total": 14,
+      "pages_profiled": 10,
+      "language": "en",
+      "characters": 43608,
+      "sentences": 642,
+      "sentence_length_mean": 13.74,
+      "sentence_length_median": 12,
+      "sentence_length_cv": 0.921,
+      "formulaic_hits_per_10k": 36.92,
+      "manufactured_contrast_per_10k": 0.688,
+      "paired_escalation_per_10k": 0.229,
+      "ceremonial_frame_per_10k": 0.459,
+      "inflated_lexicon_per_10k": 0.0,
+      "navigation_marker_per_10k": 2.293,
+      "vague_action_per_10k": 0.229,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.688,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 2.293,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 1.147,
+      "direct_verbs_per_10k": 6.421,
+      "explicit_meta_per_10k": 1.147,
+      "semicolon_per_10k": 13.759,
+      "colon_per_10k": 17.428,
+      "parenthesis_per_10k": 27.977,
+      "numeric_anchors_per_10k": 86.911,
+      "citation_markers_per_10k": 0.229,
+      "token_variety_ratio": 0.156,
+      "common_openings": [
+        [
+          "graph",
+          11
+        ],
+        [
+          "vol",
+          10
+        ],
+        [
+          "no",
+          10
+        ],
+        [
+          "article",
+          10
+        ],
+        [
+          "publicationdatejuly",
+          10
+        ]
+      ]
+    },
+    {
+      "source_id": "d485af1d96a4",
+      "file": "人工智能参与下的建筑设计框架_胡苇.pdf",
+      "group": "wenxian-ai",
+      "pages_total": 7,
+      "pages_profiled": 7,
+      "language": "zh",
+      "characters": 21225,
+      "sentences": 491,
+      "sentence_length_mean": 26.32,
+      "sentence_length_median": 11.0,
+      "sentence_length_cv": 1.507,
+      "formulaic_hits_per_10k": 61.249,
+      "manufactured_contrast_per_10k": 0.471,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 0.942,
+      "inflated_lexicon_per_10k": 15.077,
+      "navigation_marker_per_10k": 1.885,
+      "vague_action_per_10k": 2.356,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.471,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 1.885,
+      "direct_verbs_per_10k": 4.24,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 8.481,
+      "colon_per_10k": 67.845,
+      "parenthesis_per_10k": 57.479,
+      "numeric_anchors_per_10k": 253.946,
+      "citation_markers_per_10k": 81.979,
+      "token_variety_ratio": 0.117,
+      "common_openings": [
+        [
+          "s",
+          14
+        ],
+        [
+          "人工智能",
+          8
+        ],
+        [
+          "l",
+          8
+        ],
+        [
+          "北京中国",
+          6
+        ],
+        [
+          "n",
+          6
+        ]
+      ]
+    },
+    {
+      "source_id": "d99667df17ec",
+      "file": "人工智能辅助设计：基于深度学习的风景园林平面识别与渲染_周怀宇.pdf",
+      "group": "wenxian-ai",
+      "pages_total": 6,
+      "pages_profiled": 6,
+      "language": "zh",
+      "characters": 12650,
+      "sentences": 174,
+      "sentence_length_mean": 42.2,
+      "sentence_length_median": 32,
+      "sentence_length_cv": 1.04,
+      "formulaic_hits_per_10k": 26.877,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 0.791,
+      "inflated_lexicon_per_10k": 9.486,
+      "navigation_marker_per_10k": 2.372,
+      "vague_action_per_10k": 0.0,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 3.953,
+      "direct_verbs_per_10k": 49.802,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 33.992,
+      "colon_per_10k": 51.383,
+      "parenthesis_per_10k": 66.403,
+      "numeric_anchors_per_10k": 395.257,
+      "citation_markers_per_10k": 33.202,
+      "token_variety_ratio": 0.146,
+      "common_openings": [
+        [
+          "ieee",
+          8
+        ],
+        [
+          "中国园林",
+          3
+        ],
+        [
+          "总体来说",
+          3
+        ],
+        [
+          "人工智能",
+          2
+        ],
+        [
+          "需要强调",
+          2
+        ]
+      ]
+    },
+    {
+      "source_id": "08d9c290a667",
+      "file": "从分析到设计生成——人工智能作为一种设计方法_刘洛伊.pdf",
+      "group": "wenxian-ai",
+      "pages_total": 7,
+      "pages_profiled": 7,
+      "language": "zh",
+      "characters": 16071,
+      "sentences": 277,
+      "sentence_length_mean": 32.94,
+      "sentence_length_median": 28,
+      "sentence_length_cv": 0.841,
+      "formulaic_hits_per_10k": 68.446,
+      "manufactured_contrast_per_10k": 0.622,
+      "paired_escalation_per_10k": 1.244,
+      "ceremonial_frame_per_10k": 1.867,
+      "inflated_lexicon_per_10k": 14.934,
+      "navigation_marker_per_10k": 3.111,
+      "vague_action_per_10k": 0.0,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 3.111,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 8.711,
+      "direct_verbs_per_10k": 3.733,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 17.423,
+      "colon_per_10k": 49.779,
+      "parenthesis_per_10k": 49.157,
+      "numeric_anchors_per_10k": 197.25,
+      "citation_markers_per_10k": 21.778,
+      "token_variety_ratio": 0.14,
+      "common_openings": [
+        [
+          "architecturaldesign",
+          11
+        ],
+        [
+          "人工智能",
+          10
+        ],
+        [
+          "arch",
+          7
+        ],
+        [
+          "scut",
+          7
+        ],
+        [
+          "edu",
+          7
+        ]
+      ]
+    },
+    {
+      "source_id": "54909f86e2af",
+      "file": "城市设计中生成式人工智能应用的进展综述_洪齐远.pdf",
+      "group": "wenxian-ai",
+      "pages_total": 11,
+      "pages_profiled": 10,
+      "language": "zh",
+      "characters": 33098,
+      "sentences": 605,
+      "sentence_length_mean": 29.14,
+      "sentence_length_median": 13,
+      "sentence_length_cv": 1.452,
+      "formulaic_hits_per_10k": 54.686,
+      "manufactured_contrast_per_10k": 0.906,
+      "paired_escalation_per_10k": 0.302,
+      "ceremonial_frame_per_10k": 1.511,
+      "inflated_lexicon_per_10k": 20.847,
+      "navigation_marker_per_10k": 3.626,
+      "vague_action_per_10k": 0.906,
+      "abstract_shell_per_10k": 0.302,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 0.604,
+      "direct_verbs_per_10k": 9.064,
+      "explicit_meta_per_10k": 1.813,
+      "semicolon_per_10k": 9.97,
+      "colon_per_10k": 59.52,
+      "parenthesis_per_10k": 53.478,
+      "numeric_anchors_per_10k": 246.238,
+      "citation_markers_per_10k": 56.801,
+      "token_variety_ratio": 0.103,
+      "common_openings": [
+        [
+          "httpsarxiv",
+          5
+        ],
+        [
+          "orgabs",
+          5
+        ],
+        [
+          "landscapearchitecture",
+          5
+        ],
+        [
+          "图像驱动",
+          4
+        ],
+        [
+          "environmentandplanningb",
+          4
+        ]
+      ]
+    },
+    {
+      "source_id": "813210202158",
+      "file": "基于CGAN的居住区强排方案生成设计方法_孙澄.pdf",
+      "group": "wenxian-ai",
+      "pages_total": 11,
+      "pages_profiled": 10,
+      "language": "zh",
+      "characters": 13644,
+      "sentences": 3,
+      "sentence_length_mean": 2755,
+      "sentence_length_median": 24,
+      "sentence_length_cv": 1.408,
+      "formulaic_hits_per_10k": 10.994,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 1.466,
+      "inflated_lexicon_per_10k": 3.665,
+      "navigation_marker_per_10k": 4.398,
+      "vague_action_per_10k": 0.733,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 0.0,
+      "direct_verbs_per_10k": 17.59,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 24.186,
+      "colon_per_10k": 32.982,
+      "parenthesis_per_10k": 35.913,
+      "numeric_anchors_per_10k": 343.008,
+      "citation_markers_per_10k": 2.199,
+      "token_variety_ratio": 0.11,
+      "common_openings": [
+        [
+          "第卷第期",
+          1
+        ],
+        [
+          "no",
+          1
+        ],
+        [
+          "febdoi基于",
+          1
+        ]
+      ]
+    },
+    {
+      "source_id": "cf10a138bf15",
+      "file": "基于序列化生成网络的徽派建筑群平面布局_李琳.pdf",
+      "group": "wenxian-ai",
+      "pages_total": 14,
+      "pages_profiled": 10,
+      "language": "zh",
+      "characters": 14843,
+      "sentences": 282,
+      "sentence_length_mean": 44.07,
+      "sentence_length_median": 35,
+      "sentence_length_cv": 1.109,
+      "formulaic_hits_per_10k": 40.423,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.674,
+      "ceremonial_frame_per_10k": 2.021,
+      "inflated_lexicon_per_10k": 9.432,
+      "navigation_marker_per_10k": 5.39,
+      "vague_action_per_10k": 0.674,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 0.674,
+      "direct_verbs_per_10k": 12.801,
+      "explicit_meta_per_10k": 0.674,
+      "semicolon_per_10k": 41.771,
+      "colon_per_10k": 19.538,
+      "parenthesis_per_10k": 28.97,
+      "numeric_anchors_per_10k": 292.394,
+      "citation_markers_per_10k": 48.508,
+      "token_variety_ratio": 0.105,
+      "common_openings": [
+        [
+          "step",
+          5
+        ],
+        [
+          "计算机辅",
+          4
+        ],
+        [
+          "室外布局",
+          4
+        ],
+        [
+          "本文方法",
+          3
+        ],
+        [
+          "cnki",
+          2
+        ]
+      ]
+    },
+    {
+      "source_id": "1c7be3ea0f66",
+      "file": "基于样式生成对抗网络的风景园林方案生成及设计特征识别_陈然.pdf",
+      "group": "wenxian-ai",
+      "pages_total": 10,
+      "pages_profiled": 10,
+      "language": "zh",
+      "characters": 31417,
+      "sentences": 641,
+      "sentence_length_mean": 25.3,
+      "sentence_length_median": 15.0,
+      "sentence_length_cv": 1.104,
+      "formulaic_hits_per_10k": 54.111,
+      "manufactured_contrast_per_10k": 0.637,
+      "paired_escalation_per_10k": 0.637,
+      "ceremonial_frame_per_10k": 0.318,
+      "inflated_lexicon_per_10k": 17.506,
+      "navigation_marker_per_10k": 2.546,
+      "vague_action_per_10k": 0.955,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 2.228,
+      "direct_verbs_per_10k": 8.912,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 8.276,
+      "colon_per_10k": 60.159,
+      "parenthesis_per_10k": 40.742,
+      "numeric_anchors_per_10k": 300.793,
+      "citation_markers_per_10k": 32.466,
+      "token_variety_ratio": 0.131,
+      "common_openings": [
+        [
+          "深度学习",
+          5
+        ],
+        [
+          "第二主成",
+          4
+        ],
+        [
+          "第一主成",
+          4
+        ],
+        [
+          "proceedingsoftheth",
+          4
+        ],
+        [
+          "风景园林",
+          4
+        ]
+      ]
+    },
+    {
+      "source_id": "a8c75e34c519",
+      "file": "数字建筑设计与研究——一种广义的空间认知_黄蔚欣.pdf",
+      "group": "wenxian-ai",
+      "pages_total": 2,
+      "pages_profiled": 2,
+      "language": "zh",
+      "characters": 5405,
+      "sentences": 118,
+      "sentence_length_mean": 28.84,
+      "sentence_length_median": 20.5,
+      "sentence_length_cv": 1.011,
+      "formulaic_hits_per_10k": 46.253,
+      "manufactured_contrast_per_10k": 1.85,
+      "paired_escalation_per_10k": 1.85,
+      "ceremonial_frame_per_10k": 0.0,
+      "inflated_lexicon_per_10k": 20.352,
+      "navigation_marker_per_10k": 7.401,
+      "vague_action_per_10k": 1.85,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 5.55,
+      "direct_verbs_per_10k": 12.951,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 9.251,
+      "colon_per_10k": 64.755,
+      "parenthesis_per_10k": 37.003,
+      "numeric_anchors_per_10k": 399.63,
+      "citation_markers_per_10k": 42.553,
+      "token_variety_ratio": 0.271,
+      "common_openings": [
+        [
+          "在此基础",
+          3
+        ],
+        [
+          "因此我们",
+          2
+        ],
+        [
+          "新建筑",
+          2
+        ],
+        [
+          "cumincad",
+          2
+        ],
+        [
+          "全尺度空",
+          1
+        ]
+      ]
+    },
+    {
+      "source_id": "3df1e4bd4aa4",
+      "file": "深度学习驱动的建筑概念方案智能设计研究_曲大刚.pdf",
+      "group": "wenxian-ai",
+      "pages_total": 5,
+      "pages_profiled": 5,
+      "language": "zh",
+      "characters": 10806,
+      "sentences": 172,
+      "sentence_length_mean": 40.52,
+      "sentence_length_median": 14,
+      "sentence_length_cv": 1.688,
+      "formulaic_hits_per_10k": 42.569,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 0.925,
+      "inflated_lexicon_per_10k": 8.329,
+      "navigation_marker_per_10k": 3.702,
+      "vague_action_per_10k": 3.702,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 4.627,
+      "direct_verbs_per_10k": 7.403,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 12.03,
+      "colon_per_10k": 51.823,
+      "parenthesis_per_10k": 48.121,
+      "numeric_anchors_per_10k": 186.008,
+      "citation_markers_per_10k": 37.016,
+      "token_variety_ratio": 0.132,
+      "common_openings": [
+        [
+          "深度学习",
+          6
+        ],
+        [
+          "新建筑",
+          4
+        ],
+        [
+          "建筑概念",
+          3
+        ],
+        [
+          "s",
+          3
+        ],
+        [
+          "l",
+          3
+        ]
+      ]
+    },
+    {
+      "source_id": "08315b5092ac",
+      "file": "生成式人工智能在建筑设计领域的探索——以小库AI云为例_何宛余.pdf",
+      "group": "wenxian-ai",
+      "pages_total": 6,
+      "pages_profiled": 6,
+      "language": "zh",
+      "characters": 11128,
+      "sentences": 153,
+      "sentence_length_mean": 56.82,
+      "sentence_length_median": 42.0,
+      "sentence_length_cv": 1.397,
+      "formulaic_hits_per_10k": 21.567,
+      "manufactured_contrast_per_10k": 0.899,
+      "paired_escalation_per_10k": 0.899,
+      "ceremonial_frame_per_10k": 1.797,
+      "inflated_lexicon_per_10k": 8.986,
+      "navigation_marker_per_10k": 0.899,
+      "vague_action_per_10k": 0.899,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 12.581,
+      "direct_verbs_per_10k": 1.797,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 33.249,
+      "colon_per_10k": 26.959,
+      "parenthesis_per_10k": 50.324,
+      "numeric_anchors_per_10k": 159.058,
+      "citation_markers_per_10k": 18.871,
+      "token_variety_ratio": 0.119,
+      "common_openings": [
+        [
+          "灵感创作",
+          3
+        ],
+        [
+          "从人工智",
+          2
+        ],
+        [
+          "httpswww",
+          2
+        ],
+        [
+          "技术趋势",
+          1
+        ],
+        [
+          "预计这将",
+          1
+        ]
+      ]
+    },
+    {
+      "source_id": "0aa6c4a55268",
+      "file": "生成式人工智能影响下的建筑设计新模式_袁潮.pdf",
+      "group": "wenxian-ai",
+      "pages_total": 7,
+      "pages_profiled": 7,
+      "language": "zh",
+      "characters": 21291,
+      "sentences": 306,
+      "sentence_length_mean": 36.07,
+      "sentence_length_median": 24.0,
+      "sentence_length_cv": 1.905,
+      "formulaic_hits_per_10k": 34.756,
+      "manufactured_contrast_per_10k": 0.47,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 0.47,
+      "inflated_lexicon_per_10k": 8.454,
+      "navigation_marker_per_10k": 5.636,
+      "vague_action_per_10k": 0.939,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 1.409,
+      "direct_verbs_per_10k": 3.288,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 4.227,
+      "colon_per_10k": 42.271,
+      "parenthesis_per_10k": 28.181,
+      "numeric_anchors_per_10k": 224.978,
+      "citation_markers_per_10k": 39.923,
+      "token_variety_ratio": 0.108,
+      "common_openings": [
+        [
+          "hongkong",
+          6
+        ],
+        [
+          "singaporecity",
+          5
+        ],
+        [
+          "bangkok",
+          4
+        ],
+        [
+          "d方案生",
+          3
+        ],
+        [
+          "生成式人",
+          3
+        ]
+      ]
+    },
+    {
+      "source_id": "0ec2cec54c9d",
+      "file": "走向生成式人工智能增强设计时代_袁烽.pdf",
+      "group": "wenxian-ai",
+      "pages_total": 7,
+      "pages_profiled": 7,
+      "language": "zh",
+      "characters": 17867,
+      "sentences": 283,
+      "sentence_length_mean": 36.64,
+      "sentence_length_median": 21,
+      "sentence_length_cv": 1.881,
+      "formulaic_hits_per_10k": 34.141,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 1.119,
+      "ceremonial_frame_per_10k": 1.679,
+      "inflated_lexicon_per_10k": 11.194,
+      "navigation_marker_per_10k": 3.358,
+      "vague_action_per_10k": 0.0,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 3.358,
+      "direct_verbs_per_10k": 6.157,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 22.388,
+      "colon_per_10k": 43.656,
+      "parenthesis_per_10k": 48.693,
+      "numeric_anchors_per_10k": 168.467,
+      "citation_markers_per_10k": 45.335,
+      "token_variety_ratio": 0.131,
+      "common_openings": [
+        [
+          "人工智能",
+          6
+        ],
+        [
+          "architecturalintelligence",
+          5
+        ],
+        [
+          "人机共生",
+          3
+        ],
+        [
+          "httpswww",
+          3
+        ],
+        [
+          "arxivpreprintarxiv",
+          3
+        ]
+      ]
+    },
+    {
+      "source_id": "531ef6aee9d7",
+      "file": "面向人工智能的建筑计算性设计研究_孙澄.pdf",
+      "group": "wenxian-ai",
+      "pages_total": 7,
+      "pages_profiled": 7,
+      "language": "zh",
+      "characters": 14717,
+      "sentences": 182,
+      "sentence_length_mean": 58.51,
+      "sentence_length_median": 42.0,
+      "sentence_length_cv": 1.261,
+      "formulaic_hits_per_10k": 52.32,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 1.359,
+      "ceremonial_frame_per_10k": 1.359,
+      "inflated_lexicon_per_10k": 19.026,
+      "navigation_marker_per_10k": 0.679,
+      "vague_action_per_10k": 2.718,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.679,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 0.679,
+      "direct_verbs_per_10k": 6.795,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 12.91,
+      "colon_per_10k": 26.5,
+      "parenthesis_per_10k": 48.923,
+      "numeric_anchors_per_10k": 224.91,
+      "citation_markers_per_10k": 35.333,
+      "token_variety_ratio": 0.108,
+      "common_openings": [
+        [
+          "人工智能",
+          11
+        ],
+        [
+          "建筑计算",
+          10
+        ],
+        [
+          "r",
+          3
+        ],
+        [
+          "孙澄韩昀",
+          3
+        ],
+        [
+          "建筑学报",
+          3
+        ]
+      ]
+    },
+    {
+      "source_id": "0b23ca264340",
+      "file": "颠覆性技术驱动下的未来人居——来自新城市科学和未来城市等视角_龙瀛.pdf",
+      "group": "wenxian-ai",
+      "pages_total": 7,
+      "pages_profiled": 7,
+      "language": "zh",
+      "characters": 17247,
+      "sentences": 238,
+      "sentence_length_mean": 58.73,
+      "sentence_length_median": 41,
+      "sentence_length_cv": 1.937,
+      "formulaic_hits_per_10k": 51.023,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 1.739,
+      "inflated_lexicon_per_10k": 23.192,
+      "navigation_marker_per_10k": 6.378,
+      "vague_action_per_10k": 2.319,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 1.16,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 6.958,
+      "direct_verbs_per_10k": 12.176,
+      "explicit_meta_per_10k": 0.58,
+      "semicolon_per_10k": 23.772,
+      "colon_per_10k": 19.714,
+      "parenthesis_per_10k": 58.561,
+      "numeric_anchors_per_10k": 153.07,
+      "citation_markers_per_10k": 20.293,
+      "token_variety_ratio": 0.096,
+      "common_openings": [
+        [
+          "建成环境",
+          5
+        ],
+        [
+          "城市规划",
+          5
+        ],
+        [
+          "新城市科",
+          3
+        ],
+        [
+          "人居环境",
+          2
+        ],
+        [
+          "cnki",
+          2
+        ]
+      ]
+    },
+    {
+      "source_id": "c8aa189b8561",
+      "file": "Generative design for architectural spatial layouts  a review of technical approaches.pdf",
+      "group": "wenxian-aix规则",
+      "pages_total": 22,
+      "pages_profiled": 10,
+      "language": "en",
+      "characters": 26819,
+      "sentences": 265,
+      "sentence_length_mean": 18.6,
+      "sentence_length_median": 17,
+      "sentence_length_cv": 0.952,
+      "formulaic_hits_per_10k": 23.864,
+      "manufactured_contrast_per_10k": 0.373,
+      "paired_escalation_per_10k": 0.373,
+      "ceremonial_frame_per_10k": 0.373,
+      "inflated_lexicon_per_10k": 2.237,
+      "navigation_marker_per_10k": 4.847,
+      "vague_action_per_10k": 1.119,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 2.237,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.373,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 1.491,
+      "direct_verbs_per_10k": 7.457,
+      "explicit_meta_per_10k": 0.746,
+      "semicolon_per_10k": 6.712,
+      "colon_per_10k": 9.695,
+      "parenthesis_per_10k": 43.626,
+      "numeric_anchors_per_10k": 95.082,
+      "citation_markers_per_10k": 35.423,
+      "token_variety_ratio": 0.286,
+      "common_openings": [
+        [
+          "journalofasianarchitecture",
+          6
+        ],
+        [
+          "singlebuildingheuristicalgorithm",
+          6
+        ],
+        [
+          "yanetal",
+          4
+        ],
+        [
+          "singlebuildingrulebased",
+          4
+        ],
+        [
+          "s",
+          3
+        ]
+      ]
+    },
+    {
+      "source_id": "f92decdecdb6",
+      "file": "Intelligence assessment for diffusion-based generation of gymnasium field-level plans using deep learning.pdf",
+      "group": "wenxian-aix规则",
+      "pages_total": 18,
+      "pages_profiled": 10,
+      "language": "en",
+      "characters": 29459,
+      "sentences": 307,
+      "sentence_length_mean": 19.18,
+      "sentence_length_median": 19.0,
+      "sentence_length_cv": 0.56,
+      "formulaic_hits_per_10k": 16.294,
+      "manufactured_contrast_per_10k": 1.358,
+      "paired_escalation_per_10k": 0.679,
+      "ceremonial_frame_per_10k": 0.679,
+      "inflated_lexicon_per_10k": 0.0,
+      "navigation_marker_per_10k": 1.018,
+      "vague_action_per_10k": 0.0,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.679,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 1.018,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 1.358,
+      "direct_verbs_per_10k": 4.073,
+      "explicit_meta_per_10k": 1.697,
+      "semicolon_per_10k": 4.073,
+      "colon_per_10k": 9.844,
+      "parenthesis_per_10k": 41.074,
+      "numeric_anchors_per_10k": 84.524,
+      "citation_markers_per_10k": 12.56,
+      "token_variety_ratio": 0.264,
+      "common_openings": [
+        [
+          "architecturalintelligencepageof",
+          9
+        ],
+        [
+          "fig",
+          4
+        ],
+        [
+          "wangetal",
+          2
+        ],
+        [
+          "qiuetal",
+          2
+        ],
+        [
+          "zengetal",
+          2
+        ]
+      ]
+    },
+    {
+      "source_id": "c04b89bfd155",
+      "file": "人工智能城市设计在街区尺度的逐级交互式设计模式探索_杨俊宴.pdf",
+      "group": "wenxian-aix规则",
+      "pages_total": 9,
+      "pages_profiled": 9,
+      "language": "zh",
+      "characters": 14638,
+      "sentences": 306,
+      "sentence_length_mean": 41.96,
+      "sentence_length_median": 22,
+      "sentence_length_cv": 1.442,
+      "formulaic_hits_per_10k": 32.791,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.683,
+      "ceremonial_frame_per_10k": 1.366,
+      "inflated_lexicon_per_10k": 3.416,
+      "navigation_marker_per_10k": 1.366,
+      "vague_action_per_10k": 0.0,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 1.366,
+      "direct_verbs_per_10k": 8.881,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 16.396,
+      "colon_per_10k": 43.722,
+      "parenthesis_per_10k": 46.454,
+      "numeric_anchors_per_10k": 396.912,
+      "citation_markers_per_10k": 32.791,
+      "token_variety_ratio": 0.107,
+      "common_openings": [
+        [
+          "no",
+          9
+        ],
+        [
+          "国际城市",
+          5
+        ],
+        [
+          "本期主题",
+          4
+        ],
+        [
+          "杨俊宴朱",
+          4
+        ],
+        [
+          "城市规划",
+          4
+        ]
+      ]
+    },
+    {
+      "source_id": "69dc81ef44c3",
+      "file": "基于案例库的室内区域自动布局方法_刘米兰.pdf",
+      "group": "wenxian-aix规则",
+      "pages_total": 11,
+      "pages_profiled": 10,
+      "language": "zh",
+      "characters": 13440,
+      "sentences": 259,
+      "sentence_length_mean": 43.93,
+      "sentence_length_median": 39.5,
+      "sentence_length_cv": 0.735,
+      "formulaic_hits_per_10k": 56.548,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 0.744,
+      "inflated_lexicon_per_10k": 7.44,
+      "navigation_marker_per_10k": 11.905,
+      "vague_action_per_10k": 0.744,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 2.232,
+      "direct_verbs_per_10k": 17.113,
+      "explicit_meta_per_10k": 0.744,
+      "semicolon_per_10k": 29.762,
+      "colon_per_10k": 15.625,
+      "parenthesis_per_10k": 72.173,
+      "numeric_anchors_per_10k": 311.012,
+      "citation_markers_per_10k": 27.53,
+      "token_variety_ratio": 0.087,
+      "common_openings": [
+        [
+          "实验结果",
+          5
+        ],
+        [
+          "第期刘米",
+          4
+        ],
+        [
+          "布局预测",
+          4
+        ],
+        [
+          "功能区域",
+          3
+        ],
+        [
+          "本文方法",
+          3
+        ]
+      ]
+    },
+    {
+      "source_id": "4986996c8af4",
+      "file": "家具布局样例引导的插座布局算法_谈皓.pdf",
+      "group": "wenxian-aix规则",
+      "pages_total": 8,
+      "pages_profiled": 8,
+      "language": "zh",
+      "characters": 14010,
+      "sentences": 261,
+      "sentence_length_mean": 30.7,
+      "sentence_length_median": 22,
+      "sentence_length_cv": 0.856,
+      "formulaic_hits_per_10k": 41.399,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 1.428,
+      "inflated_lexicon_per_10k": 2.141,
+      "navigation_marker_per_10k": 8.565,
+      "vague_action_per_10k": 0.0,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.714,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 9.279,
+      "direct_verbs_per_10k": 3.569,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 19.272,
+      "colon_per_10k": 46.395,
+      "parenthesis_per_10k": 49.964,
+      "numeric_anchors_per_10k": 268.38,
+      "citation_markers_per_10k": 50.678,
+      "token_variety_ratio": 0.136,
+      "common_openings": [
+        [
+          "acmtransactionsongraphics",
+          13
+        ],
+        [
+          "本文算法",
+          7
+        ],
+        [
+          "安装位置",
+          4
+        ],
+        [
+          "m范围内",
+          4
+        ],
+        [
+          "losalamitosieeecomputer",
+          4
+        ]
+      ]
+    },
+    {
+      "source_id": "f48656af3f1c",
+      "file": "生成式算法在风景园林生成设计中的适应性研究_陈然.pdf",
+      "group": "wenxian-aix规则",
+      "pages_total": 12,
+      "pages_profiled": 10,
+      "language": "zh",
+      "characters": 21680,
+      "sentences": 366,
+      "sentence_length_mean": 44.91,
+      "sentence_length_median": 36,
+      "sentence_length_cv": 1.009,
+      "formulaic_hits_per_10k": 64.576,
+      "manufactured_contrast_per_10k": 0.923,
+      "paired_escalation_per_10k": 0.923,
+      "ceremonial_frame_per_10k": 0.461,
+      "inflated_lexicon_per_10k": 23.985,
+      "navigation_marker_per_10k": 5.535,
+      "vague_action_per_10k": 0.923,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.461,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 2.768,
+      "direct_verbs_per_10k": 11.993,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 16.605,
+      "colon_per_10k": 46.125,
+      "parenthesis_per_10k": 46.587,
+      "numeric_anchors_per_10k": 236.624,
+      "citation_markers_per_10k": 19.373,
+      "token_variety_ratio": 0.075,
+      "common_openings": [
+        [
+          "二次预训",
+          7
+        ],
+        [
+          "见本刊官",
+          5
+        ],
+        [
+          "方案文本",
+          4
+        ],
+        [
+          "平面图渲",
+          4
+        ],
+        [
+          "风景园林",
+          4
+        ]
+      ]
+    },
+    {
+      "source_id": "58ce49d241dc",
+      "file": "融合规则和数据驱动的展厅自动空间规划与布局生成_许渠.pdf",
+      "group": "wenxian-aix规则",
+      "pages_total": 10,
+      "pages_profiled": 10,
+      "language": "zh",
+      "characters": 17606,
+      "sentences": 360,
+      "sentence_length_mean": 33.54,
+      "sentence_length_median": 21,
+      "sentence_length_cv": 1.079,
+      "formulaic_hits_per_10k": 67.591,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.568,
+      "ceremonial_frame_per_10k": 0.0,
+      "inflated_lexicon_per_10k": 24.991,
+      "navigation_marker_per_10k": 11.928,
+      "vague_action_per_10k": 0.568,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.568,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 2.84,
+      "direct_verbs_per_10k": 18.176,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 39.759,
+      "colon_per_10k": 38.623,
+      "parenthesis_per_10k": 32.943,
+      "numeric_anchors_per_10k": 301.034,
+      "citation_markers_per_10k": 48.847,
+      "token_variety_ratio": 0.114,
+      "common_openings": [
+        [
+          "acmtransactionsongraphics",
+          9
+        ],
+        [
+          "可以看出",
+          6
+        ],
+        [
+          "a",
+          5
+        ],
+        [
+          "图所示为",
+          4
+        ],
+        [
+          "实验结果",
+          3
+        ]
+      ]
+    },
+    {
+      "source_id": "a47f050eb31a",
+      "file": "Architectural layout design optimization.pdf",
+      "group": "wenxian-规则生成",
+      "pages_total": 25,
+      "pages_profiled": 10,
+      "language": "en",
+      "characters": 20088,
+      "sentences": 215,
+      "sentence_length_mean": 18.96,
+      "sentence_length_median": 17,
+      "sentence_length_cv": 0.758,
+      "formulaic_hits_per_10k": 12.943,
+      "manufactured_contrast_per_10k": 0.498,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 0.0,
+      "inflated_lexicon_per_10k": 0.0,
+      "navigation_marker_per_10k": 0.0,
+      "vague_action_per_10k": 0.0,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 1.493,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 1.991,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 3.485,
+      "direct_verbs_per_10k": 13.939,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 40.323,
+      "colon_per_10k": 14.436,
+      "parenthesis_per_10k": 16.926,
+      "numeric_anchors_per_10k": 87.614,
+      "citation_markers_per_10k": 9.956,
+      "token_variety_ratio": 0.24,
+      "common_openings": [
+        [
+          "j",
+          7
+        ],
+        [
+          "michaleketal",
+          4
+        ],
+        [
+          "itisassumedthat",
+          3
+        ],
+        [
+          "tandfonline",
+          2
+        ],
+        [
+          "architecturaldesign",
+          2
+        ]
+      ]
+    },
+    {
+      "source_id": "311a022c8013",
+      "file": "Architectural space planning using evolutionary computing approaches a review.pdf",
+      "group": "wenxian-规则生成",
+      "pages_total": 11,
+      "pages_profiled": 10,
+      "language": "en",
+      "characters": 25341,
+      "sentences": 207,
+      "sentence_length_mean": 21.89,
+      "sentence_length_median": 18.0,
+      "sentence_length_cv": 1.002,
+      "formulaic_hits_per_10k": 16.179,
+      "manufactured_contrast_per_10k": 2.762,
+      "paired_escalation_per_10k": 2.368,
+      "ceremonial_frame_per_10k": 0.0,
+      "inflated_lexicon_per_10k": 0.789,
+      "navigation_marker_per_10k": 0.0,
+      "vague_action_per_10k": 0.0,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 2.762,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.395,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 6.314,
+      "direct_verbs_per_10k": 4.341,
+      "explicit_meta_per_10k": 0.395,
+      "semicolon_per_10k": 7.103,
+      "colon_per_10k": 15.785,
+      "parenthesis_per_10k": 35.121,
+      "numeric_anchors_per_10k": 81.291,
+      "citation_markers_per_10k": 21.704,
+      "token_variety_ratio": 0.282,
+      "common_openings": [
+        [
+          "duttas",
+          5
+        ],
+        [
+          "evolutionarycomputingapproachesare",
+          3
+        ],
+        [
+          "assuchtheproblem",
+          2
+        ],
+        [
+          "inrecentyearsevolutionary",
+          2
+        ],
+        [
+          "sarthak",
+          2
+        ]
+      ]
+    },
+    {
+      "source_id": "21bbca133c49",
+      "file": "Computer-Generated Residential Building Layouts.pdf",
+      "group": "wenxian-规则生成",
+      "pages_total": 12,
+      "pages_profiled": 10,
+      "language": "en",
+      "characters": 41526,
+      "sentences": 582,
+      "sentence_length_mean": 14.0,
+      "sentence_length_median": 13.0,
+      "sentence_length_cv": 0.77,
+      "formulaic_hits_per_10k": 17.82,
+      "manufactured_contrast_per_10k": 0.241,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 0.0,
+      "inflated_lexicon_per_10k": 0.0,
+      "navigation_marker_per_10k": 0.482,
+      "vague_action_per_10k": 0.482,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.722,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.482,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 3.131,
+      "direct_verbs_per_10k": 9.151,
+      "explicit_meta_per_10k": 0.482,
+      "semicolon_per_10k": 2.649,
+      "colon_per_10k": 13.004,
+      "parenthesis_per_10k": 29.379,
+      "numeric_anchors_per_10k": 81.876,
+      "citation_markers_per_10k": 2.89,
+      "token_variety_ratio": 0.231,
+      "common_openings": [
+        [
+          "no",
+          10
+        ],
+        [
+          "articlepublicationdatedecember",
+          10
+        ],
+        [
+          "acmtransactionsongraphics",
+          6
+        ],
+        [
+          "computergeneratedresidentialbuilding",
+          5
+        ],
+        [
+          "merrelletal",
+          5
+        ]
+      ]
+    },
+    {
+      "source_id": "d437e6203f36",
+      "file": "Generating and exploring good building layouts.pdf",
+      "group": "wenxian-规则生成",
+      "pages_total": 10,
+      "pages_profiled": 10,
+      "language": "en",
+      "characters": 44122,
+      "sentences": 919,
+      "sentence_length_mean": 10.11,
+      "sentence_length_median": 5,
+      "sentence_length_cv": 1.151,
+      "formulaic_hits_per_10k": 45.102,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 0.0,
+      "inflated_lexicon_per_10k": 0.227,
+      "navigation_marker_per_10k": 0.0,
+      "vague_action_per_10k": 0.68,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 2.04,
+      "direct_verbs_per_10k": 4.76,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 10.652,
+      "colon_per_10k": 28.557,
+      "parenthesis_per_10k": 53.261,
+      "numeric_anchors_per_10k": 138.026,
+      "citation_markers_per_10k": 3.626,
+      "token_variety_ratio": 0.212,
+      "common_openings": [
+        [
+          "g",
+          32
+        ],
+        [
+          "e",
+          28
+        ],
+        [
+          "no",
+          10
+        ],
+        [
+          "articlepublicationdatejuly",
+          10
+        ],
+        [
+          "acmtogsiggraph",
+          10
+        ]
+      ]
+    },
+    {
+      "source_id": "4e0ef0309803",
+      "file": "一种面向方案设计的建筑平面图生成方法_任骝.pdf",
+      "group": "wenxian-规则生成",
+      "pages_total": 4,
+      "pages_profiled": 4,
+      "language": "zh",
+      "characters": 8093,
+      "sentences": 1,
+      "sentence_length_mean": 5567,
+      "sentence_length_median": 5567,
+      "sentence_length_cv": 0.0,
+      "formulaic_hits_per_10k": 13.592,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 2.471,
+      "ceremonial_frame_per_10k": 0.0,
+      "inflated_lexicon_per_10k": 8.649,
+      "navigation_marker_per_10k": 1.236,
+      "vague_action_per_10k": 0.0,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 4.943,
+      "direct_verbs_per_10k": 6.178,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 35.833,
+      "colon_per_10k": 38.305,
+      "parenthesis_per_10k": 90.201,
+      "numeric_anchors_per_10k": 196.466,
+      "citation_markers_per_10k": 0.0,
+      "token_variety_ratio": 0.13,
+      "common_openings": [
+        [
+          "第卷第期",
+          1
+        ]
+      ]
+    },
+    {
+      "source_id": "8fe87b706755",
+      "file": "基于FBS的卧室在线自动布局算法_王超.pdf",
+      "group": "wenxian-规则生成",
+      "pages_total": 11,
+      "pages_profiled": 10,
+      "language": "zh",
+      "characters": 13743,
+      "sentences": 262,
+      "sentence_length_mean": 45.39,
+      "sentence_length_median": 39,
+      "sentence_length_cv": 0.832,
+      "formulaic_hits_per_10k": 42.203,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 1.455,
+      "ceremonial_frame_per_10k": 0.0,
+      "inflated_lexicon_per_10k": 4.366,
+      "navigation_marker_per_10k": 10.915,
+      "vague_action_per_10k": 1.455,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.728,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 0.728,
+      "direct_verbs_per_10k": 19.646,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 30.561,
+      "colon_per_10k": 24.012,
+      "parenthesis_per_10k": 61.122,
+      "numeric_anchors_per_10k": 203.74,
+      "citation_markers_per_10k": 20.374,
+      "token_variety_ratio": 0.08,
+      "common_openings": [
+        [
+          "step",
+          11
+        ],
+        [
+          "通行约束",
+          4
+        ],
+        [
+          "因此本文",
+          3
+        ],
+        [
+          "edu",
+          2
+        ],
+        [
+          "家具自动",
+          2
+        ]
+      ]
+    },
+    {
+      "source_id": "3e5c307ba87d",
+      "file": "家居布局的层次化约束及其粒子群优化_陈光明.pdf",
+      "group": "wenxian-规则生成",
+      "pages_total": 10,
+      "pages_profiled": 10,
+      "language": "zh",
+      "characters": 15258,
+      "sentences": 36,
+      "sentence_length_mean": 1199.86,
+      "sentence_length_median": 381,
+      "sentence_length_cv": 1.839,
+      "formulaic_hits_per_10k": 21.628,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 0.0,
+      "inflated_lexicon_per_10k": 5.899,
+      "navigation_marker_per_10k": 14.419,
+      "vague_action_per_10k": 1.311,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 1.311,
+      "direct_verbs_per_10k": 17.696,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 34.736,
+      "colon_per_10k": 31.459,
+      "parenthesis_per_10k": 55.708,
+      "numeric_anchors_per_10k": 274.61,
+      "citation_markers_per_10k": 0.0,
+      "token_variety_ratio": 0.088,
+      "common_openings": [
+        [
+          "书第卷第",
+          1
+        ],
+        [
+          "公司的并",
+          1
+        ],
+        [
+          "以及显卡",
+          1
+        ],
+        [
+          "图说明即",
+          1
+        ],
+        [
+          "迭代次数",
+          1
+        ]
+      ]
+    },
+    {
+      "source_id": "d3203c47e31a",
+      "file": "建筑生成设计的技术理解及其前景_李飚.pdf",
+      "group": "wenxian-规则生成",
+      "pages_total": 5,
+      "pages_profiled": 5,
+      "language": "zh",
+      "characters": 8523,
+      "sentences": 147,
+      "sentence_length_mean": 51.27,
+      "sentence_length_median": 46.0,
+      "sentence_length_cv": 0.625,
+      "formulaic_hits_per_10k": 76.264,
+      "manufactured_contrast_per_10k": 1.173,
+      "paired_escalation_per_10k": 1.173,
+      "ceremonial_frame_per_10k": 2.347,
+      "inflated_lexicon_per_10k": 32.852,
+      "navigation_marker_per_10k": 3.52,
+      "vague_action_per_10k": 2.347,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 4.693,
+      "direct_verbs_per_10k": 8.213,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 7.04,
+      "colon_per_10k": 9.386,
+      "parenthesis_per_10k": 15.253,
+      "numeric_anchors_per_10k": 75.091,
+      "citation_markers_per_10k": 5.866,
+      "token_variety_ratio": 0.119,
+      "common_openings": [
+        [
+          "生成设计",
+          7
+        ],
+        [
+          "建筑生成",
+          6
+        ],
+        [
+          "建筑学报",
+          3
+        ],
+        [
+          "architecturaljournal设计",
+          3
+        ],
+        [
+          "计算机建",
+          3
+        ]
+      ]
+    },
+    {
+      "source_id": "1d86237ae511",
+      "file": "建筑降维：建筑生成的基础性问题和建筑降维概念_魏力恺.pdf",
+      "group": "wenxian-规则生成",
+      "pages_total": 8,
+      "pages_profiled": 8,
+      "language": "zh",
+      "characters": 15541,
+      "sentences": 312,
+      "sentence_length_mean": 37.35,
+      "sentence_length_median": 24,
+      "sentence_length_cv": 1.19,
+      "formulaic_hits_per_10k": 48.259,
+      "manufactured_contrast_per_10k": 2.574,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 0.643,
+      "inflated_lexicon_per_10k": 9.008,
+      "navigation_marker_per_10k": 3.861,
+      "vague_action_per_10k": 0.0,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 7.722,
+      "direct_verbs_per_10k": 2.574,
+      "explicit_meta_per_10k": 0.643,
+      "semicolon_per_10k": 30.243,
+      "colon_per_10k": 51.477,
+      "parenthesis_per_10k": 96.519,
+      "numeric_anchors_per_10k": 185.96,
+      "citation_markers_per_10k": 18.017,
+      "token_variety_ratio": 0.1,
+      "common_openings": [
+        [
+          "建筑本体",
+          8
+        ],
+        [
+          "建筑生成",
+          5
+        ],
+        [
+          "建筑学报",
+          4
+        ],
+        [
+          "建筑降维",
+          3
+        ],
+        [
+          "形态f",
+          3
+        ]
+      ]
+    },
+    {
+      "source_id": "833a5d7024b4",
+      "file": "空间句法的发展现状与未来_比尔·希列尔.pdf",
+      "group": "wenxian-规则生成",
+      "pages_total": 6,
+      "pages_profiled": 6,
+      "language": "zh",
+      "characters": 10975,
+      "sentences": 220,
+      "sentence_length_mean": 38.91,
+      "sentence_length_median": 35,
+      "sentence_length_cv": 0.741,
+      "formulaic_hits_per_10k": 50.114,
+      "manufactured_contrast_per_10k": 3.645,
+      "paired_escalation_per_10k": 0.911,
+      "ceremonial_frame_per_10k": 1.822,
+      "inflated_lexicon_per_10k": 18.223,
+      "navigation_marker_per_10k": 7.289,
+      "vague_action_per_10k": 0.0,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 9.112,
+      "direct_verbs_per_10k": 19.134,
+      "explicit_meta_per_10k": 0.911,
+      "semicolon_per_10k": 10.023,
+      "colon_per_10k": 39.18,
+      "parenthesis_per_10k": 41.002,
+      "numeric_anchors_per_10k": 145.786,
+      "citation_markers_per_10k": 13.667,
+      "token_variety_ratio": 0.111,
+      "common_openings": [
+        [
+          "空间句法",
+          6
+        ],
+        [
+          "从这个角",
+          2
+        ],
+        [
+          "这些中心",
+          2
+        ],
+        [
+          "而正是这",
+          2
+        ],
+        [
+          "本文认为",
+          2
+        ]
+      ]
+    },
+    {
+      "source_id": "2d9a831987f5",
+      "file": "走向数字时代的建筑结构性能化设计_袁烽.pdf",
+      "group": "wenxian-规则生成",
+      "pages_total": 8,
+      "pages_profiled": 8,
+      "language": "zh",
+      "characters": 15622,
+      "sentences": 240,
+      "sentence_length_mean": 46.69,
+      "sentence_length_median": 43.5,
+      "sentence_length_cv": 0.851,
+      "formulaic_hits_per_10k": 55.691,
+      "manufactured_contrast_per_10k": 0.64,
+      "paired_escalation_per_10k": 1.28,
+      "ceremonial_frame_per_10k": 2.56,
+      "inflated_lexicon_per_10k": 15.363,
+      "navigation_marker_per_10k": 2.56,
+      "vague_action_per_10k": 4.481,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.64,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 1.28,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 2.56,
+      "direct_verbs_per_10k": 15.363,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 11.522,
+      "colon_per_10k": 26.245,
+      "parenthesis_per_10k": 74.254,
+      "numeric_anchors_per_10k": 186.276,
+      "citation_markers_per_10k": 33.927,
+      "token_variety_ratio": 0.11,
+      "common_openings": [
+        [
+          "e",
+          9
+        ],
+        [
+          "建筑结构",
+          6
+        ],
+        [
+          "时代建筑",
+          5
+        ],
+        [
+          "数字时代",
+          3
+        ],
+        [
+          "数字化结",
+          3
+        ]
+      ]
+    },
+    {
+      "source_id": "452b1f66a439",
+      "file": "量化城市形态学_涌现、概念及城市设计响应_叶宇.pdf",
+      "group": "wenxian-规则生成",
+      "pages_total": 10,
+      "pages_profiled": 10,
+      "language": "zh",
+      "characters": 28356,
+      "sentences": 163,
+      "sentence_length_mean": 68.19,
+      "sentence_length_median": 58.5,
+      "sentence_length_cv": 0.774,
+      "formulaic_hits_per_10k": 6.348,
+      "manufactured_contrast_per_10k": 0.0,
+      "paired_escalation_per_10k": 0.0,
+      "ceremonial_frame_per_10k": 0.0,
+      "inflated_lexicon_per_10k": 0.353,
+      "navigation_marker_per_10k": 0.0,
+      "vague_action_per_10k": 0.0,
+      "abstract_shell_per_10k": 0.0,
+      "modifier_stack_per_10k": 0.0,
+      "empty_transition_per_10k": 0.0,
+      "overclaim_per_10k": 0.0,
+      "conclusion_echo_per_10k": 0.0,
+      "hedges_per_10k": 0.705,
+      "direct_verbs_per_10k": 1.763,
+      "explicit_meta_per_10k": 0.0,
+      "semicolon_per_10k": 10.227,
+      "colon_per_10k": 43.024,
+      "parenthesis_per_10k": 44.788,
+      "numeric_anchors_per_10k": 410.495,
+      "citation_markers_per_10k": 0.0,
+      "token_variety_ratio": 0.087,
+      "common_openings": [
+        [
+          "时代建筑",
+          3
+        ],
+        [
+          "城市形态",
+          3
+        ],
+        [
+          "如图所示",
+          3
+        ],
+        [
+          "笔者团队",
+          3
+        ],
+        [
+          "另一方面",
+          2
+        ]
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "file": "中国建筑能耗现状及节能途径分析_江亿.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "A theoretical framework of a BIM-based multi-disciplinary collaboration platform.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Automated construction by contour crafting—related robotics and information technologies.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Automatic creation of semantically rich 3D building models from laser scanner data.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Automatic rule-based checking of building designs.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Autonomous concrete crack detection using deep fully convolutional neural network.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "BIM implementation throughout the UK construction project lifecycle-An analysis.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Building Information Modeling (BIM) and Safety- Automatic Safety Checking of Construction Models and Schedules.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Building information modeling for sustainable design and LEED® rating analysis.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Building information modelling framework—— A research and delivery foundation for industry stakeholders.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Computer vision-based concrete crack detection using U-net fully convolutional networks.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "How to measure the benefits of BIM — A case study approach.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Mobile 3D mapping for surveying earthwork projects using an Unmanned Aerial Vehicle (UAV) system.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "The gap between predicted and measured energy performance of buildings-A framework for investigation.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Towards a semantic Construction Digital Twin： Directions for future research.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Understanding and facilitating BIM adoption in the AEC industry.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "A critical review of virtual and augmented reality (VR-AR) applications in construction safety.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "A review of building information modeling (BIM) and the internet of things (IoT) devices integration-Present status and future trends.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Automatic reconstruction of as-built building information models from laser-scanned point clouds- A review of related techniques.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Blockchain in the built environment and construction industry-- A systematic review, conceptual models and practical use cases.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Building Information Modeling (BIM) for existing buildings — Literature review and future needs.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Critical evaluation of off-site construction research-- A Scientometric analysis.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Developments in construction-scale additive manufacturing processes.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Enhancing environmental sustainability over building life cycles through green BIM-A review.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "A field study of thermal comfort in outdoor and semi-outdoor environments in subtropical Sydney Australia.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "A study on the cooling effects of greening in a high-density city： An experience from Hong Kong.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Applying multi-objective genetic algorithms in green building design optimization.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Contrasting the capabilities of building energy performance simulation programs.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Life cycle assessment of building materials： Comparative analysis of energy and environmental impacts and evaluation of the eco-efficiency improvement potential.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Numerical study on the effects of aspect ratio and orientation of an urban street canyon on outdoor thermal comfort in hot and dry climate.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Temperature decreases in an urban canyon due to green walls and green roofs in diverse climates.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "The cooling effect of green spaces as a contribution to the mitigation of urban heat：A case study in Lisbon.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Thermal comfort in outdoor urban spaces：Analysis across different European countries.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "A review of bottom-up building stock models for energy consumption in the residential sector.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Approaches to study Urban Heat Island – Abilities and limitations.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Computational Fluid Dynamics for urban physics： Importance, scales, possibilities, limitations and ten tips and tricks towards accurate and reliable simulations.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Mechanical properties of concrete with recycled coarse aggregate.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Occupant productivity and office indoor environment quality：A review of the literature.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Performance characteristics and practical applications of common building thermal insulation materials.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Photocatalytic oxidation for indoor air purification：a literature review.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Solid wastes generation in India and their recycling potential in building materials.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Theory and applications of HVAC control systems – A review of model predictive control (MPC).pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Urban building energy modeling – A review of a nascent field.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Ventilation performance prediction for buildings：A method overview and recent applications.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "A critical review of Knowledge-Based Engineering： An identification of research challenges.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "A review on computer vision based defect detection and condition assessment of concrete and asphalt civil infrastructure.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Applications of 3D point cloud data in the construction industry： A fifteen-year review from 2004 to 2018.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Applications of agent-based systems in intelligent manufacturing： An updated review.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Big Data in the construction industry： A review of present status, opportunities, and future trends.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Compressive strength prediction of eco-efficient GGBS-based geopolymer concrete using GEP method.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Compressive strength prediction of environmentally friendly concrete using artificial neural networks.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Effect of graphene oxide on mechanical and durability performance of concrete.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "How many interviews are enough—— Do qualitative interviews in building energy consumption research produce reliable knowledge.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Integration of BIM and LCA：Evaluating the environmental impacts of building materials at an early stage of designing a typical office building.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Perceived benefits of and barriers to Building Information Modelling (BIM) implementation in construction：The case of Hong Kong.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Robotics and automated systems in construction： Understanding industry-specific challenges for adoption.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Role of water，cement ratio on strength development of cement mortar.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Strength and durability of concrete containing recycled concrete aggregates.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "3D printed concrete for large-scale buildings： An overview of rheology, printing parameters, chemical admixtures, reinforcements, and economic and environmental prospects.pdf",
+      "reason": "PdfiumError"
+    },
+    {
+      "file": "3D printed concrete for large-scale buildings：An overview of rheology, printing parameters, chemical admixtures, reinforcements, and economic and environmental prospects.pdf",
+      "reason": "PdfiumError"
+    },
+    {
+      "file": "A review of performance of zero energy buildings and energy efficiency solutions.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "A review of strategies for building energy management system：Model predictive control, demand side management, optimization, and fault detect & diagnosis.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Deep learning in the construction industry：A review of present status and future innovations.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Durability deterioration of concrete under marine environment from material to structure： A critical review.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Incorporation of phase change materials into building envelope for thermal comfort and energy saving： A comprehensive analysis.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Machine learning applications for building structural design and performance assessment：State-of-the-art review.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Silica fume and waste glass in cement concrete production：A review.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Strengthening of reinforced concrete beams by using fiber-reinforced polymer composites： A review.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Structural response of modular buildings – An overview.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Sustainability and green building rating systems：LEED, BREEAM, GSAS and Estidama critical analysis.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "What is a Nearly zero energy building—— Overview, implementation and comparison of definitions.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "地域建筑文化的延续和发展——简析传统民居的可持续发展_赵群.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "中国建筑能耗现状及节能途径分析_江亿.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "ActFloor-GAN： Activity-Guided Adversarial Networks for Human-Centric Floorplan Design.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Architectural layout generation using a graph-constrained conditional Generative Adversarial Network (GAN).pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Building-GAN： Graph-Conditioned Architectural Volumetric Design Generation.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Controllable generation of building representations： Aligning campus building design intent with multi-stage retrieval-augmented diffusion models.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Eliminating Rasterization： Direct Vector Floor Plan Generation with Diffplanner.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Floor_plan_generation_The_interplay_among_data,machine,and_designer.pdf",
+      "reason": "PdfiumError"
+    },
+    {
+      "file": "FloorPlan-LLaMa：Aligning Architects’ Feedback and Domain Knowledge.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "FloorplanGAN：Vector residential floorplan adversarial generation.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Fully automated synthetic BIM dataset generation using a deep learning-based framework.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Generative artificial intelligence in building facade design： Models, applications, and future directions.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Graph Transformer GANs With Graph Masked.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "House-GAN++： Generative Adversarial Layout Refinement Network towards Intelligent Computational Agent for Professional Architects.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "HouseDiffusion： Vector Floorplan Generation via a Diffusion Model.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "iPLAN： Interactive and Procedural Layout Planning.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "LLM-based framework for automated and customized floor plan design.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "MaskPLAN：Masked Generative Layout Planning from Partial Input.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Multi-agent human-AI collaborative framework for converting hand-drawn floor plans to 3D BIM.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Quality assessment of residential layout designs generated by relational Generative Adversarial Networks (GANs).pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Raster-to-Vector：Revisiting Floorplan Transformation.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Reimagining space layout design through deep reinforcement learning.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Residential floor plan recognition and reconstruction.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Residential floor plans： Multi-conditional automatic generation using diffusion models.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Tell2Design： A Dataset for Language-Guided Floor Plan Generation.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Text-conditioned irregular floorplan generation via composable inpainting diffusion.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Unified residential floor plan generation with multimodal inputs.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Automated floorplan generation in architectural design： A review of methods and applications.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Constrained Layout Generation with Factor Graphs.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Generating accessible multi-occupancy floor plans with fine-grained control using a diffusion model.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Generative Layout Modeling using Constraint Graphs.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Prompts to layouts： Hybrid graph neural network and agent-based model for generative architectural design.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Scientific machine learning (SciML) for building technology： A new paradigm for design and operations.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "SpatialGen：Layout-Guided 3D Indoor Scene Generation.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "A tool for computer-generated dimensioned floorplans based on given adjacencies.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "An evolutionary approach for 3D architectural space layout design exploration.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Automated approach for design generation and thermal assessment of alternative floor plans.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Automated facilities layout：past, present and future.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Automated generation of dimensioned rectangular floorplans.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Customization and generation of floor plans based on graph transformations.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Evolutionary approach for spatial architecture layout design enhanced by an agent-based topology finding system.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Floor plan generation through a mixed constraint programming-genetic optimization approach.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Gaps and requirements for automatic generation of space layouts with optimised energy performance.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Generating layout designs from high-level specifications.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Introduction to Shape and Shape Grammars.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Irregular architectural layout synthesis with graphical inputs.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Modeling architectural design objectives in physically based space planning.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "Separating topology and geometry in space planning.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    },
+    {
+      "file": "The palladin grammar.pdf",
+      "reason": "insufficient_extractable_text",
+      "characters": 0
+    }
+  ]
+}
